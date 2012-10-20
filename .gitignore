@@ -1,2 +1,3 @@
-composer.phar
+/composer.phar
+/composer.lock
 /vendor/
