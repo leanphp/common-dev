@@ -1,0 +1,10 @@
+{
+    "name": "ek9/common-dev",
+    "description": "Common PHP Development Tools meta-package",
+    "license": "MIT",
+    "require": {
+        "php" : "^5.2",
+        "phpunit/phpunit": "~3.7"
+    },
+    "minimum-stability": "stable"
+}
