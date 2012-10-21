@@ -8,5 +8,10 @@
         "phpunit/phpunit": "~3.7",
         "mikey179/vfsstream": "~1.1"
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
 }
