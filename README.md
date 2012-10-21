@@ -37,5 +37,6 @@ Licensed under [MIT License](LICENSE).
 [0]: https://packagist.org/packages/ek9/common-dev
 [1]: https://github.com/php-fig/fig-standards
 [2]: http://www.phptherightway.com/
+[3]: https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
 [10]: https://phpunit.de/
 [20]: https://github.com/mikey179/vfsStream
