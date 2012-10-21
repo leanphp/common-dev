@@ -7,7 +7,7 @@ development tools to write PHP packages and libraries that comply with
 Right Way][2].
 
 Write **well-tested** **object-oriented** code, that follows [SOLID][3]
-principles!
+principles! **Distribute** your code via [Packagist][4] by using [composer][5].
 
 
 ## Install
@@ -38,5 +38,7 @@ Licensed under [MIT License](LICENSE).
 [1]: https://github.com/php-fig/fig-standards
 [2]: http://www.phptherightway.com/
 [3]: https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
+[4]: https://packagist.org/
+[5]: https://getcomposer.org/
 [10]: https://phpunit.de/
 [20]: https://github.com/mikey179/vfsStream
