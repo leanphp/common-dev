@@ -5,6 +5,7 @@
     "license": "MIT",
     "require": {
         "php" : "^5.3"
+        "phpunit/phpunit": "~3.7"
     },
     "minimum-stability": "stable"
 }
