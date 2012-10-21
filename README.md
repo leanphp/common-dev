@@ -7,7 +7,7 @@ common-dev
 
     $ composer.phar require-dev ek9/common-dev
 
-## Usage
+## Packages
 
 This package will trigger installation of the following packages:
 
@@ -15,6 +15,9 @@ This package will trigger installation of the following packages:
 - [vfsStream][2] - Virtual file system to mock the real file system in unit
   tests.
 
+## Change Log
+
+Please see [CHANGELOG.md](CHANGELOG.md) for information of what was changed.
 
 ## Author
 
