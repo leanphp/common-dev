@@ -9,6 +9,9 @@ Right Way][2].
 Write **well-tested** **object-oriented** code, that follows [SOLID][3]
 principles! **Distribute** your code via [Packagist][4] by using [composer][5].
 
+See [Packages](#Packages) for a list of packages that this meta-package
+provides.
+
 ## Install
 
     $ composer.phar require-dev ek9/common-dev
