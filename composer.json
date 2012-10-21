@@ -1,8 +1,8 @@
 {
     "name": "ek9/common-dev",
-    "description": "Common PHP Development Tools meta-package",
+    "description": "A set of modern PHP Development Tools and Libraries",
     "version": "0.1.0",
-    "keywords": [ "common", "php", "dev", "tools", "ek9" ],
+    "keywords": [ "common", "php", "dev", "tools", "lib", "ek9" ],
     "license": "MIT",
     "require": {
         "php" : "^5.3",
