@@ -1,7 +1,14 @@
 common-dev
 ==========
 
-`common-dev` is a common PHP development tools meta-package.
+[ek9/common-dev][0] aims to provide a developer with a set of modern PHP
+development tools to write PHP packages and libraries that comply with
+[PHP-FIG][1] standards and adhere to best PHP practices defined in [PHP - The
+Right Way][2].
+
+Write **well-tested** **object-oriented** code, that follows [SOLID][3]
+principles!
+
 
 ## Install
 
@@ -11,8 +18,8 @@ common-dev
 
 This package will trigger installation of the following packages:
 
-- [phpunit][1] - The PHP Unit Testing framework.
-- [vfsStream][2] - Virtual file system to mock the real file system in unit
+- [phpunit][10] - The PHP Unit Testing framework.
+- [vfsStream][20] - Virtual file system to mock the real file system in unit
   tests.
 
 ## Change Log
@@ -27,5 +34,8 @@ Copyright (c) 2012 ek9 <dev@ek9.co> (https://ek9.co)
 
 Licensed under [MIT License](LICENSE).
 
-[1]: https://phpunit.de/
-[2]: https://github.com/mikey179/vfsStream
+[0]: https://packagist.org/packages/ek9/common-dev
+[1]: https://github.com/php-fig/fig-standards
+[2]: http://www.phptherightway.com/
+[10]: https://phpunit.de/
+[20]: https://github.com/mikey179/vfsStream
