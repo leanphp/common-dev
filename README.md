@@ -16,7 +16,7 @@ provides.
 
 Install this package as a development requirement in your project:
 
-    $ composer.phar require-dev ek9/common-dev
+    $ composer require-dev ek9/common-dev
 
 ## Packages
 
