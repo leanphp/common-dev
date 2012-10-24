@@ -2,6 +2,12 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
+## 0.1.x-dev / FUTURE
+
+### Added
+
+- mockery `0.7`
+
 ## 0.1.0 / 2012-10-21
 
 ### Added
