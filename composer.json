@@ -2,7 +2,7 @@
     "name": "ek9/common-dev",
     "description": "A set of modern PHP Development Tools and Libraries",
     "version": "0.1.0",
-    "keywords": [ "common", "php", "dev", "tools", "lib", "ek9" ],
+    "keywords": [ "common", "php", "dev", "tools", "lib", "meta", "ek9" ],
     "license": "MIT",
     "require": {
         "php" : "^5.3",
