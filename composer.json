@@ -7,6 +7,7 @@
     "require": {
         "php" : "^5.3",
         "phpunit/phpunit": "~3.7",
+        "mockery/mockery": "~0.7",
         "mikey179/vfsstream": "~1.1"
     },
     "minimum-stability": "stable",
