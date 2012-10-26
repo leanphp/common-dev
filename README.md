@@ -34,11 +34,11 @@ dependencies are downloaded by [composer][5].
 
 This package will trigger installation of the following packages:
 
-- [phpunit][10] - The PHP Unit Testing framework.
-- [phpspec][11] - SpecBDD / BDD Testing framework for PHP.
-- [mockery][12] - a simple yet flexible PHP mock object framework for use in
+- [phpunit][100] - The PHP Unit Testing framework.
+- [phpspec][110] - SpecBDD / BDD Testing framework for PHP.
+- [mockery][120] - a simple yet flexible PHP mock object framework for use in
   unit testing.
-- [vfsStream][20] - Virtual file system to mock the real file system in unit
+- [vfsStream][200] - Virtual file system to mock the real file system in unit
   tests.
 
 ## Change Log
@@ -61,7 +61,8 @@ Licensed under [MIT License](LICENSE).
 [5]: https://getcomposer.org/
 [6]: https://en.wikipedia.org/wiki/Test-driven_development
 [7]: https://en.wikipedia.org/wiki/Behavior-driven_development
-[10]: https://phpunit.de/
-[11]: https://
-[12]: https://github.com/padraic/mockery
-[20]: https://github.com/mikey179/vfsStream
+
+[100]: https://phpunit.de/
+[110]: https://
+[120]: https://github.com/padraic/mockery
+[200]: https://github.com/mikey179/vfsStream
