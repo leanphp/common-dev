@@ -8,6 +8,7 @@
         "php" : "^5.3",
         "phpunit/phpunit": "~3.7",
         "phpspec/phpspec": "~1.4",
+        "behat/behat": "~2.4",
         "mockery/mockery": "~0.7",
         "mikey179/vfsstream": "~1.1"
     },
