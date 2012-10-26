@@ -36,6 +36,7 @@ This package will trigger installation of the following packages:
 
 - [phpunit][100] - The PHP Unit Testing framework.
 - [phpspec][110] - SpecBDD / BDD Testing framework for PHP.
+- [behat][115] - ScenarioBDD / BDD Testing framework for PHP.
 - [mockery][120] - a simple yet flexible PHP mock object framework for use in
   unit testing.
 - [vfsStream][200] - Virtual file system to mock the real file system in unit
@@ -64,5 +65,6 @@ Licensed under [MIT License](LICENSE).
 
 [100]: https://phpunit.de
 [110]: http://www.phpspec.net
+[115]: http://behat.org
 [120]: https://github.com/padraic/mockery
 [200]: https://github.com/mikey179/vfsStream
