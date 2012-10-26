@@ -2,6 +2,12 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
+## 0.1.x-dev / FUTURE
+
+### Added
+
+- behat `~2.4`
+
 ## 0.1.1 / 2012-10-26
 
 ### Added
