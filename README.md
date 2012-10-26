@@ -55,14 +55,14 @@ Licensed under [MIT License](LICENSE).
 
 [0]: https://packagist.org/packages/ek9/common-dev
 [1]: https://github.com/php-fig/fig-standards
-[2]: http://www.phptherightway.com/
+[2]: http://www.phptherightway.com
 [3]: https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
-[4]: https://packagist.org/
-[5]: https://getcomposer.org/
+[4]: https://packagist.org
+[5]: https://getcomposer.org
 [6]: https://en.wikipedia.org/wiki/Test-driven_development
 [7]: https://en.wikipedia.org/wiki/Behavior-driven_development
 
-[100]: https://phpunit.de/
-[110]: https://
+[100]: https://phpunit.de
+[110]: http://www.phpspec.net
 [120]: https://github.com/padraic/mockery
 [200]: https://github.com/mikey179/vfsStream
