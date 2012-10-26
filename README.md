@@ -6,8 +6,8 @@ development tools to write PHP packages and libraries that comply with
 [PHP-FIG][1] standards and adhere to best PHP practices defined in [PHP - The
 Right Way][2].
 
-Write **well-tested** **object-oriented** code, that follows [SOLID][3]
-principles! **Distribute** your code via [Packagist][4] by using [composer][5].
+Write **well-tested** ([TDD][6] / [BDD][7]) **object-oriented** code, that
+follows [SOLID][3] principles! **Distribute** your code via [Packagist][4] by using [composer][5].
 
 See [Packages](#Packages) for a list of packages that this meta-package
 provides.
@@ -35,6 +35,9 @@ dependencies are downloaded by [composer][5].
 This package will trigger installation of the following packages:
 
 - [phpunit][10] - The PHP Unit Testing framework.
+- [phpspec][11] - SpecBDD / BDD Testing framework for PHP.
+- [mockery][12] - a simple yet flexible PHP mock object framework for use in
+  unit testing.
 - [vfsStream][20] - Virtual file system to mock the real file system in unit
   tests.
 
@@ -56,5 +59,9 @@ Licensed under [MIT License](LICENSE).
 [3]: https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
 [4]: https://packagist.org/
 [5]: https://getcomposer.org/
+[6]: https://en.wikipedia.org/wiki/Test-driven_development
+[7]: https://en.wikipedia.org/wiki/Behavior-driven_development
 [10]: https://phpunit.de/
+[11]: https://
+[12]: https://github.com/padraic/mockery
 [20]: https://github.com/mikey179/vfsStream
