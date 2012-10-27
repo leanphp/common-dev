@@ -7,6 +7,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 ### Added
 
 - behat `~2.4`
+- mink `~1.4`
 
 ## 0.1.1 / 2012-10-26
 
