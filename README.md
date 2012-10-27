@@ -38,6 +38,7 @@ This package will trigger installation of the following packages:
 - [phpspec][110] - SpecBDD / BDD Testing framework for PHP.
 - [behat][120] - ScenarioBDD / BDD Testing framework for PHP.
 - [mink][130] - Browser Emulator / Abstraction for PHP.
+- [behat/mink-extension][121] - [mink][130] extension for [behat][120].
 - [mockery][200] - a simple yet flexible PHP mock object framework for use in
   unit testing.
 - [vfsStream][300] - Virtual file system to mock the real file system in unit
@@ -67,6 +68,7 @@ Licensed under [MIT License](LICENSE).
 [100]: https://phpunit.de
 [110]: http://www.phpspec.net
 [120]: http://behat.org
+[121]: http://extensions.behat.org/mink
 [130]: http://mink.behat.org/
 [200]: https://github.com/padraic/mockery
 [300]: https://github.com/mikey179/vfsStream
