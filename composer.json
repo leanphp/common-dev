@@ -7,12 +7,13 @@
     "require": {
         "php" : "^5.3",
         "phpunit/phpunit": "~3.7",
+        "mockery/mockery": "~0.7",
         "phpspec/phpspec": "~1.4",
         "behat/behat": "~2.4",
         "behat/mink": "~1.4",
         "behat/mink-extension": "~1.0",
         "behat/mink-goutte-driver": "~1.0",
-        "mockery/mockery": "~0.7",
+        "behat/mink-browserkit-driver": "~1.0",
         "mikey179/vfsstream": "~1.1"
     },
     "minimum-stability": "stable",
