@@ -10,6 +10,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 - mink `~1.4`
 - behat/mink-extension `~1.0`
 - behat/mink-goutte-driver `~1.0`
+- behat/mink-browserkit-driver `~1.0`
 
 ## 0.1.1 / 2012-10-26
 
