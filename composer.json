@@ -1,24 +1,24 @@
 {
     "name": "ek9/common-dev",
     "description": "A set of modern PHP Development Tools and Libraries",
-    "version": "0.1.1",
     "keywords": [ "common", "php", "dev", "tools", "lib", "meta", "ek9" ],
     "license": "MIT",
     "require": {
         "phpunit/phpunit": "~3.7",
+        "mikey179/vfsstream": "~1.1",
         "phpspec/phpspec": "~1.4",
         "mockery/mockery": "~0.7",
         "behat/behat": "~2.4",
         "behat/mink": "~1.4",
         "behat/mink-extension": "~1.0",
         "behat/mink-goutte-driver": "~1.0",
-        "behat/mink-browserkit-driver": "~1.0",
-        "mikey179/vfsstream": "~1.1"
+        "behat/mink-browserkit-driver": "~1.0"
     },
     "minimum-stability": "stable",
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1.x-dev"
+            "dev-master": "0.2.x-dev",
+            "dev-develop": "0.3.x-dev"
         }
     }
 }

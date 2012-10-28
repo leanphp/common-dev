@@ -2,7 +2,14 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
-## 0.1.x-dev / FUTURE
+## 0.2.0 / 2012-10-28
+
+### Fixed
+
+- Install would fail on `0.1.x-dev` after mockery was moved before phpspec in
+  `composer.json`.
+- Unable to install package on PHP 5.2 (see [Removed](#Removed))
+- No longer using `version` in `composer.json` and will rely on VCS (git) tags.
 
 ### Added
 
@@ -11,6 +18,11 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 - behat/mink-extension `~1.0`
 - behat/mink-goutte-driver `~1.0`
 - behat/mink-browserkit-driver `~1.0`
+
+### Removed
+
+- PHP `^5.3` requirement as there is no need to specify it in a dev package
+  explicitly.
 
 ## 0.1.1 / 2012-10-26
 
