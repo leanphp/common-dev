@@ -5,10 +5,9 @@
     "keywords": [ "common", "php", "dev", "tools", "lib", "meta", "ek9" ],
     "license": "MIT",
     "require": {
-        "php" : "^5.3",
         "phpunit/phpunit": "~3.7",
-        "mockery/mockery": "~0.7",
         "phpspec/phpspec": "~1.4",
+        "mockery/mockery": "~0.7",
         "behat/behat": "~2.4",
         "behat/mink": "~1.4",
         "behat/mink-extension": "~1.0",
