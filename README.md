@@ -37,15 +37,15 @@ This package will trigger installation of the following packages:
 - [phpunit][100] - The PHP Unit Testing framework.
 - [mockery][200] - a simple yet flexible PHP mock object framework for use in
   unit testing.
-- [phpspec][110] - SpecBDD / BDD Testing framework for PHP.
-- [behat][120] - ScenarioBDD / BDD Testing framework for PHP.
-- [mink][130] - Browser Emulator / Abstraction framework for PHP.
-- [behat/mink-extension][121] - [mink][130] extension for [behat][120].
-- [behat/mink-goutte-driver][123] - [Goutte][140] driver for [mink][130].
-- [behat/mink-browserkit-driver][125] - Symfony2 BrowserKit driver for
-  [mink][130].
 - [vfsStream][300] - Virtual file system to mock the real file system in unit
   tests.
+- [mink][400] - Browser Emulator / Abstraction framework for PHP.
+- [phpspec][800] - SpecBDD / BDD Testing framework for PHP.
+- [behat][900] - ScenarioBDD / BDD Testing framework for PHP.
+- [behat/mink-extension][910] - [mink][400] extension for [behat][900].
+- [behat/mink-goutte-driver][920] - [Goutte][450] driver for [mink][400].
+- [behat/mink-browserkit-driver][930] - Symfony2 BrowserKit driver for
+  [mink][400].
 
 ## Change Log
 
@@ -69,12 +69,13 @@ Licensed under [MIT License](LICENSE).
 [7]: https://en.wikipedia.org/wiki/Behavior-driven_development
 
 [100]: https://phpunit.de
-[110]: http://www.phpspec.net
-[120]: http://behat.org
-[121]: http://extensions.behat.org/mink
-[123]: https://github.com/minkphp/MinkGoutteDriver
-[125]: https://github.com/minkphp/MinkBrowserKitDriver
-[130]: http://mink.behat.org
-[140]: https://github.com/FriendsOfPHP/Goutte
 [200]: https://github.com/padraic/mockery
 [300]: https://github.com/mikey179/vfsStream
+[400]: http://mink.behat.org
+[450]: https://github.com/FriendsOfPHP/Goutte
+[800]: http://www.phpspec.net
+[900]: http://behat.org
+[910]: http://extensions.behat.org/mink
+[920]: https://github.com/minkphp/MinkGoutteDriver
+[930]: https://github.com/minkphp/MinkBrowserKitDriver
+
