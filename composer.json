@@ -4,6 +4,7 @@
     "keywords": [ "common", "php", "dev", "tools", "lib", "meta", "ek9" ],
     "license": "MIT",
     "require": {
+        "phpmd/phpmd": "~1.4",
         "phpunit/phpunit": "~3.7",
         "mikey179/vfsstream": "~1.1",
         "fzaninotto/faker": "~1.1",
