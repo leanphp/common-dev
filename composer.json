@@ -6,6 +6,7 @@
     "require": {
         "phpunit/phpunit": "~3.7",
         "mikey179/vfsstream": "~1.1",
+        "fzaninotto/faker": "~1.1",
         "phpspec/phpspec": "~1.4",
         "mockery/mockery": "~0.7",
         "behat/behat": "~2.4",
