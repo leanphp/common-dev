@@ -2,6 +2,7 @@
     "name": "ek9/common-dev",
     "description": "A set of modern PHP Development Tools and Libraries",
     "keywords": [ "common", "php", "dev", "tools", "lib", "meta", "ek9" ],
+    "homepage": "https://github.com/ek9/php-common-dev",
     "license": "MIT",
     "require": {
         "phpmd/phpmd": "~1.4",
