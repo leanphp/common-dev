@@ -4,6 +4,13 @@
     "keywords": [ "common", "php", "dev", "tools", "lib", "meta", "ek9" ],
     "homepage": "https://github.com/ek9/php-common-dev",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "ek9",
+            "email": "dev@ek9.co",
+            "homepage": "https://ek9.co"
+        }
+    ],
     "require": {
         "phpmd/phpmd": "~1.4",
         "phpunit/phpunit": "~3.7",
