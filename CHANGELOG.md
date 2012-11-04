@@ -4,16 +4,10 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ## 0.3.x-dev / FUTURE
 
-### Fixed
-
-
 ### Added
 
 - faker `~1.1`
 - phpmd ~1.4
-
-### Removed
-
 
 ## 0.2.0 / 2012-10-28
 
