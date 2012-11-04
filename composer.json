@@ -2,10 +2,20 @@
     "name": "ek9/common-dev",
     "description": "A set of modern PHP Development Tools and Libraries",
     "keywords": [ "common", "php", "dev", "tools", "lib", "meta", "ek9" ],
+    "homepage": "https://github.com/ek9/php-common-dev",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "ek9",
+            "email": "dev@ek9.co",
+            "homepage": "https://ek9.co"
+        }
+    ],
     "require": {
+        "phpmd/phpmd": "~1.4",
         "phpunit/phpunit": "~3.7",
         "mikey179/vfsstream": "~1.1",
+        "fzaninotto/faker": "~1.1",
         "phpspec/phpspec": "~1.4",
         "mockery/mockery": "~0.7",
         "behat/behat": "~2.4",
@@ -17,8 +27,8 @@
     "minimum-stability": "stable",
     "extra": {
         "branch-alias": {
-            "dev-master": "0.2.x-dev",
-            "dev-develop": "0.3.x-dev"
+            "dev-master": "0.3.x-dev",
+            "dev-develop": "0.4.x-dev"
         }
     }
 }

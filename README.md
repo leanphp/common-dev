@@ -34,9 +34,12 @@ dependencies are downloaded by [composer][5].
 
 This package will trigger installation of the following packages:
 
+- [phpmd][90] - PHP Mess Detector. Optimize your code, reduce complexity,
+  cleanup unused parameters, methods, variables & more.
 - [phpunit][100] - The PHP Unit Testing framework.
 - [mockery][200] - a simple yet flexible PHP mock object framework for use in
   unit testing.
+- [faker][250] - PHP Library to generate fake data for you.
 - [vfsStream][300] - Virtual file system to mock the real file system in unit
   tests.
 - [mink][400] - Browser Emulator / Abstraction framework for PHP.
@@ -68,8 +71,10 @@ Licensed under [MIT License](LICENSE).
 [6]: https://en.wikipedia.org/wiki/Test-driven_development
 [7]: https://en.wikipedia.org/wiki/Behavior-driven_development
 
+[90]: https://phpmd.org/
 [100]: https://phpunit.de
 [200]: https://github.com/padraic/mockery
+[250]: https://github.com/fzaninotto/Faker
 [300]: https://github.com/mikey179/vfsStream
 [400]: http://mink.behat.org
 [450]: https://github.com/FriendsOfPHP/Goutte
