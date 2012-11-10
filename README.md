@@ -39,6 +39,7 @@ This package will trigger installation of the following packages:
 - [PHP_CodeSniffer][95] - PHP Code Sniffer ensures that your code remains clean
   and consistent. It is a set of scripts to detect and automatically correct
   violations of a defined coding standard.
+- [phploc][97] - a tool that quickly measures the size of your PHP project.
 - [phpunit][100] - The PHP Unit Testing framework.
 - [mockery][200] - a simple yet flexible PHP mock object framework for use in
   unit testing.
@@ -76,6 +77,7 @@ Licensed under [MIT License](LICENSE).
 
 [90]: https://phpmd.org
 [95]: https://pear.php.net/package/PHP_CodeSniffer
+[97]: https://github.com/sebastianbergmann/phploc
 [100]: https://phpunit.de
 [200]: https://github.com/padraic/mockery
 [250]: https://github.com/fzaninotto/Faker
