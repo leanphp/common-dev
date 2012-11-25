@@ -8,6 +8,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 - PHP_CodeSniffer `~1.4,^1.4.2`
 - phploc `~1.7,^1.7.3`
+- alice `~1.0`
 
 ## 0.3.0 / 2012-11-04
 
