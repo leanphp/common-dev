@@ -13,8 +13,11 @@
     ],
     "require": {
         "phpmd/phpmd": "~1.4",
+        "squizlabs/php_codesniffer": "~1.4,^1.4.2",
+        "phploc/phploc": "~1.7,^1.7.3",
         "phpunit/phpunit": "~3.7",
         "mikey179/vfsstream": "~1.1",
+        "nelmio/alice": "~1.0",
         "fzaninotto/faker": "~1.1",
         "phpspec/phpspec": "~1.4",
         "mockery/mockery": "~0.7",
@@ -27,8 +30,8 @@
     "minimum-stability": "stable",
     "extra": {
         "branch-alias": {
-            "dev-master": "0.3.x-dev",
-            "dev-develop": "0.4.x-dev"
+            "dev-master": "0.4.x-dev",
+            "dev-1.0": "1.0.x-dev"
         }
     }
 }
