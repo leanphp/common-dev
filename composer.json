@@ -17,7 +17,7 @@
         "phploc/phploc": "~1.7,^1.7.3",
         "phpunit/phpunit": "~3.7",
         "mikey179/vfsstream": "~1.1",
-        "nelmio/alice": "~1.0",
+        "nelmio/alice": "~1.1",
         "fzaninotto/faker": "~1.1",
         "phpspec/phpspec": "~1.4",
         "mockery/mockery": "~0.7",
