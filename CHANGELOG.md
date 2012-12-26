@@ -4,8 +4,11 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ## 1.0.x-dev / FUTURE
 
-### Added
+### Changed
 
+- Update alice from `~1.0` to `~1.1`
+
+### Added
 
 ## 0.4.0 / 2012-11-25
 
