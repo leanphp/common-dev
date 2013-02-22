@@ -6,6 +6,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ### Changed
 
+- Update alice from `~1.1` to `~1.3`
 
 ## 1.0.0 / 2012-12-30
 
