@@ -10,7 +10,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ### Changed
 
--
+- alice from `~1.3` to `~1.4`
 
 ## 1.2.0 / 2013-04-20
 
