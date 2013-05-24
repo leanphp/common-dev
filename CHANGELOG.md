@@ -6,6 +6,8 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ### Changed
 
+- Update mink from `~1.4` to `~1.5`
+- Update mink-extension from `~1.0` to `~1.1`
 
 ## 1.3.0 / 2013-04-21
 
