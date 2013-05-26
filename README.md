@@ -1,13 +1,14 @@
 common-dev
 ==========
 
-[ek9/common-dev][0] aims to provide a developer with a set of modern PHP
-development tools to write PHP packages and libraries that comply with
-[PHP-FIG][1] standards and adhere to best PHP practices defined in [PHP - The
-Right Way][2].
+[ek9/common-dev][0] is a set of modern PHP development tools and libraries,
+which help you write PHP packages and libraries that comply with [PHP-FIG][1]
+standards and adhere to best PHP practices defined in [PHP - The Right Way][2]
+guidelines.
 
-Write **well-tested** ([TDD][3] / [BDD][4]) **object-oriented** code, that
-follows [SOLID][5] principles! **Distribute** your code via [Packagist][6] by using [composer][7].
+These tools help you write **well-tested** ([TDD][3] / [BDD][4]) **functional**
+& **object-oriented** code. Follow [SOLID][5] principles easier and
+**distribute** your code via [Packagist][6] by using [composer][7].
 
 See [Packages](#Packages) for a list of packages that this meta-package
 provides.
