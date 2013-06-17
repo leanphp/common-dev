@@ -2,6 +2,12 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
+## 1.5.0 / 2013-06-18
+
+### Changed
+
+- Update faker from `~1.1` to `~1.2`
+
 ## 1.4.0 / 2013-05-27
 
 ### Changed
