@@ -2,7 +2,7 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
-## 1.6.x-dev / FUTURE
+## 2.0.x-dev / FUTURE
 
 ### Changed
 
