@@ -22,7 +22,7 @@
         "fzaninotto/faker": "~1.2",
         "phpspec/phpspec": "~1.4",
         "mockery/mockery": "~0.7",
-        "behat/behat": "~2.4",
+        "behat/behat": "~2.5",
         "behat/mink": "~1.5",
         "behat/mink-extension": "~1.1",
         "behat/mink-goutte-driver": "~1.0",
