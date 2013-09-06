@@ -9,6 +9,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 - Update alice from `~1.4` to `~1.5,^1.5.2`
 - Update behat from `~2.4` to `~2.5`
 - Update behat/mink-extenstion from `~1.1` to `~1.2`
+- Update phpunit from `~3.7` to `~3.7,^3.7.19`
 
 ## 1.5.0 / 2013-06-18
 
