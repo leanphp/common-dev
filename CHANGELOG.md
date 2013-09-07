@@ -10,6 +10,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 - Update behat from `~2.4` to `~2.5`
 - Update behat/mink-extenstion from `~1.1` to `~1.2`
 - Update phpunit from `~3.7` to `~3.7,^3.7.19`
+- Update phploc from `~1.7,^1.7.3` to `~2.0`
 
 ## 1.5.0 / 2013-06-18
 
