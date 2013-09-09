@@ -2,6 +2,16 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
+## 2.0.0 / 2013-09-08
+
+### Changed
+
+- Update alice from `~1.4` to `~1.5,^1.5.2`
+- Update behat from `~2.4` to `~2.5`
+- Update behat/mink-extenstion from `~1.1` to `~1.2`
+- Update phpunit from `~3.7` to `~3.7,^3.7.19`
+- Update phploc from `~1.7,^1.7.3` to `~2.0`
+
 ## 1.5.0 / 2013-06-18
 
 ### Changed

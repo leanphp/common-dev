@@ -15,24 +15,24 @@
         "phpmd/phpmd": "~1.4",
         "squizlabs/php_codesniffer": "~1.4,^1.4.2",
         "sebastian/phpcpd": "~1.4,^1.4.1",
-        "phploc/phploc": "~1.7,^1.7.3",
-        "phpunit/phpunit": "~3.7",
+        "phploc/phploc": "~2.0",
+        "phpunit/phpunit": "~3.7,^3.7.19",
         "mikey179/vfsstream": "~1.1",
-        "nelmio/alice": "~1.4",
+        "nelmio/alice": "~1.5,^1.5.2",
         "fzaninotto/faker": "~1.2",
         "phpspec/phpspec": "~1.4",
         "mockery/mockery": "~0.7",
-        "behat/behat": "~2.4",
+        "behat/behat": "~2.5",
         "behat/mink": "~1.5",
-        "behat/mink-extension": "~1.1",
+        "behat/mink-extension": "~1.2",
         "behat/mink-goutte-driver": "~1.0",
         "behat/mink-browserkit-driver": "~1.0"
     },
     "minimum-stability": "stable",
     "extra": {
         "branch-alias": {
-            "dev-master": "1.5.x-dev",
-            "dev-1.6": "1.6.x-dev"
+            "dev-master": "2.0.x-dev",
+            "dev-2.1": "2.1.x-dev"
         }
     }
 }
