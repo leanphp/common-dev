@@ -14,7 +14,7 @@
     "require": {
         "phpmd/phpmd": "~1.4",
         "squizlabs/php_codesniffer": "~1.4,^1.4.2",
-        "sebastian/phpcpd": "~1.4,^1.4.1",
+        "sebastian/phpcpd": "~2.0",
         "phploc/phploc": "~2.0",
         "phpunit/phpunit": "~3.7,^3.7.19",
         "mikey179/vfsstream": "~1.1",
