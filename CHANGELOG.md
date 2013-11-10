@@ -2,6 +2,11 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
+## 2.2.x-dev / FUTURE
+
+### Changed
+
+
 ## 2.1.0 / 2013-11-10
 
 ### Changed
