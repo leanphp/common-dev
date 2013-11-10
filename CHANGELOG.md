@@ -2,6 +2,12 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
+## 2.1.0 / 2013-11-10
+
+### Changed
+
+- Update phpcpd from `~1.4,^1.4.1` to `~2.0`
+
 ## 2.0.0 / 2013-09-09
 
 ### Changed
