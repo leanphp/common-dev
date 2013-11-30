@@ -52,10 +52,10 @@ This package will trigger installation of the following packages:
 - [mink][400] - Browser Emulator / Abstraction framework for PHP.
 - [phpspec][800] - SpecBDD / BDD Testing framework for PHP.
 - [behat][900] - ScenarioBDD / BDD Testing framework for PHP.
-- [vipsoft/code-coverage-extension][905] - Code Coverage for [behat][900].
-- [behat/mink-extension][910] - [mink][400] extension for [behat][900].
-- [behat/mink-goutte-driver][920] - [Goutte][450] driver for [mink][400].
-- [behat/mink-browserkit-driver][930] - Symfony2 BrowserKit driver for
+- [vipsoft/code-coverage-extension][910] - Code Coverage for [behat][900].
+- [behat/mink-extension][950] - [mink][400] extension for [behat][900].
+- [behat/mink-goutte-driver][960] - [Goutte][450] driver for [mink][400].
+- [behat/mink-browserkit-driver][970] - Symfony2 BrowserKit driver for
   [mink][400].
 
 ## Change Log
@@ -92,8 +92,8 @@ Licensed under [MIT License](LICENSE).
 [450]: https://github.com/FriendsOfPHP/Goutte
 [800]: http://www.phpspec.net
 [900]: http://behat.org
-[905]: https://github.com/vipsoft/code-coverage-extension
-[910]: http://extensions.behat.org/mink
-[920]: https://github.com/minkphp/MinkGoutteDriver
-[930]: https://github.com/minkphp/MinkBrowserKitDriver
+[910]: https://github.com/vipsoft/code-coverage-extension
+[950]: http://extensions.behat.org/mink
+[960]: https://github.com/minkphp/MinkGoutteDriver
+[970]: https://github.com/minkphp/MinkBrowserKitDriver
 
