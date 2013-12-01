@@ -11,6 +11,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 ### Added
 
 - PHP `^5.3`
+- vipsoft/code-coverage-extension `~2.5` (for behat)
 
 ## 2.1.0 / 2013-11-10
 
