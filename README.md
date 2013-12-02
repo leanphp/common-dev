@@ -1,6 +1,8 @@
 common-dev
 ==========
 
+[![Latest Stable Version](https://poser.pugx.org/ek9/common-dev/version)](https://packagist.org/packages/ek9/common-dev)
+
 [ek9/common-dev][0] is a set of modern PHP development tools and libraries,
 which help you write PHP packages and libraries that comply with [PHP-FIG][1]
 standards and adhere to best PHP practices defined in [PHP - The Right Way][2]
