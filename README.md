@@ -3,6 +3,7 @@ common-dev
 
 [![Latest Stable Version](https://poser.pugx.org/ek9/common-dev/version)](https://packagist.org/packages/ek9/common-dev)
 [![Latest Unstable Version](https://poser.pugx.org/ek9/common-dev/v/unstable)](https://packagist.org/packages/ek9/common-dev)
+[![MIT License](https://poser.pugx.org/ek9/common-dev/license)](https://packagist.org/packages/ek9/common-dev)
 
 [ek9/common-dev][0] is a set of modern PHP development tools and libraries,
 which help you write PHP packages and libraries that comply with [PHP-FIG][1]
