@@ -31,6 +31,9 @@
         "behat/mink-browserkit-driver": "~1.0"
     },
     "minimum-stability": "stable",
+    "config": {
+        "bin-dir": "bin"
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "2.1.x-dev",
