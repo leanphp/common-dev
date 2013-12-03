@@ -2,11 +2,12 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
-## 3.0.x-dev / FUTURE
+## 3.0.0 / 2013-12-03
 
 ### Changed
 
 - Update php_codesniffer from `~1.4,^1.4.2` to `~1.5`
+- Updated package information.
 
 ### Added
 
