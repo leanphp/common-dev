@@ -6,6 +6,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ### Changed
 
+- Updated faker from `~1.2` to `~1.3`
 
 ### Added
 
