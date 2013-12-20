@@ -10,9 +10,9 @@ which help you write PHP packages and libraries that comply with [PHP-FIG][1]
 standards and adhere to best PHP practices defined in [PHP - The Right Way][2]
 guidelines.
 
-These tools help you write **well-tested** ([TDD][3] / [BDD][4]) **functional**
-& **object-oriented** code. Follow [SOLID][5] principles easier and
-**distribute** your code via [Packagist][6] by using [composer][7].
+These tools help you write **well-tested** functional & **OOP** code ([TDD][3],
+[BDD][4], [SOLID][5]). It will allows you to **distribute** your code via
+[Packagist][6] by using [composer][7].
 
 See [Packages](#Packages) for a list of packages that this meta-package
 provides.
