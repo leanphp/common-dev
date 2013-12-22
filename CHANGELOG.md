@@ -7,6 +7,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 ### Changed
 
 - Update PHP from `~5.3` to `~5.3,^5.3.3`
+- Update phpspec from `~1.4` to `2.0.0-BETA4`
 
 ### Added
 
