@@ -49,6 +49,7 @@ This package will trigger installation of the following packages:
 - [phpunit][200] - The PHP Unit Testing framework.
 - [mockery][210] - a simple yet flexible PHP mock object framework for use in
   unit testing.
+- [prophecy][220] - highly opinionated mocking framework for PHP.
 - [alice][240] - Expressive Fixtures generator based on [faker][250].
 - [faker][250] - PHP Library to generate fake data for you.
 - [vfsStream][300] - Virtual file system to mock the real file system in unit
@@ -89,6 +90,7 @@ Licensed under [MIT License](LICENSE).
 [140]: https://github.com/sebastianbergmann/phploc
 [200]: https://phpunit.de
 [210]: https://github.com/padraic/mockery
+[220]: https://github.com/phpspec/prophecy
 [240]: https://github.com/nelmio/alice
 [250]: https://github.com/fzaninotto/Faker
 [300]: https://github.com/mikey179/vfsStream
