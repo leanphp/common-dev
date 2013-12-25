@@ -11,7 +11,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ### Added
 
-- Add prophecy `~1.0`
+- Add prophecy `~1.0,^1.0.2`
 
 ## 3.1.0 / 2013-12-20
 
