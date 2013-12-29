@@ -2,6 +2,13 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
+## 3.1.1 / 2013-12-29
+
+### Changed
+
+- Updated PHP from `^5.3` to `~5.3,^5.3.3` as lower than `5.3.3` is NOT
+  supported.
+
 ## 3.1.0 / 2013-12-20
 
 ### Changed
