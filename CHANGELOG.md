@@ -7,12 +7,12 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 ### Changed
 
 - Update PHP from `~5.3` to `~5.3,^5.3.3`
-- Update phpspec from `~1.4` to `2.0.x-dev` (unstable)
+- Update phpspec from `~1.4` to `2.0.0-RC2` (unstable)
 - Set `minimum-stability` to `dev` in `composer.json`
 
 ### Added
 
-- Add prophecy `~1.0,^1.0.4`
+- Add prophecy `~1.0.5@dev` (unstable)
 
 ## 3.1.0 / 2013-12-20
 
