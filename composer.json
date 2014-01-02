@@ -24,7 +24,7 @@
         "phpspec/phpspec": "~1.4",
         "mockery/mockery": "~0.7",
         "behat/behat": "~2.5",
-        "vipsoft/code-coverage-extension": "~2.5",
+        "vipsoft/code-coverage-extension": "~2.5.0|^2.5.0.3",
         "behat/mink": "~1.5",
         "behat/mink-extension": "~1.2",
         "behat/mink-goutte-driver": "~1.0",
@@ -36,8 +36,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "3.1.x-dev",
-            "dev-3.2": "3.2.x-dev",
+            "dev-master": "3.2.x-dev",
             "dev-4.0": "4.0.x-dev"
         }
     }

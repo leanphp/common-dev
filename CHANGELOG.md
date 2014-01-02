@@ -2,6 +2,11 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
+## 3.2.0 / 2014-01-02
+
+### Changed
+
+- vipsoft/code-coverage-extension from `~2.5` to `~2.5.0,^2.5.0.3`
 ## 3.1.1 / 2013-12-29
 
 ### Changed
