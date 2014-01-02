@@ -8,6 +8,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 - Update PHP from `~5.3` to `~5.3,^5.3.3`
 - Update phpspec from `~1.4` to `2.0.0-RC3` (unstable)
+- Update mockery from `~0.7` to `~0.8`
 
 ### Added
 
