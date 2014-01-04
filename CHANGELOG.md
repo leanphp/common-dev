@@ -6,6 +6,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ### Changed
 
+- Update vfsStream from `~1.1` to `~1.2`
 
 ## 3.1.1 / 2013-12-29
 - Updated PHP from `^5.3` to `~5.3,^5.3.3` as lower than `5.3.3` is NOT
