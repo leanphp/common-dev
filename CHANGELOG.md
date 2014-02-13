@@ -6,6 +6,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ### Changed
 
+-
 
 ## 3.3.0 / 2014-01-05
 
@@ -14,15 +15,16 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 - Update vfsStream from `~1.1` to `~1.2`
 
 ## 3.1.1 / 2013-12-29
+
 - Updated PHP from `^5.3` to `~5.3,^5.3.3` as lower than `5.3.3` is NOT
   supported.
-
 
 ## 3.2.0 / 2014-01-02
 
 ### Changed
 
 - vipsoft/code-coverage-extension from `~2.5` to `~2.5.0,^2.5.0.3`
+
 ## 3.1.1 / 2013-12-29
 - Updated PHP from `^5.3` to `~5.3,^5.3.3` as lower than `5.3.3` is NOT
   supported.
@@ -32,9 +34,6 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 ### Changed
 
 - Updated faker from `~1.2` to `~1.3`
-
-### Added
-
 
 ## 3.0.0 / 2013-12-03
 
