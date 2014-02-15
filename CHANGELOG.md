@@ -7,6 +7,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 ### Changed
 
 - Update behat/mink-extension from `~1.2` to `~1.3`
+- Update alice from `~1.5,^1.5.2` to `~1.6`
 
 ## 3.3.0 / 2014-01-05
 
