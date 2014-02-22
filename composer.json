@@ -21,7 +21,7 @@
         "mikey179/vfsstream": "~1.1",
         "nelmio/alice": "~1.5,^1.5.2",
         "fzaninotto/faker": "~1.3",
-        "phpspec/phpspec": "2.0.0-RC3",
+        "phpspec/phpspec": "2.0.0-RC4",
         "phpspec/prophecy": "~1.1",
         "mockery/mockery": "~0.8",
         "behat/behat": "~2.5",
