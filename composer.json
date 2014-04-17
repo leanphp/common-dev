@@ -17,7 +17,7 @@
         "squizlabs/php_codesniffer": "~1.5",
         "sebastian/phpcpd": "~2.0",
         "phploc/phploc": "~2.0",
-        "phpunit/phpunit": "~3.7,^3.7.19",
+        "phpunit/phpunit": "~4.0",
         "mikey179/vfsstream": "~1.1",
         "nelmio/alice": "~1.5,^1.5.2",
         "fzaninotto/faker": "~1.3",
