@@ -24,7 +24,7 @@
         "phpspec/phpspec": "~2.0",
         "phpspec/prophecy": "~1.1",
         "mockery/mockery": "~0.9",
-        "behat/behat": "~2.5",
+        "behat/behat": "3.0.x-dev",
         "vipsoft/code-coverage-extension": "~2.5.0|^2.5.0.3",
         "behat/mink": "~1.5",
         "behat/mink-extension": "~1.2",
