@@ -10,6 +10,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 - Update phpspec from `~1.4` to `~2.0`
 - Update mockery from `~0.7` to `~0.9`
 - Update phpunit from `~3.7,^3.7.19` to `~4.0`
+- Update behat from `~2.5` to `~3.0`
 
 ### Added
 
