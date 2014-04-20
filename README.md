@@ -46,8 +46,8 @@ This package will trigger installation of the following packages:
   violations of a defined coding standard.
 - [phpcpd][130] - Copy/Paste Detector (CPD) for PHP code.
 - [phploc][140] - a tool that quickly measures the size of your PHP project.
-- [phpunit][200] - The PHP Unit Testing framework.
-- [mockery][210] - a simple yet flexible PHP mock object framework for use in
+- [phpunit][200] **v4** - The PHP Unit Testing framework.
+- [mockery][210] **v0.9** - a simple yet flexible PHP mock object framework for use in
   unit testing.
 - [prophecy][220] - highly opinionated mocking framework for PHP.
 - [alice][240] - Expressive Fixtures generator based on [faker][250].
@@ -55,8 +55,8 @@ This package will trigger installation of the following packages:
 - [vfsStream][300] - Virtual file system to mock the real file system in unit
   tests.
 - [mink][400] - Browser Emulator / Abstraction framework for PHP.
-- [phpspec][800] - SpecBDD / BDD Testing framework for PHP.
-- [behat][900] - ScenarioBDD / BDD Testing framework for PHP.
+- [phpspec][800] **v2** - SpecBDD / BDD Testing framework for PHP.
+- [behat][900] **v3** - ScenarioBDD / BDD Testing framework for PHP.
 - [vipsoft/code-coverage-extension][910] - Code Coverage for [behat][900].
 - [behat/mink-extension][950] - [mink][400] extension for [behat][900].
 - [behat/mink-goutte-driver][960] - [Goutte][450] driver for [mink][400].
