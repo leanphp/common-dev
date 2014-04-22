@@ -2,6 +2,12 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
+## 3.5.0 / 2014-02-22
+
+### Changed
+
+- Update behat/mink-browserkit-driver from `~1.0` to `~1.1`
+
 ## 3.4.0 / 2014-02-17
 
 ### Changed
