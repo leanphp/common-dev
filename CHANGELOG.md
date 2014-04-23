@@ -2,6 +2,14 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
+## 4.1.x-dev / FUTURE
+
+### Changed
+
+
+### Added
+
+
 ## 4.0.0 / 2014-04-23
 
 ### Changed
