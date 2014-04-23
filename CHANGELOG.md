@@ -2,6 +2,22 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
+## 4.0.0 / 2014-04-23
+
+### Changed
+
+- Update PHP from `~5.3` to `~5.3,^5.3.3`
+- Update phpspec from `~1.4` to `~2.0`
+- Update mockery from `~0.7` to `~0.9`
+- Update phpunit from `~3.7,^3.7.19` to `~4.0`
+- Update behat from `~2.5` to `~3.0`
+- Update behat/mink-extension from `~1.2` to `2.0.x-dev`
+- Update behat/mink-browserkit-driver from `~1.0` to `~1.1`
+
+### Added
+
+- Add prophecy `~1.1`
+
 ## 3.5.0 / 2014-02-22
 
 ### Changed
@@ -22,11 +38,6 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 - Update vfsStream from `~1.1` to `~1.2`
 
-## 3.1.1 / 2013-12-29
-
-- Updated PHP from `^5.3` to `~5.3,^5.3.3` as lower than `5.3.3` is NOT
-  supported.
-
 ## 3.2.0 / 2014-01-02
 
 ### Changed
@@ -34,6 +45,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 - vipsoft/code-coverage-extension from `~2.5` to `~2.5.0,^2.5.0.3`
 
 ## 3.1.1 / 2013-12-29
+
 - Updated PHP from `^5.3` to `~5.3,^5.3.3` as lower than `5.3.3` is NOT
   supported.
 
