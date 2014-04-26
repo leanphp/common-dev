@@ -9,6 +9,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ### Added
 
+- phpspec-typehintedmethods `~1.0`
 
 ## 4.0.0 / 2014-04-23
 
