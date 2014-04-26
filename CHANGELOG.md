@@ -6,6 +6,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ### Changed
 
+- Update alice from `~1.6` to `~1.7`.
 
 ### Added
 
