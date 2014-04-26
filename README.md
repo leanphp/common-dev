@@ -56,6 +56,8 @@ This package will trigger installation of the following packages:
   tests.
 - [mink][400] - Browser Emulator / Abstraction framework for PHP.
 - [phpspec][800] **v2** - SpecBDD / BDD Testing framework for PHP.
+- [phpspec-typehintedmethods][810] - Generate Typehinted methods
+  ([phpspec][800] extension).
 - [behat][900] **v3** - ScenarioBDD / BDD Testing framework for PHP.
 - [vipsoft/code-coverage-extension][910] - Code Coverage for [behat][900].
 - [behat/mink-extension][950] - [mink][400] extension for [behat][900].
@@ -97,6 +99,7 @@ Licensed under [MIT License](LICENSE).
 [400]: http://mink.behat.org
 [450]: https://github.com/FriendsOfPHP/Goutte
 [800]: http://www.phpspec.net
+[810]: http://github.com/ciaranmcnulty/phpspec-typehintedmethods
 [900]: http://behat.org
 [910]: https://github.com/vipsoft/code-coverage-extension
 [950]: http://extensions.behat.org/mink
