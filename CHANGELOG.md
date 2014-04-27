@@ -2,7 +2,7 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
-## 4.1.x-dev / FUTURE
+## 4.1.0 / 2014-04-27
 
 ### Changed
 
@@ -10,7 +10,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ### Added
 
-- phpspec-typehintedmethods `~1.0`
+- phpspec-typehintedmethods `~1.0` (phpspec extension)
 
 ## 4.0.0 / 2014-04-23
 
