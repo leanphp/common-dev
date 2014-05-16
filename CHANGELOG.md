@@ -6,6 +6,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ### Changed
 
+- Update phpunit from `~4.0` to `~4.1`
 
 ### Added
 
