@@ -2,14 +2,11 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
-## 4.2.x-dev / FUTURE
+## 4.2.0 / 2014-05-17
 
 ### Changed
 
 - Update phpunit from `~4.0` to `~4.1`
-
-### Added
-
 
 ## 4.1.0 / 2014-04-27
 
