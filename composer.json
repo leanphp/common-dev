@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": "~5.3,^5.3.3",
-        "phpmd/phpmd": "~1.4",
+        "phpmd/phpmd": "~2.0",
         "squizlabs/php_codesniffer": "~1.5",
         "sebastian/phpcpd": "~2.0",
         "phploc/phploc": "~2.0",
