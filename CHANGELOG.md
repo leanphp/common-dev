@@ -7,6 +7,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 ### Changed
 
 - Update faker from `~1.3` to `~1.4`
+- Update phpmd from `~1.5` to `~2.0`
 
 ### Added
 
