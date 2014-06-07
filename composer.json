@@ -25,7 +25,7 @@
         "phpspec/prophecy": "~1.1",
         "mockery/mockery": "~0.9",
         "ciaranmcnulty/phpspec-typehintedmethods": "~1.0",
-        "henrikborn/phpspec-code-coverage": "~0.1",
+        "henrikbjorn/phpspec-code-coverage": "~0.1",
         "behat/behat": "~3.0",
         "vipsoft/code-coverage-extension": "3.0.x-dev",
         "behat/mink": "~1.5",
