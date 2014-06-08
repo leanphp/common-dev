@@ -13,6 +13,12 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 - Add phpspec-code-coverage `~0.1`
 
+- ## 4.3.0 / 2014-06-07
+
+### Changes
+
+- Update faker from `~1.3` to `~1.4`
+
 ## 4.2.0 / 2014-05-17
 
 ### Changed
