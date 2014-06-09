@@ -40,7 +40,6 @@
     "extra": {
         "branch-alias": {
             "dev-master": "5.0.x-dev",
-            "dev-4.3": "4.3.x-dev",
             "dev-5.1": "5.1.x-dev"
         }
     }
