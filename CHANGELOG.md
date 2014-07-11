@@ -2,15 +2,19 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
-## 5.1.x-dev / FUTURE
+## 5.1.0 / 2014-07-13
 
 ### Changed
 
+- Update phpspec-code-coverage from `~0.1` to `~0.2`
 
 ### Added
 
 
 ## 5.0.0 / 2014-06-09
+
+### Added
+
 
 ### Changed
 
