@@ -6,6 +6,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ### Changed
 
+- Update behat/mink-extension from `2.0.x-dev` to `~2.0`
 
 ## 5.1.0 / 2014-07-13
 
