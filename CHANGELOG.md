@@ -9,6 +9,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 - Update behat/mink-extension from `2.0.x-dev` to `~2.0`
 - Update phpunit from `~4.1` to `~4.2`
 - Update phpmd from `~2.0` to `~2.1,^2.1.2`
+- Update behat/mink-browserkit-driver from `~1.1` to `~1.2`
 
 ## 5.1.0 / 2014-07-13
 
