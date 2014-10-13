@@ -2,6 +2,13 @@
 
 This is a CHANGELOG file for [ek9/common-dev][0] package.
 
+## 5.3.x-dev / FUTURE
+
+### Changed
+
+- Update vfsStream from `~1.2` to `~1.4`
+- Update phpunit from `~4.2` to `~4.3`
+
 ## 5.2.0 / 2014-09-28
 
 ### Changed
