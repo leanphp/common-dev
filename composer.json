@@ -22,7 +22,7 @@
         "nelmio/alice": "~1.7",
         "fzaninotto/faker": "~1.4",
         "phpspec/phpspec": "~2.0",
-        "phpspec/prophecy": "~1.1",
+        "phpspec/prophecy": "~1.2",
         "mockery/mockery": "~0.9",
         "ciaranmcnulty/phpspec-typehintedmethods": "~1.0",
         "henrikbjorn/phpspec-code-coverage": "~0.2",
