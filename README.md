@@ -60,6 +60,9 @@ This package will trigger installation of the following packages:
   ([phpspec][800] extension).
 - [phpspec-typehintedmethods][810] - Generate Typehinted methods
   ([phpspec][800] extension).
+- [phpspec-exemplify-extension][820] - Add exemplify command to generate
+  example in [phpspec][800] specs.
+  ([phpspec][800] extension).
 - [behat][900] **v3** - ScenarioBDD / BDD Testing framework for PHP.
 - [vipsoft/code-coverage-extension][910] - Code Coverage for [behat][900].
 - [behat/mink-extension][950] - [mink][400] extension for [behat][900].
@@ -103,6 +106,7 @@ Licensed under [MIT License](LICENSE).
 [800]: http://www.phpspec.net
 [805]: https://github.com/henrikbjorn/PhpSpecCodeCoverageExtension
 [810]: http://github.com/ciaranmcnulty/phpspec-typehintedmethods
+[820]: https://github.com/richardmiller/ExemplifyExtension
 [900]: http://behat.org
 [910]: https://github.com/vipsoft/code-coverage-extension
 [950]: http://extensions.behat.org/mink
