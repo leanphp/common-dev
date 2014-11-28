@@ -10,7 +10,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 ### Added
 
-- rmiller/exemplify-extension `~0.1` (phpspec)
+- rmiller/exemplify-extension `~0.2` (phpspec)
 
 ## 5.3.0 / 2014-10-15
 
