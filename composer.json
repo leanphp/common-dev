@@ -27,6 +27,7 @@
         "ciaranmcnulty/phpspec-typehintedmethods": "~1.0",
         "henrikbjorn/phpspec-code-coverage": "~0.2",
         "rmiller/exemplify-extension": "~0.2",
+        "rmiller/behat-spec": "~0.1",
         "behat/behat": "~3.0",
         "vipsoft/code-coverage-extension": "3.0.x-dev",
         "behat/mink": "~1.6",
