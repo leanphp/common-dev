@@ -13,6 +13,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 - rmiller/exemplify-extension `~0.2` (phpspec)
 - rmiller/behat-spec `~0.1` (behat / phpspec integration)
+- phpcs-symfony2-standard `~1.0` (for php_codesniffer)
 
 ## 5.3.0 / 2014-10-15
 
