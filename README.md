@@ -39,6 +39,8 @@ dependencies are downloaded by [composer][5].
 
 This package will trigger installation of the following packages:
 
+- [symfony/var-dumper][100] - Advanced Variable Dumper by Symfony project
+  (`dump()` instead of `var_dump()`).
 - [phpmd][110] **v2** - PHP Mess Detector. Optimize your code, reduce
   complexity, cleanup unused parameters, methods, variables & more.
 - [PHP_CodeSniffer][120] - PHP Code Sniffer ensures that your code remains clean
@@ -93,6 +95,7 @@ Licensed under [MIT License](LICENSE).
 [6]: https://packagist.org
 [7]: https://getcomposer.org
 
+[100]: https://github.com/symfony/var-dumper
 [110]: https://phpmd.org
 [120]: https://pear.php.net/package/PHP_CodeSniffer
 [125]: https://github.com/leaphub/phpcs-symfony2-standard
