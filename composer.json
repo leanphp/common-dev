@@ -13,6 +13,7 @@
     ],
     "require": {
         "php": "~5.4",
+        "symfony/var-dumper": "~2.6",
         "phpmd/phpmd": "~2.1,^2.1.2",
         "squizlabs/php_codesniffer": "~1.5",
         "leaphub/phpcs-symfony2-standard": "~1.0",
