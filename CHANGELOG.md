@@ -8,6 +8,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 
 - Update prophecy from `~1.2` to `~1.3`
 - Update PHP from `~5.3,^5.3.3` to `~5.4`
+- Update php_codesniffer from `~1.5` to `~2.0`
 
 ### Added
 
