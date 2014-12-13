@@ -43,9 +43,9 @@ This package will trigger installation of the following packages:
   (`dump()` instead of `var_dump()`).
 - [phpmd][110] **v2** - PHP Mess Detector. Optimize your code, reduce
   complexity, cleanup unused parameters, methods, variables & more.
-- [PHP_CodeSniffer][120] - PHP Code Sniffer ensures that your code remains clean
-  and consistent. It is a set of scripts to detect and automatically correct
-  violations of a defined coding standard.
+- [PHP_CodeSniffer][120] **v2** - PHP Code Sniffer ensures that your code
+  remains clean and consistent. It is a set of scripts to detect and
+  automatically correct violations of a defined coding standard.
 - [phpcs-symfony2-standard][125] - Symfony2 Coding Standard configuration for
   [PHP_CodeSniffer][120].
 - [phpcpd][130] - Copy/Paste Detector (CPD) for PHP code.
