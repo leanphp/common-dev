@@ -10,6 +10,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 - Update PHP from `~5.3,^5.3.3` to `~5.4`
 - Update php_codesniffer from `~1.5` to `~2.0`
 - Update phpspec-code-coverage from `~0.2` to `~1.0`
+- Update phpspec from `~2.0` to `~2.1`
 
 ### Added
 
