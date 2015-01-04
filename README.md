@@ -39,6 +39,7 @@ dependencies are downloaded by [composer][5].
 
 This package will trigger installation of the following packages:
 
+- [apigen][90] - PHP Source Code API generator.
 - [symfony/var-dumper][100] - Advanced Variable Dumper by Symfony project
   (`dump()` instead of `var_dump()`).
 - [phpmd][110] **v2** - PHP Mess Detector. Optimize your code, reduce
@@ -95,6 +96,7 @@ Licensed under [MIT License](LICENSE).
 [6]: https://packagist.org
 [7]: https://getcomposer.org
 
+[90]: http://apigen.org
 [100]: https://github.com/symfony/var-dumper
 [110]: https://phpmd.org
 [120]: https://pear.php.net/package/PHP_CodeSniffer
