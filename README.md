@@ -80,7 +80,7 @@ Please see [CHANGELOG.md](CHANGELOG.md) for information of what was changed.
 
 ## Author
 
-Copyright (c) 2012-2014 ek9 <dev@ek9.co> (https://ek9.co)
+Copyright (c) 2012-2015 ek9 <dev@ek9.co> (https://ek9.co)
 
 ## License
 
