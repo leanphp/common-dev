@@ -18,6 +18,7 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 - rmiller/behat-spec `~0.1` (behat / phpspec integration)
 - phpcs-symfony2-standard `~2.0` (for php_codesniffer)
 - symfony/var-dumper `~2.6`
+- apigen `~4.0`
 
 ## 5.3.0 / 2014-10-15
 
