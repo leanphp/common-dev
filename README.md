@@ -23,14 +23,10 @@ Install this package as a development requirement in your project:
 
     $ composer require-dev ek9/common-dev
 
-Alternatively, you can edit `composer.json` and add this package to
-`require-dev` section manually:
+**Note!** For PHP 5.3 support, you can use `5.3` version of the package:
 
-```js
-    "require-dev": {
-        "ek9/common-dev": "~0.1"
-    }
-```
+    $ composer require-dev ek9/common-dev 5.3
+
 
 After this is done, make sure to run `composer update` so the new development
 dependencies are downloaded by [composer][5].
