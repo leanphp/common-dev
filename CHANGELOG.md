@@ -1,6 +1,6 @@
 # CHANGELOG
 
-This is a CHANGELOG file for [ek9/common-dev][0] package.
+This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
 ## 5.4.0 / 2015-01-05
 
@@ -259,4 +259,5 @@ This is a CHANGELOG file for [ek9/common-dev][0] package.
 - PHPUnit `~3.7`
 - vfsStream `~1.1`
 
-[0]: https://packagist.org/packages/ek9/common-dev
+[0]: https://packagist.org/packages/leanphp/common-dev
+[1]: https://packagist.org/packages/ek9/common-dev

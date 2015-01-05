@@ -1,11 +1,11 @@
 common-dev
 ==========
 
-[![Latest Stable Version](https://poser.pugx.org/ek9/common-dev/version)](https://packagist.org/packages/ek9/common-dev)
-[![Latest Unstable Version](https://poser.pugx.org/ek9/common-dev/v/unstable)](https://packagist.org/packages/ek9/common-dev)
-[![MIT License](https://poser.pugx.org/ek9/common-dev/license)](https://packagist.org/packages/ek9/common-dev)
+[![Latest Stable Version](https://poser.pugx.org/leanphp/common-dev/version)](https://packagist.org/packages/leanphp/common-dev)
+[![Latest Unstable Version](https://poser.pugx.org/leanphp/common-dev/v/unstable)](https://packagist.org/packages/leanphp/common-dev)
+[![MIT License](https://poser.pugx.org/leanphp/common-dev/license)](https://packagist.org/packages/leanphp/common-dev)
 
-[ek9/common-dev][0] is a set of modern PHP development tools and libraries,
+[leanphp/common-dev][0] is a set of modern PHP development tools and libraries,
 which help you write PHP (**5.4+**) packages and libraries that comply with
 [PHP-FIG][1] standards and adhere to best PHP practices defined in [PHP - The
 Right Way][2] guidelines.
@@ -21,11 +21,11 @@ provides.
 
 Install this package as a development requirement in your project:
 
-    $ composer require-dev ek9/common-dev
+    $ composer require-dev leanphp/common-dev
 
 **Note!** For PHP 5.3 support, you can use `5.3` version of the package:
 
-    $ composer require-dev ek9/common-dev 5.3
+    $ composer require-dev leanphp/common-dev 5.3
 
 
 After this is done, make sure to run `composer update` so the new development
@@ -83,7 +83,7 @@ Copyright (c) 2012-2015 ek9 <dev@ek9.co> (https://ek9.co)
 
 Licensed under [MIT License](LICENSE).
 
-[0]: https://packagist.org/packages/ek9/common-dev
+[0]: https://packagist.org/packages/leanphp/common-dev
 [1]: http://www.php-fig.org
 [2]: http://www.phptherightway.com
 [3]: https://en.wikipedia.org/wiki/Test-driven_development

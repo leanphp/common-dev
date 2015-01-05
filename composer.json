@@ -1,8 +1,9 @@
-{ 
-    "name": "ek9/common-dev",
+{
+    "name": "leanphp/common-dev",
     "description": "A set of modern PHP Development Tools and Libraries",
-    "keywords": [ "common", "php", "dev", "tools", "lib", "meta", "ek9" ],
-    "homepage": "https://github.com/ek9/php-common-dev",
+    "type": "library",
+    "keywords": [ "common", "php", "dev", "tools", "lib", "modern", "ek9" ],
+    "homepage": "https://github.com/leanphp/common-dev",
     "license": "MIT",
     "authors": [
         {
@@ -11,6 +12,11 @@
             "homepage": "https://ek9.co"
         }
     ],
+    "support": {
+        "issues": "https://github.com/leanphp/common-dev/issues",
+        "source": "https://github.com/leanphp/common-dev",
+        "docs": "https://github.com/leanphp/common-dev#common-dev"
+    },
     "require": {
         "php": "~5.4",
         "symfony/var-dumper": "~2.6",
@@ -44,8 +50,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "5.3.x-dev",
-            "dev-5.4": "5.4.x-dev"
+            "dev-master": "5.4.x-dev",
+            "dev-5.5": "5.5.x-dev"
         }
     }
 }
