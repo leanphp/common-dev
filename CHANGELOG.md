@@ -2,12 +2,17 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
+## 5.5.x-dev / FUTURE
+
+### Changed
+
+
 ## 5.4.0 / 2015-01-05
 
 ### Changed
 
-- Update prophecy from `~1.2` to `~1.3`
 - Update PHP from `~5.3,^5.3.3` to `~5.4`
+- Update prophecy from `~1.2` to `~1.3`
 - Update php_codesniffer from `~1.5` to `~2.0`
 - Update phpspec-code-coverage from `~0.2` to `~1.0`
 - Update phpspec from `~2.0` to `~2.1`
