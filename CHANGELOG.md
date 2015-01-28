@@ -6,6 +6,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 ### Changed
 
+- Update php_codesniffer from `~2.0` to `~2.2`
 
 ## 5.4.0 / 2015-01-05
 
