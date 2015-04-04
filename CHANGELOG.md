@@ -6,6 +6,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 ### Changed
 
+- Update vfsStream from `~1.4` to `~1.5`
 
 ## 5.4.1 / 2015-01-30
 
