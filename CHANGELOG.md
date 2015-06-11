@@ -7,6 +7,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 ### Changed
 
 - Update symfony/var-dumper from `~2.6` to `~2.7`
+- Update phpunit from `~4.3` to `~4.7`
 
 ## 5.4.2 / 2015-04-08
 
