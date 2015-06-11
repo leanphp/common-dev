@@ -19,7 +19,7 @@
     },
     "require": {
         "php": "~5.4",
-        "symfony/var-dumper": "~2.6",
+        "symfony/var-dumper": "~2.7",
         "apigen/apigen": "~4.1",
         "phpmd/phpmd": "~2.2",
         "squizlabs/php_codesniffer": "~2.2",
