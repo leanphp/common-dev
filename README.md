@@ -8,6 +8,9 @@ common-dev
 **Note!** This is **5.4.x** version branch, which is last version to support
 **PHP 5.4**. Consider updating to **PHP 5.6+** and use [latest version of common-dev][0].
 
+**Note!** This is **5.4.x** version branch, which is last version to support
+**PHP 5.4**. Consider updating to **PHP 5.6+** and use [latest version of common-dev][0].
+
 [leanPHP/common-dev][0] is a set of modern PHP **5.4+** development tools and
 libraries, which help you write PHP packages and libraries that comply with
 [PHP-FIG][1] standards and adhere to best PHP practices defined in [PHP - The
@@ -23,14 +26,23 @@ provides.
 ## Install
 
 Install this package as a development requirement in your project. It's always
-best to let composer pick up the latest supported version, which will be based on your PHP version:
+best to let composer pick up the latest supported version, which will be based
+on your PHP version:
 
     $ composer require-dev leanphp/common-dev
 
+<<<<<<< HEAD
 ### PHP 5.5
 
     $ composer require-dev leanphp/common-dev ~5.5
 
+||||||| parent of 71d6cf1... README: 5.6.x-dev
+### PHP 5.5
+
+    $ composer require-dev ek9/common-dev ~5.5
+
+=======
+>>>>>>> 71d6cf1... README: 5.6.x-dev
 ### PHP 5.4
 
     $ composer require-dev leanphp/common-dev 5.4
