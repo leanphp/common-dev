@@ -18,7 +18,7 @@
         "docs": "https://github.com/leanphp/common-dev#common-dev"
     },
     "require": {
-        "php": "~5.6",
+        "php": "~5.6||~7.0",
         "symfony/var-dumper": "~2.7",
         "apigen/apigen": "~4.1",
         "phpmd/phpmd": "~2.2",

@@ -2,11 +2,11 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
-## 5.6.x-dev / FUTURE
+## 6.0.x-dev / FUTURE
 
 ### Changed
 
-- Update PHP from `~5.4` to `~5.6`.
+- Update PHP from `~5.6` to `~5.6||~7.0`
 
 ## 5.4.3 / 2015-06-13
 
