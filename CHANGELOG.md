@@ -2,7 +2,9 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
-## 5.5.x-dev / FUTURE
+## 5.4.3 / 2015-06-13
+
+Final PHP 5.4 Release.
 
 ### Changed
 
@@ -25,6 +27,8 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 - Update phpmd from `~2.1` to `~2.2`
 
 ## 5.4.0 / 2015-01-05
+
+6.0.0 is last package release to support to PHP 5.4 and PHP 5.5.
 
 ### Changed
 
@@ -67,13 +71,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 - Update phpspec-code-coverage from `~0.1` to `~0.2`
 
-### Added
-
-
 ## 5.0.0 / 2014-06-09
-
-### Added
-
 
 ### Changed
 
@@ -84,7 +82,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 - Add phpspec-code-coverage `~0.1`
 
-- ## 4.3.0 / 2014-06-07
+## 4.3.0 / 2014-06-07
 
 ### Changes
 
