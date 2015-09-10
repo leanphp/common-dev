@@ -2,6 +2,12 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
+## 5.4.4 / FUTURE
+
+### Changed
+
+- Update phpunit from `~4.7` to `~4.8`
+
 ## 5.4.3 / 2015-06-13
 
 Final release to support PHP 5.4.
