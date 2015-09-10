@@ -30,7 +30,7 @@
         "mikey179/vfsstream": "~1.5",
         "nelmio/alice": "~1.7",
         "fzaninotto/faker": "~1.4",
-        "phpspec/phpspec": "~2.1",
+        "phpspec/phpspec": "~2.3",
         "phpspec/prophecy": "~1.5",
         "mockery/mockery": "~0.9",
         "ciaranmcnulty/phpspec-typehintedmethods": "~1.0",
