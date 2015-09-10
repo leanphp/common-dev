@@ -7,6 +7,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 ### Changed
 
 - Update phpunit from `~4.7` to `~4.8`
+- Update prophecy from `~1.3` to `~1.5`
 
 ## 5.4.3 / 2015-06-13
 
