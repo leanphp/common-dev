@@ -2,7 +2,9 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
-## 5.4.4 / FUTURE
+**5.4 series is last release to support PHP 5.4!**
+
+## 5.4.4 / 2015-09-12
 
 ### Changed
 
