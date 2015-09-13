@@ -2,7 +2,7 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
-## 5.6.x-dev / FUTURE
+## 5.6.0 / 2015-09-13
 
 ### Changed
 
