@@ -4,6 +4,10 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 **5.5.x version series is last version to support PHP 5.5**
 
+## 5.5.x-dev / FUTURE
+
+- Update mink from `~1.6` to `~1.7`
+
 ## 5.5.0 / 2015-09-12
 
 ### Changed
