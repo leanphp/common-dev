@@ -5,6 +5,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 ## 5.6.x-dev / FUTURE
 
 - Update mink from `~1.6` to `~1.7`
+- Update alice from `~1.7` to `~2.0`
 
 ## 5.6.0 / 2015-09-13
 
