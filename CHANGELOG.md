@@ -4,6 +4,10 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 **5.4 series is last release to support PHP 5.4!**
 
+## 5.4.x-dev / FUTURE
+
+- Update mink from `~1.6` to `~1.7`
+
 ## 5.4.4 / 2015-09-12
 
 ### Changed
