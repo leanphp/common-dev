@@ -8,6 +8,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 - Update alice from `~1.7` to `~2.1`
 - Update faker from `~1.3` to `~1.5`
 - Update mink-goutte-driver from `~1.1` to `~1.2`
+- Update mink-browserkit-driver from `~1.2` to `~1.3`
 
 ## 5.6.0 / 2015-09-13
 
