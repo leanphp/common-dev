@@ -4,7 +4,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 **5.4 series is last release to support PHP 5.4!**
 
-## 5.4.x-dev / FUTURE
+## 5.4.5 / 2015-09-23
 
 - Update mink from `~1.6` to `~1.7`
 - Update alice from `~1.7` to `~2.1`
