@@ -11,6 +11,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 - Update faker from `~1.3` to `~1.5`
 - Update mink-goutte-driver from `~1.1` to `~1.2`
 - Update mink-browserkit-driver from `~1.2` to `~1.3`
+- Update phpmd from `~2.2` to `~2.3`
 
 ## 5.4.4 / 2015-09-12
 
