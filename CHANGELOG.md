@@ -11,6 +11,24 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 - Update prophecy from `~1.3` to `~1.5`
 - Update phpspec from `~2.1` to `~2.3`
 
+## 5.6.1 / 2015-09-23
+
+- Update mink from `~1.6` to `~1.7`
+- Update alice from `~1.7` to `~2.1`
+- Update faker from `~1.3` to `~1.5`
+- Update mink-goutte-driver from `~1.1` to `~1.2`
+- Update mink-browserkit-driver from `~1.2` to `~1.3`
+- Update phpmd from `~2.2` to `~2.3`
+
+## 5.6.0 / 2015-09-13
+
+### Changed
+
+- Update PHP from `~5.4` to `~5.6`.
+- Update phpunit from `~4.7` to `~4.8`
+- Update prophecy from `~1.3` to `~1.5`
+- Update phpspec from `~2.1` to `~2.3`
+
 ## 5.4.3 / 2015-06-13
 
 Final release to support PHP 5.4.
