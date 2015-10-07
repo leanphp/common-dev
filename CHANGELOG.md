@@ -4,7 +4,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 **5.4 series is last release to support PHP 5.4!**
 
-## 5.4.x-dev / FUTURE
+## 5.4.6 Final / 2015-10-07
 
 Final 5.4 series release.
 
