@@ -4,6 +4,12 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 **5.4 series is last release to support PHP 5.4!**
 
+## 5.4.x-dev / FUTURE
+
+Final 5.4 series release.
+
+- Update behat/mink-extension from `~2.0` to `~2.1`
+
 ## 5.4.5 / 2015-09-23
 
 - Update mink from `~1.6` to `~1.7`
@@ -47,7 +53,7 @@ Final release to support PHP 5.4.
 
 ## 5.4.0 / 2015-01-05
 
-6.0.0 is last package release to support to PHP 5.4 and PHP 5.5.
+5.4 version series are last release series to support PHP 5.4.
 
 ### Changed
 
