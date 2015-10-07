@@ -27,7 +27,7 @@
         "sebastian/phpcpd": "~2.0",
         "phploc/phploc": "~2.1",
         "phpunit/phpunit": "~4.8",
-        "mikey179/vfsstream": "~1.5",
+        "mikey179/vfsstream": "~1.6",
         "nelmio/alice": "~2.1",
         "fzaninotto/faker": "~1.5",
         "phpspec/phpspec": "~2.3",
