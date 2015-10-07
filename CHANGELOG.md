@@ -4,6 +4,11 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 **5.5 series is last release to support PHP 5.5**
 
+## 5.5.2 / 2015-10-08
+
+- Update behat/mink-extension from `~2.0` to `~2.1`
+- Update vfsStream from `~1.5` to `~1.6`
+
 ## 5.5.1 / 2015-09-23
 
 - Update mink from `~1.6` to `~1.7`
