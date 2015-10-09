@@ -5,13 +5,7 @@ common-dev
 [![Latest Unstable Version](https://poser.pugx.org/leanphp/common-dev/v/unstable)](https://packagist.org/packages/leanphp/common-dev)
 [![MIT License](https://poser.pugx.org/leanphp/common-dev/license)](https://packagist.org/packages/leanphp/common-dev)
 
-**Note!** This is **5.4.x** version branch, which is last version to support
-**PHP 5.4**. Consider updating to **PHP 5.6+** and use [latest version of common-dev][0].
-
-**Note!** This is **5.4.x** version branch, which is last version to support
-**PHP 5.4**. Consider updating to **PHP 5.6+** and use [latest version of common-dev][0].
-
-[leanPHP/common-dev][0] is a set of modern PHP **5.4+** development tools and
+[leanPHP/common-dev][0] is a set of modern PHP **5.6+** development tools and
 libraries, which help you write PHP packages and libraries that comply with
 [PHP-FIG][1] standards and adhere to best PHP practices defined in [PHP - The
 Right Way][2] guidelines.
@@ -31,21 +25,13 @@ on your PHP version:
 
     $ composer require-dev leanphp/common-dev
 
-<<<<<<< HEAD
 ### PHP 5.5
 
     $ composer require-dev leanphp/common-dev ~5.5
 
-||||||| parent of 71d6cf1... README: 5.6.x-dev
-### PHP 5.5
-
-    $ composer require-dev ek9/common-dev ~5.5
-
-=======
->>>>>>> 71d6cf1... README: 5.6.x-dev
 ### PHP 5.4
 
-    $ composer require-dev leanphp/common-dev 5.4
+    $ composer require-dev leanphp/common-dev ~5.4
 
 ### PHP 5.3
 

@@ -25,6 +25,56 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 - Update prophecy from `~1.3` to `~1.5`
 - Update phpspec from `~2.1` to `~2.3`
 
+## 5.5.2 / 2015-10-08
+
+**5.5 series is last release to support PHP 5.5**
+
+- Update behat/mink-extension from `~2.0` to `~2.1`
+- Update vfsStream from `~1.5` to `~1.6`
+
+## 5.5.1 / 2015-09-23
+
+- Update mink from `~1.6` to `~1.7`
+- Update alice from `~1.7` to `~2.1`
+- Update faker from `~1.3` to `~1.5`
+- Update mink-goutte-driver from `~1.1` to `~1.2`
+- Update mink-browserkit-driver from `~1.2` to `~1.3`
+- Update phpmd from `~2.2` to `~2.3`
+
+## 5.5.0 / 2015-09-12
+
+### Changed
+
+- Update phpunit from `~4.7` to `~4.8`
+- Update prophecy from `~1.3` to `~1.5`
+- Update phpspec from `~2.1` to `~2.3`
+
+## 5.4.6 Final / 2015-10-07
+
+**5.4 series is last release to support PHP 5.4!**
+
+Final 5.4 series release.
+
+- Update behat/mink-extension from `~2.0` to `~2.1`
+- Update vfsStream from `~1.5` to `~1.6`
+
+## 5.4.5 / 2015-09-23
+
+- Update mink from `~1.6` to `~1.7`
+- Update alice from `~1.7` to `~2.1`
+- Update faker from `~1.3` to `~1.5`
+- Update mink-goutte-driver from `~1.1` to `~1.2`
+- Update mink-browserkit-driver from `~1.2` to `~1.3`
+- Update phpmd from `~2.2` to `~2.3`
+
+## 5.4.4 / 2015-09-12
+
+### Changed
+
+- Update phpunit from `~4.7` to `~4.8`
+- Update prophecy from `~1.3` to `~1.5`
+- Update phpspec from `~2.1` to `~2.3`
+
 ## 5.4.3 / 2015-06-13
 
 Final release to support PHP 5.4.
@@ -51,7 +101,7 @@ Final release to support PHP 5.4.
 
 ## 5.4.0 / 2015-01-05
 
-6.0.0 is last package release to support to PHP 5.4 and PHP 5.5.
+5.4 version series are last release series to support PHP 5.4.
 
 ### Changed
 
