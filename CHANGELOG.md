@@ -2,7 +2,7 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
-## 5.6.x-dev / FUTURE
+## 5.6.2 / 2015-10-09
 
 - Update behat/mink-extension from `~2.0` to `~2.1`
 - Update vfsStream from `~1.5` to `~1.6`
