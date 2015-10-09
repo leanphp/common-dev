@@ -26,7 +26,7 @@
         "leaphub/phpcs-symfony2-standard": "~2.0",
         "sebastian/phpcpd": "~2.0",
         "phploc/phploc": "~2.1",
-        "phpunit/phpunit": "~4.8",
+        "phpunit/phpunit": "~5.0",
         "mikey179/vfsstream": "~1.6",
         "nelmio/alice": "~2.1",
         "fzaninotto/faker": "~1.5",
