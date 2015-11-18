@@ -2,6 +2,10 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
+## 5.6.x-dev / FUTURE
+
+- Update symfony/var-dump from `~2.7` to `~2.8||~3.0`
+
 ## 5.6.3 / 2015-10-10
 
 - Update phpunit from `~4.8` to `~5.0`
