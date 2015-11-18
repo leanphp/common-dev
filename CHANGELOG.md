@@ -4,6 +4,10 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 **5.5 series is last release to support PHP 5.5**
 
+## 5.5.x-dev / FUTURE
+
+- Update symfony/var-dump from `~2.7` to `~2.8||~3.0`
+
 ## 5.5.2 / 2015-10-08
 
 - Update behat/mink-extension from `~2.0` to `~2.1`

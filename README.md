@@ -45,7 +45,7 @@ on your PHP version:
 This package will trigger installation of the following packages:
 
 - [apigen][100] **v4** - PHP Source Code API generator.
-- [symfony/var-dumper][110] - Advanced Variable Dumper by Symfony project
+- [symfony/var-dumper][110] **v3** - Advanced Variable Dumper by Symfony project
   (`dump()` instead of `var_dump()`).
 - [phpmd][120] **v2** - PHP Mess Detector. Optimize your code, reduce
   complexity, cleanup unused parameters, methods, variables & more.
