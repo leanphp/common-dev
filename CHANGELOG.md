@@ -6,6 +6,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 - Update symfony/var-dump from `~2.7` to `~2.8||~3.0`
 - Update phpspec-typehintedmethods from `~1.0` to `~1.1`
+- Update phpspec-code-coverage from  `~1.0` to `~2.0`
 
 ## 5.6.3 / 2015-10-10
 
