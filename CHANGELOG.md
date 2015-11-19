@@ -2,7 +2,7 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
-## 5.6.x-dev / FUTURE
+## 5.6.4 / 2015-11-19
 
 - Update symfony/var-dump from `~2.7` to `~2.8||~3.0`
 - Update phpspec-typehintedmethods from `~1.0` to `~1.1`
