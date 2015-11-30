@@ -39,6 +39,10 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 - Update prophecy from `~1.3` to `~1.5`
 - Update phpspec from `~2.1` to `~2.3`
 
+## 5.5.3 Final PHP 5.5 / 2015-11-18
+
+- Update symfony/var-dump from `~2.7` to `~2.8||~3.0`
+
 ## 5.5.2 / 2015-10-08
 
 **5.5 series is last release to support PHP 5.5**
@@ -63,7 +67,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 - Update prophecy from `~1.3` to `~1.5`
 - Update phpspec from `~2.1` to `~2.3`
 
-## 5.4.6 Final / 2015-10-07
+## 5.4.6 Final PHP 5.4 / 2015-10-07
 
 **5.4 series is last release to support PHP 5.4!**
 
@@ -133,7 +137,7 @@ Final release to support PHP 5.4.
 - symfony/var-dumper `~2.6`
 - apigen `~4.0`
 
-## 5.3.0 / 2014-10-15
+## 5.3.0 Final PHP 5.3 / 2014-10-15
 
 ### Changed
 
