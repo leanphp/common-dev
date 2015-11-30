@@ -5,6 +5,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 ## 5.6.x-dev / FUTURE
 
 - Update phpspec from `~2.3` to `~2.4`
+- Update php_codesniffer from `~2.2` to `~2.4`
 
 ## 5.6.4 / 2015-11-19
 
