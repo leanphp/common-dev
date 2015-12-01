@@ -2,6 +2,9 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
+## 5.6.x-dev / FUTURE
+
+
 ## 5.6.5 / 2015-12-01
 
 - Update phpspec from `~2.3` to `~2.4`
