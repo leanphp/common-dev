@@ -5,7 +5,7 @@ common-dev
 [![Latest Unstable Version](https://poser.pugx.org/leanphp/common-dev/v/unstable)](https://packagist.org/packages/leanphp/common-dev)
 [![MIT License](https://poser.pugx.org/leanphp/common-dev/license)](https://packagist.org/packages/leanphp/common-dev)
 
-[leanPHP/common-dev][0] is a set of modern PHP **5.6+** development tools and
+[leanPHP/common-dev][0] is a set of modern **PHP7** **(5.6+)** development tools and
 libraries, which help you write PHP packages and libraries that comply with
 [PHP-FIG][1] standards and adhere to best PHP practices defined in [PHP - The
 Right Way][2] guidelines.
@@ -25,17 +25,13 @@ on your PHP version:
 
     $ composer require-dev leanphp/common-dev
 
+### PHP 5.6
+
+    $ composer require-dev leanphp/common-dev ~5.6
+
 ### PHP 5.5
 
     $ composer require-dev leanphp/common-dev ~5.5
-
-### PHP 5.4
-
-    $ composer require-dev leanphp/common-dev ~5.4
-
-### PHP 5.3
-
-    $ composer require-dev leanphp/common-dev ~5.3
 
 ## Packages
 
@@ -53,7 +49,7 @@ This package will trigger installation of the following packages:
   [PHP_CodeSniffer][130].
 - [phpcpd][150] - Copy/Paste Detector (CPD) for PHP code.
 - [phploc][160] - a tool that quickly measures the size of your PHP project.
-- [phpunit][200] **v4** - The PHP Unit Testing framework.
+- [phpunit][200] **v5** - The PHP Unit Testing framework.
 - [mockery][210] **v0.9** - a simple yet flexible PHP mock object framework for
   use in unit testing.
 - [prophecy][220] - highly opinionated mocking framework for PHP.
