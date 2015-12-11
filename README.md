@@ -15,7 +15,8 @@ These tools help you write **well-tested** functional & **OOP** code ([TDD][3],
 [Packagist][6] by using [composer][7].
 
 See [Packages](#Packages) for a list of packages that this meta-package
-provides.
+provides. We also provide [example configuration files](#Configuration) for the
+dependant packages (`config/` directory).
 
 ## Install
 
@@ -53,7 +54,7 @@ This package will trigger installation of the following packages:
   [PHP_CodeSniffer][130].
 - [phpcpd][150] - Copy/Paste Detector (CPD) for PHP code.
 - [phploc][160] - a tool that quickly measures the size of your PHP project.
-- [phpunit][200] **v4** - The PHP Unit Testing framework.
+- [phpunit][200] **v5** - The PHP Unit Testing framework.
 - [mockery][210] **v0.9** - a simple yet flexible PHP mock object framework for
   use in unit testing.
 - [prophecy][220] - highly opinionated mocking framework for PHP.
@@ -76,6 +77,13 @@ This package will trigger installation of the following packages:
 - [behat/mink-goutte-driver][960] - [Goutte][450] driver for [mink][400].
 - [behat/mink-browserkit-driver][970] - Symfony2 BrowserKit driver for
   [mink][400].
+
+## Configuration
+
+You can find example configuration files for the tools and libraries in
+`config/` directory. Included example config files:
+
+- [apigen.yaml](config/apigen.yaml) - ApiGen example configuration.
 
 ## Change Log
 

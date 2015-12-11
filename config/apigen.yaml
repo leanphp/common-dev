@@ -1,0 +1,20 @@
+# apigen.yaml
+# example ApiGen config - leanphp/common-dev
+source:
+  - ./src
+
+destination:
+  - ./build/docs
+
+exclude:
+  - ./build
+  - ./vendor
+
+#title: API
+#baseUrl: https://www.example.org
+#googleAnalytics: UA-XXXXXX-YY
+#googleCseId: 'Google Custom Search ID'
+
+#charset: [ "UTF-8" ]
+#template: default
+
