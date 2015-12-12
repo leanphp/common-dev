@@ -45,7 +45,7 @@ This package will trigger installation of the following packages:
 - [apigen][100] **v4** - PHP Source Code API generator.
 - [symfony/var-dumper][110] **v3** - Advanced Variable Dumper by Symfony project
   (`dump()` instead of `var_dump()`).
-- [phpmd][120] **v2** - PHP Mess Detector. Optimize your code, reduce
+- [PHPMD][120] **v2** - PHP Mess Detector. Optimize your code, reduce
   complexity, cleanup unused parameters, methods, variables & more.
 - [PHP_CodeSniffer][130] **v2** - PHP Code Sniffer ensures that your code
   remains clean and consistent. It is a set of scripts to detect and
@@ -83,8 +83,9 @@ This package will trigger installation of the following packages:
 You can find example configuration files for the tools and libraries in
 `config/` directory. Included example config files:
 
-- [apigen.yaml](config/apigen.yaml) - ApiGen example configuration.
-- [phpmd.xml](config/phpmd.xml) - PHPMD example configuration.
+- [apigen.yaml](config/apigen.yaml) - [ApiGen][100] example config.
+- [phpmd.xml](config/phpmd.xml) - [PHPMD][120] example config.
+- [phpcs.xml](config/phpcs.xml) - [PHP_CodeSniffer][130] Coding Standard config.
 
 These configuration files must either be placed in the root of your repository
 or you have to point configuration file manually when using a specific tool.
