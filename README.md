@@ -84,6 +84,12 @@ You can find example configuration files for the tools and libraries in
 `config/` directory. Included example config files:
 
 - [apigen.yaml](config/apigen.yaml) - ApiGen example configuration.
+- [phpmd.xml](config/phpmd.xml) - PHPMD example configuration.
+
+These configuration files must either be placed in the root of your repository
+or you have to point configuration file manually when using a specific tool.
+Most of the time making a copy of the file in the project's root and
+customizing it should be sufficient.
 
 ## Change Log
 
