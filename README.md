@@ -54,7 +54,7 @@ This package will trigger installation of the following packages:
   [PHP_CodeSniffer][130].
 - [phpcpd][150] - Copy/Paste Detector (CPD) for PHP code.
 - [phploc][160] - a tool that quickly measures the size of your PHP project.
-- [phpunit][200] **v5** - The PHP Unit Testing framework.
+- [PHPUnit][200] **v5** - The PHP Unit Testing framework.
 - [mockery][210] **v0.9** - a simple yet flexible PHP mock object framework for
   use in unit testing.
 - [prophecy][220] - highly opinionated mocking framework for PHP.
@@ -84,8 +84,9 @@ You can find example configuration files for the tools and libraries in
 `config/` directory. Included example config files:
 
 - [apigen.yaml](config/apigen.yaml) - [ApiGen][100] example config.
-- [phpmd.xml](config/phpmd.xml) - [PHPMD][120] example config.
 - [phpcs.xml](config/phpcs.xml) - [PHP_CodeSniffer][130] Coding Standard config.
+- [phpmd.xml](config/phpmd.xml) - [PHPMD][120] example config.
+- [phpunit.xml](config/phpunit.xml) - [PHPUnit][200] example config.
 
 These configuration files must either be placed in the root of your repository
 or you have to point configuration file manually when using a specific tool.
