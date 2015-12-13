@@ -87,6 +87,7 @@ You can find example configuration files for the tools and libraries in
 - [phpcs.xml](config/phpcs.xml) - [PHP_CodeSniffer][130] Coding Standard config.
 - [phpmd.xml](config/phpmd.xml) - [PHPMD][120] example config.
 - [phpunit.xml](config/phpunit.xml) - [PHPUnit][200] example config.
+- [phpspec.yml](config/phpspec.yml) - [phpspec][800] example config.
 
 These configuration files must either be placed in the root of your repository
 or you have to point configuration file manually when using a specific tool.

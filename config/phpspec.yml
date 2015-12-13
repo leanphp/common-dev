@@ -1,0 +1,21 @@
+# phpspec.yml
+# example phpspec config - leanphp/common-dev
+formatter.name: pretty
+suites:
+    default_suite:
+        namespace: LeanPHP\Common
+        psr4_prefix: LeanPHP\Common
+
+extensions:
+  - PhpSpec\Extension\CodeCoverageExtension
+  - Cjm\PhpSpec\Extension\TypeHintedMethodsExtension
+  - RMiller\BehatSpec\PhpSpecExtension
+  - RMiller\ExemplifyExtension\ExemplifyExtension
+
+code_coverage:
+  format:
+    - html
+    - clover
+  output:
+    html: build/phpspec-coverage
+    clover: build/phpspec-coverage.xml
