@@ -9,6 +9,10 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 - Update README with USAGE information for these packages:
     - ApiGen
     - symfony/var-dumper
+    - PHPMD
+    - PHP CodeSniffer
+    - phpcpd
+    - phploc
 - Add example configuration in `config/` directory for:
     - ApiGen (`config/apigen.yml`)
     - PHP_CodeSniffer (`config/phpcs.xml`)
