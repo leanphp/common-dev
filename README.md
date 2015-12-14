@@ -42,7 +42,40 @@ on your PHP version:
 
 ## Packages
 
-This package will trigger installation of the following packages:
+This package will trigger installation of various PHP [libraries](#Libraries) and [development tools](#Development Tools).
+
+### Libraries
+
+This is a list of PHP Libraries that this package installs:
+
+- [symfony/var-dumper](#var-dumper) **v3** - Advanced Variable Dumper by
+  Symfony project (`dump()` instead of `var_dump()`).
+- [mockery][210] **v0.9** - a simple yet flexible PHP mock object framework for
+  use in unit testing.
+- [prophecy][220] - highly opinionated mocking framework for PHP.
+- [alice][240] - Expressive Fixtures generator based on [faker][250].
+- [faker][250] - PHP Library to generate fake data for you.
+- [vfsStream][300] - Virtual file system to mock the real file system in unit
+  tests.
+- [PHPUnit](#PHPUnit) **v5** - The PHP Unit Testing framework.
+- [phpspec][800] **v2** - SpecBDD / BDD Testing framework for PHP with extensions:
+    - [phpspec-code-coverage][805] - Code Coverage for [phpspec][800].
+    - [phpspec-typehintedmethods][810] - Generate Typehinted methods
+    - [phpspec-exemplify-extension][820] - Add exemplify command to generate
+      example in [phpspec][800] specs.
+- [behat][900] **v3** - ScenarioBDD / BDD Testing framework for PHP, with
+  extensions:
+    - [behat/mink-extension][950] - [mink][400] extension for [behat][900].
+    - [behat/mink-goutte-driver][960] - [Goutte][450] driver for [mink][400].
+    - [behat/mink-browserkit-driver][970] - Symfony BrowserKit driver for
+      [mink][400].
+    - [rmiller/behat-spec][980] - [behat][900] and [phpspec][800] integration.
+- [mink][400] - Browser Emulator / Abstraction framework for PHP.
+
+
+### Development Tools
+
+This is a list of PHP Development Tools that this package installs:
 
 - [ApiGen](#ApiGen) **v4** - PHP Source Code API generator.
 - [PHPMD](#PHPMD) **v2** - PHP Mess Detector. Optimize your code, reduce
@@ -54,30 +87,6 @@ This package will trigger installation of the following packages:
   [PHP_CodeSniffer][130].
 - [phpcpd](#phpcpd) - Copy/Paste Detector (CPD) for PHP code.
 - [phploc](#phploc)- a tool that quickly measures the size of your PHP project.
-- [symfony/var-dumper](#var-dumper) **v3** - Advanced Variable Dumper by
-  Symfony project (`dump()` instead of `var_dump()`).
-- [PHPUnit][200] **v5** - The PHP Unit Testing framework.
-- [mockery][210] **v0.9** - a simple yet flexible PHP mock object framework for
-  use in unit testing.
-- [prophecy][220] - highly opinionated mocking framework for PHP.
-- [alice][240] - Expressive Fixtures generator based on [faker][250].
-- [faker][250] - PHP Library to generate fake data for you.
-- [vfsStream][300] - Virtual file system to mock the real file system in unit
-  tests.
-- [mink][400] - Browser Emulator / Abstraction framework for PHP.
-- [phpspec][800] **v2** - SpecBDD / BDD Testing framework for PHP.
-- [phpspec-code-coverage][805] - Code Coverage for [phpspec][800].
-  ([phpspec][800] extension).
-- [phpspec-typehintedmethods][810] - Generate Typehinted methods
-  ([phpspec][800] extension).
-- [phpspec-exemplify-extension][820] - Add exemplify command to generate
-  example in [phpspec][800] specs.
-  ([phpspec][800] extension).
-- [behat][900] **v3** - ScenarioBDD / BDD Testing framework for PHP.
-- [behat/mink-extension][950] - [mink][400] extension for [behat][900].
-- [behat/mink-goutte-driver][960] - [Goutte][450] driver for [mink][400].
-- [behat/mink-browserkit-driver][970] - Symfony2 BrowserKit driver for
-  [mink][400].
 
 ## Usage
 
@@ -209,6 +218,34 @@ anywhere in your code:
 **Note!** Try executing the example snippet above in the console AND then
 browser to see the differences.
 
+### PHPUnit
+
+[PHPUnit][200] is The PHP Unit Testing framework. It's an industry proven and
+standard unit testing framework for PHP. If you prefer to do simple TDD instead
+of BDD - [behat][900] (StoryBDD) or [phpspec][800] (SpecBDD), then this is your
+test tool of choice.
+
+In order to setup PHPUnit for your project, you can use example
+[phpunit.xml](config/phpunit.xml) configuration file.
+
+Copy it to the root of your project:
+
+    $ cp vendor/leanphp/common-dev/config/phpunit.xml phpunit.xml
+
+If your tests are NOT stored in `tests/` directory, adjust the `<testsuites>`
+tag in `phpunit.xml`. The file provides additional comments and settings that
+can be useful when setting up PHPUnit for your project PHP package.
+
+Run PHPUnit tests:
+
+    $ bin/phpunit
+
+PHPUnit will generate various reports (defaults to `build/` directory), which
+can be used by various tools when analyzing your code and tests (i.e. test code
+coverage generation).
+
+For more information check [PHPUnit Documentation][201].
+
 ## Configuration
 
 You can find example configuration files for the tools and libraries in
@@ -257,6 +294,7 @@ Licensed under [MIT License](LICENSE).
 [150]: https://github.com/sebastianbergmann/phpcpd
 [160]: https://github.com/sebastianbergmann/phploc
 [200]: https://phpunit.de
+[201]: https://phpunit.de/documentation.html
 [210]: https://github.com/padraic/mockery
 [220]: https://github.com/phpspec/prophecy
 [240]: https://github.com/nelmio/alice
@@ -272,4 +310,4 @@ Licensed under [MIT License](LICENSE).
 [950]: http://extensions.behat.org/mink
 [960]: https://github.com/minkphp/MinkGoutteDriver
 [970]: https://github.com/minkphp/MinkBrowserKitDriver
-
+[980]: https://github.com/richardmiller/BehatSpec
