@@ -54,7 +54,7 @@ This package will trigger installation of the following packages:
   automatically correct violations of a defined coding standard.
 - [phpcs-symfony2-standard][140] - Symfony2 Coding Standard configuration for
   [PHP_CodeSniffer][130].
-- [phpcpd][150] - Copy/Paste Detector (CPD) for PHP code.
+- [phpcpd](#phpcpd) - Copy/Paste Detector (CPD) for PHP code.
 - [phploc][160] - a tool that quickly measures the size of your PHP project.
 - [PHPUnit][200] **v5** - The PHP Unit Testing framework.
 - [mockery][210] **v0.9** - a simple yet flexible PHP mock object framework for
@@ -169,7 +169,7 @@ code consistent, especially when there are multiple developers working on one
 project. It is also helpful when working alone as it will make you write more
 consistent code.
 
-It is best to use example [phpcs.xml](config/phpcs.xml) configuration file as it has a Symfony based code standard defined, which will give you a good start.
+It is best to use example [phpcs.xml](config/phpcs.xml) configuration file as it has a Symfony based coding standard defined, which will give you a good start.
 
 Copy the example config to the root of your project:
 
@@ -187,6 +187,17 @@ PHP CodeSniffer also includes a tool which allows you to fix many of these
 violations automatically:
 
     $ bin/phpcbf
+
+### phpcpd
+
+[phpcpd][150] is a Copy/Paste Detector (CPD) for PHP code. It allows you to
+scan your PHP files and detect duplicate code (likely a Copy/Paste). This is
+a code that likely needs refactoring. It's a great tool to improve the quality
+of your code.
+
+To scan `src/` directory and detect problematic areas in your code:
+
+    $ bin/phpcpd src/
 
 ## Configuration
 
