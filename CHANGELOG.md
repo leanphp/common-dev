@@ -16,6 +16,8 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
     - PHPUnit (`config/phpunit.xml`)
     - phpspec (`config/phpspec.yml`)
     - behat (`config/behat.yml`)
+- Remove:
+    - vipsoft/code-coverage-extension (behat) (OUTDATED)
 
 ## 5.6.5 / 2015-12-01
 

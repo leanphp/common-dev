@@ -38,7 +38,6 @@
         "rmiller/exemplify-extension": "~0.2",
         "rmiller/behat-spec": "~0.3",
         "behat/behat": "~3.0",
-        "vipsoft/code-coverage-extension": "3.0.x-dev",
         "behat/mink": "~1.7",
         "behat/mink-extension": "~2.1",
         "behat/mink-goutte-driver": "~1.2",

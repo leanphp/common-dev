@@ -74,7 +74,6 @@ This package will trigger installation of the following packages:
   example in [phpspec][800] specs.
   ([phpspec][800] extension).
 - [behat][900] **v3** - ScenarioBDD / BDD Testing framework for PHP.
-- [vipsoft/code-coverage-extension][910] - Code Coverage for [behat][900].
 - [behat/mink-extension][950] - [mink][400] extension for [behat][900].
 - [behat/mink-goutte-driver][960] - [Goutte][450] driver for [mink][400].
 - [behat/mink-browserkit-driver][970] - Symfony2 BrowserKit driver for
@@ -191,7 +190,6 @@ Licensed under [MIT License](LICENSE).
 [810]: http://github.com/ciaranmcnulty/phpspec-typehintedmethods
 [820]: https://github.com/richardmiller/ExemplifyExtension
 [900]: http://behat.org
-[910]: https://github.com/vipsoft/code-coverage-extension
 [950]: http://extensions.behat.org/mink
 [960]: https://github.com/minkphp/MinkGoutteDriver
 [970]: https://github.com/minkphp/MinkBrowserKitDriver
