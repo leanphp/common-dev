@@ -15,8 +15,10 @@ These tools help you write **well-tested** functional & **OOP** code ([TDD][3],
 [Packagist][6] by using [composer][7].
 
 See [Packages](#Packages) for a list of packages that this meta-package
-provides. We also provide [example configuration files](#Configuration) for the
-dependant packages (`config/` directory).
+provides. [Usage](#Usage) section covers information regarding various tools
+and libraries. Additionally, we provide [example configuration
+files](#Configuration) for various tools that this package provides (`config/`
+directory).
 
 ## Install
 
@@ -42,7 +44,7 @@ on your PHP version:
 
 This package will trigger installation of the following packages:
 
-- [apigen][100] **v4** - PHP Source Code API generator.
+- [ApiGen](#ApiGen) **v4** - PHP Source Code API generator.
 - [symfony/var-dumper][110] **v3** - Advanced Variable Dumper by Symfony project
   (`dump()` instead of `var_dump()`).
 - [PHPMD][120] **v2** - PHP Mess Detector. Optimize your code, reduce
@@ -78,12 +80,44 @@ This package will trigger installation of the following packages:
 - [behat/mink-browserkit-driver][970] - Symfony2 BrowserKit driver for
   [mink][400].
 
-## Configuration
+## Usage
+
+**Note!** When executing command we will use `bin/command` as an example. This
+requires `bin-dir` parameter set in `composer.json` of your project:
+
+```js
+    "config": {
+        "bin-dir": "bin"
+    },
+```
+
+If `bin-dir` is not set, use `./vendor/bin` prefix when running command line tools.
+
+### ApiGen
+
+[ApiGen][100] is a PHP Source Code API generator, which generated class
+reference files in HTML format for your source code. The generated reference
+files are useful for developer to familiarize with API of your PHP classes.
+
+It is best to use example [apigen.yaml](config/apigen.yaml) configuration file.
+Copy it to the root of your project:
+
+    $ cp vendor/leanphp/common-dev/config/apigen.yml apigen.yml
+
+If your source code is NOT stored in `src/` directory, adjust the `source` parameter in `apigen.yml`.
+
+Generate the API:
+
+    $ bin/apigen generate
+
+The HTML files will be generated in `build/docs` directory, which is configured via `destination` parameter in `apigen.yml`.
+
+### Configuration
 
 You can find example configuration files for the tools and libraries in
 `config/` directory. Included example config files:
 
-- [apigen.yaml](config/apigen.yaml) - [ApiGen][100] example config.
+- [apigen.yaml](config/apigen.yaml) - [ApiGen](#ApiGen) example config.
 - [phpcs.xml](config/phpcs.xml) - [PHP_CodeSniffer][130] Coding Standard config.
 - [phpmd.xml](config/phpmd.xml) - [PHPMD][120] example config.
 - [phpunit.xml](config/phpunit.xml) - [PHPUnit][200] example config.
