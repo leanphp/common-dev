@@ -49,8 +49,8 @@ This package will trigger installation of the following packages:
   Symfony project (`dump()` instead of `var_dump()`).
 - [PHPMD](#PHPMD) **v2** - PHP Mess Detector. Optimize your code, reduce
   complexity, cleanup unused parameters, methods, variables & more.
-- [PHP_CodeSniffer][130] **v2** - PHP Code Sniffer ensures that your code
-  remains clean and consistent. It is a set of scripts to detect and
+- [PHP_CodeSniffer](#PHP CodeSniffer) **v2** - PHP Code Sniffer ensures that
+  your code remains clean and consistent. It is a set of scripts to detect and
   automatically correct violations of a defined coding standard.
 - [phpcs-symfony2-standard][140] - Symfony2 Coding Standard configuration for
   [PHP_CodeSniffer][130].
@@ -160,14 +160,43 @@ directory, but using `phpmd.xml` ruleset:
 **Note!** Consult [PHPMD Documentation on Rules][121] when customizing
 `phpmd.xml` for your project!
 
+### PHP CodeSniffer
+
+[PHP_CodeSniffer][130](#PHP CodeSniffer) ensures that your code remains clean
+and consistent. It is a set of scripts to detect and automatically correct
+violations of a defined coding standard. It is extremely useful to keep the
+code consistent, especially when there are multiple developers working on one
+project. It is also helpful when working alone as it will make you write more
+consistent code.
+
+It is best to use example [phpcs.xml](config/phpcs.xml) configuration file as it has a Symfony based code standard defined, which will give you a good start.
+
+Copy the example config to the root of your project:
+
+    $ cp vendor/leanphp/common-dev/config/phpcs.xml phpcs.xml
+
+If your source code is NOT stored in `src/` directory, adjust the `<file>` tag
+in `phpcs.xml`. Additionally, make sure that any test or build directories are
+excluded (via `<exclude-pattern>` tag).
+
+To get a list of coding standard violations, Run PHP CodeSniffer tool:
+
+    $ bin/phpcs
+
+PHP CodeSniffer also includes a tool which allows you to fix many of these
+violations automatically:
+
+    $ bin/phpcbf
+
 ## Configuration
 
 You can find example configuration files for the tools and libraries in
 `config/` directory. Included example config files:
 
 - [apigen.yaml](config/apigen.yaml) - [ApiGen](#ApiGen) example config.
-- [phpcs.xml](config/phpcs.xml) - [PHP_CodeSniffer][130] Coding Standard config.
-- [phpmd.xml](config/phpmd.xml) - [PHPMD][120] example config.
+- [phpcs.xml](config/phpcs.xml) - [PHP_CodeSniffer](#PHP CodeSniffer) Coding
+  Standard config.
+- [phpmd.xml](config/phpmd.xml) - [PHPMD](#PHPMD) example config.
 - [phpunit.xml](config/phpunit.xml) - [PHPUnit][200] example config.
 - [phpspec.yml](config/phpspec.yml) - [phpspec][800] example config.
 - [behat.yml](config/behat.yml) - [behat][900] example config.
