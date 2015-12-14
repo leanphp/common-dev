@@ -45,8 +45,6 @@ on your PHP version:
 This package will trigger installation of the following packages:
 
 - [ApiGen](#ApiGen) **v4** - PHP Source Code API generator.
-- [symfony/var-dumper](#var-dumper) **v3** - Advanced Variable Dumper by
-  Symfony project (`dump()` instead of `var_dump()`).
 - [PHPMD](#PHPMD) **v2** - PHP Mess Detector. Optimize your code, reduce
   complexity, cleanup unused parameters, methods, variables & more.
 - [PHP_CodeSniffer](#PHP CodeSniffer) **v2** - PHP Code Sniffer ensures that
@@ -56,6 +54,8 @@ This package will trigger installation of the following packages:
   [PHP_CodeSniffer][130].
 - [phpcpd](#phpcpd) - Copy/Paste Detector (CPD) for PHP code.
 - [phploc](#phploc)- a tool that quickly measures the size of your PHP project.
+- [symfony/var-dumper](#var-dumper) **v3** - Advanced Variable Dumper by
+  Symfony project (`dump()` instead of `var_dump()`).
 - [PHPUnit][200] **v5** - The PHP Unit Testing framework.
 - [mockery][210] **v0.9** - a simple yet flexible PHP mock object framework for
   use in unit testing.
@@ -110,27 +110,6 @@ Generate the API:
     $ bin/apigen generate
 
 The HTML files will be generated in `build/docs` directory, which is configured via `destination` parameter in `apigen.yml`.
-
-### var-dumper
-
-[symfony/var-dumper][110] is an Advanced Variable Dumper by  Symfony project.
-It provides developer with `dump()` function which is a better alternative to
-`var_dump()` or `print_r()`. It provides well formatted output, which adapt
-depending on context (console, browser) and packs nice additional features.
-
-This package add **global function** `dump()`, which can be called from
-anywhere in your code:
-
-```php
-    <?php
-    require 'vendor/autoload.php';
-
-    $date = new \DateTime()
-    dump($date)
-```
-
-**Note!** Try executing the example snippet above in the console AND then
-browser to see the differences.
 
 ### PHPMD
 
@@ -208,6 +187,27 @@ about it (such as number of Classes, Methods, Variables etc.).
 In order to scan source code directory `src/`:
 
     $ bin/phploc src/
+
+### var-dumper
+
+[symfony/var-dumper][110] is an Advanced Variable Dumper by  Symfony project.
+It provides developer with `dump()` function which is a better alternative to
+`var_dump()` or `print_r()`. It provides well formatted output, which adapt
+depending on context (console, browser) and packs nice additional features.
+
+This package add **global function** `dump()`, which can be called from
+anywhere in your code:
+
+```php
+    <?php
+    require 'vendor/autoload.php';
+
+    $date = new \DateTime()
+    dump($date)
+```
+
+**Note!** Try executing the example snippet above in the console AND then
+browser to see the differences.
 
 ## Configuration
 
