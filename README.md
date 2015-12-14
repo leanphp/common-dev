@@ -55,7 +55,7 @@ This package will trigger installation of the following packages:
 - [phpcs-symfony2-standard][140] - Symfony2 Coding Standard configuration for
   [PHP_CodeSniffer][130].
 - [phpcpd](#phpcpd) - Copy/Paste Detector (CPD) for PHP code.
-- [phploc][160] - a tool that quickly measures the size of your PHP project.
+- [phploc](#phploc)- a tool that quickly measures the size of your PHP project.
 - [PHPUnit][200] **v5** - The PHP Unit Testing framework.
 - [mockery][210] **v0.9** - a simple yet flexible PHP mock object framework for
   use in unit testing.
@@ -198,6 +198,16 @@ of your code.
 To scan `src/` directory and detect problematic areas in your code:
 
     $ bin/phpcpd src/
+
+### phploc
+
+[phploc][160] is a tool that quickly measures the size of your PHP project. It
+scans the structure of your PHP Source Code and returns various statistics
+about it (such as number of Classes, Methods, Variables etc.).
+
+In order to scan source code directory `src/`:
+
+    $ bin/phploc src/
 
 ## Configuration
 
