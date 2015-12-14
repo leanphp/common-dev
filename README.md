@@ -47,7 +47,7 @@ This package will trigger installation of the following packages:
 - [ApiGen](#ApiGen) **v4** - PHP Source Code API generator.
 - [symfony/var-dumper](#var-dumper) **v3** - Advanced Variable Dumper by
   Symfony project (`dump()` instead of `var_dump()`).
-- [PHPMD][120] **v2** - PHP Mess Detector. Optimize your code, reduce
+- [PHPMD](#PHPMD) **v2** - PHP Mess Detector. Optimize your code, reduce
   complexity, cleanup unused parameters, methods, variables & more.
 - [PHP_CodeSniffer][130] **v2** - PHP Code Sniffer ensures that your code
   remains clean and consistent. It is a set of scripts to detect and
@@ -132,7 +132,35 @@ anywhere in your code:
 **Note!** Try executing the example snippet above in the console AND then
 browser to see the differences.
 
-### Configuration
+### PHPMD
+
+[PHPMD][120] (PHP Mess Detector) is a code optimizer, which scans your code for
+complexity, unused parameters, methods. It helps developers optimize their PHP
+code. It can also point out more problematic areas of your code, that need
+refactoring or are too complex. It's a great tool in any PHP developers
+toolbox.
+
+PHP Mess Detector is highly configurable and you can define different [rulese][121].
+It is best to use example [phpmd.xml](config/phpmd.xml) configuration file,
+which has all of them enabled and customize from there.
+
+Copy it to the root of your project:
+
+    $ cp vendor/leanphp/common-dev/config/phpmd.xml phpmd.xml
+
+PHPMD is run via console:
+
+    $ bin/phpmd <SOURCE_DIR> <FORMAT> <RULESET_FILENAME>
+
+You can generate a text formatted report for your source code in `src/`
+directory, but using `phpmd.xml` ruleset:
+
+    $ bin/phpmd src/ text phpmd.xml
+
+**Note!** Consult [PHPMD Documentation on Rules][121] when customizing
+`phpmd.xml` for your project!
+
+## Configuration
 
 You can find example configuration files for the tools and libraries in
 `config/` directory. Included example config files:
@@ -173,6 +201,7 @@ Licensed under [MIT License](LICENSE).
 [100]: http://apigen.org
 [110]: https://github.com/symfony/var-dumper
 [120]: https://phpmd.org
+[121]: https://phpmd.org/rules/index.html
 [130]: https://pear.php.net/package/PHP_CodeSniffer
 [140]: https://github.com/leaphub/phpcs-symfony2-standard
 [150]: https://github.com/sebastianbergmann/phpcpd
