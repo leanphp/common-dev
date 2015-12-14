@@ -6,6 +6,13 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 - Update php_codesniffer from `~2.4` to `~2.5`
 - Update behat-spec from `~0.1` to `~0.3`
+- Add example configuration in `config/` directory for:
+    - ApiGen (`config/apigen.yml`)
+    - PHP_CodeSniffer (`config/phpcs.xml`)
+    - PHPMD (`config/phpmd.xml`)
+    - PHPUnit (`config/phpunit.xml`)
+    - phpspec (`config/phpspec.yml`)
+    - behat (`config/behat.yml`)
 
 ## 5.6.5 / 2015-12-01
 
