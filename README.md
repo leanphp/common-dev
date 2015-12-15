@@ -63,7 +63,7 @@ This is a list of PHP Libraries that this package installs:
     - [phpspec-typehintedmethods][810] - Generate Typehinted methods
     - [phpspec-exemplify-extension][820] - Add exemplify command to generate
       example in [PHPSpec][800] specs.
-- [behat][900] **v3** - ScenarioBDD / BDD Testing framework for PHP, with
+- [behat](#Behat) **v3** - ScenarioBDD / BDD Testing framework for PHP, with
   extensions:
     - [behat/mink-extension][950] - [mink][400] extension for [behat][900].
     - [behat/mink-goutte-driver][960] - [Goutte][450] driver for [mink][400].
@@ -293,6 +293,33 @@ PHPSpec will fail the test, but will ask you to generate the classes for you.
 
 For more information check [PHPSpec Documentation page][801].
 
+### Behat
+
+[behat][900] is a ScenarioBDD / BDD Testing framework for PHP. It allows you to
+define your tests in human readable scenario format, based on gherkin language.
+It offers a very basic, yet effective test scenario structure. It has became
+a standard ScenarioBDD/BDD tool for PHP. It integrated well with
+[PHPSpec](#PHPSpec) and [Mink](#Mink). The latter makes it perfect for
+**functional testing**.
+
+In order to setup Behat for your project, you can use example
+[behat.yml](config/behat.yml) configuration file.
+
+Copy it to the root of your project:
+
+    $ cp vendor/leanphp/common-dev/config/behat.yml behat.yml
+
+The configuration file will enable all the Behat extensions that come
+installed with this package and will also integrate it with
+[PHPSpec](#PHPSpec).
+
+**Note!** The default configuration uses [mink-goutte-driver][960] extension by
+default. If you want integration with Symfony based project, switch to
+[mink-browserkit-driver][870].
+
+For more information check [Behat Quick Start][902] and consult [Behat
+Documentation page][901].
+
 ## Configuration
 
 You can find example configuration files for the tools and libraries in
@@ -355,6 +382,8 @@ Licensed under [MIT License](LICENSE).
 [810]: http://github.com/ciaranmcnulty/phpspec-typehintedmethods
 [820]: https://github.com/richardmiller/ExemplifyExtension
 [900]: http://behat.org
+[901]: http://behat.org/en/latest/guides.html
+[902]: http://behat.org/en/latest/quick_start.html
 [950]: http://extensions.behat.org/mink
 [960]: https://github.com/minkphp/MinkGoutteDriver
 [970]: https://github.com/minkphp/MinkBrowserKitDriver
