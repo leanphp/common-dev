@@ -58,18 +58,18 @@ This is a list of PHP Libraries that this package installs:
 - [vfsStream][300] - Virtual file system to mock the real file system in unit
   tests.
 - [PHPUnit](#PHPUnit) **v5** - The PHP Unit Testing framework.
-- [phpspec][800] **v2** - SpecBDD / BDD Testing framework for PHP with extensions:
-    - [phpspec-code-coverage][805] - Code Coverage for [phpspec][800].
+- [PHPSpec](#PHPSpec) **v2** - SpecBDD / BDD Testing framework for PHP with extensions:
+    - [phpspec-code-coverage][805] - Code Coverage for [PHPSpec][800].
     - [phpspec-typehintedmethods][810] - Generate Typehinted methods
     - [phpspec-exemplify-extension][820] - Add exemplify command to generate
-      example in [phpspec][800] specs.
+      example in [PHPSpec][800] specs.
 - [behat][900] **v3** - ScenarioBDD / BDD Testing framework for PHP, with
   extensions:
     - [behat/mink-extension][950] - [mink][400] extension for [behat][900].
     - [behat/mink-goutte-driver][960] - [Goutte][450] driver for [mink][400].
     - [behat/mink-browserkit-driver][970] - Symfony BrowserKit driver for
       [mink][400].
-    - [rmiller/behat-spec][980] - [behat][900] and [phpspec][800] integration.
+    - [rmiller/behat-spec][980] - [behat][900] and [PHPSpec][800] integration.
 - [mink][400] - Browser Emulator / Abstraction framework for PHP.
 
 
@@ -222,7 +222,7 @@ browser to see the differences.
 
 [PHPUnit][200] is The PHP Unit Testing framework. It's an industry proven and
 standard unit testing framework for PHP. If you prefer to do simple TDD instead
-of BDD - [behat][900] (StoryBDD) or [phpspec][800] (SpecBDD), then this is your
+of BDD - [behat][900] (StoryBDD) or [PHPSpec][800] (SpecBDD), then this is your
 test tool of choice.
 
 In order to setup PHPUnit for your project, you can use example
@@ -245,6 +245,53 @@ can be used by various tools when analyzing your code and tests (i.e. test code
 coverage generation).
 
 For more information check [PHPUnit Documentation][201].
+
+### PHPSpec
+
+[PHPSpec][800] is a SpecBDD ([BDD][4]) Testing framework for PHP. It is
+specification oriented testing framework. It allows you to define your tests,
+which then are used to generate PHP Classes, based on the defined
+specification. PHPSpec is also great for unit testing.
+
+In order to setup PHPSpec for your project, you can use example
+[phpspec.yml](config/phpspec.yml) configuration file.
+
+Copy it to the root of your project:
+
+    $ cp vendor/leanphp/common-dev/config/phpspec.yml phpspec.yml
+
+The configuration file will enable all the PHPSpec extensions that come
+installed with this package.
+
+**Note!** Due to PSR-4 you have to set the default PSR-4 namespace in
+`phpspec.yml` which is set to `LeanPHP\Common` in the example `phpspec.yml`.
+**Make sure to change it to your package's namespace!**.
+
+Write your first spec file `spec/ClassSpec.php`:
+
+```php
+<?php
+
+namespace spec\LeanPHP\Common;
+
+use PhpSpec\ObjectBehavior;
+
+class ClassSpec extends ObjectBehavior
+{
+    function it_can_say_hello()
+    {
+        $this->say('hello')->shouldReturn('hello');
+    }
+}
+```
+
+Run PHPSpec to generate the class, based on the defined specification:
+
+    $ bin/phpspec run
+
+PHPSpec will fail the test, but will ask you to generate the classes for you.
+
+For more information check [PHPSpec Documentation page][801].
 
 ## Configuration
 
@@ -303,6 +350,7 @@ Licensed under [MIT License](LICENSE).
 [400]: http://mink.behat.org
 [450]: https://github.com/FriendsOfPHP/Goutte
 [800]: http://www.phpspec.net
+[801]: http://www.phpspec.net/en/stable/manual/introduction.html
 [805]: https://github.com/henrikbjorn/PhpSpecCodeCoverageExtension
 [810]: http://github.com/ciaranmcnulty/phpspec-typehintedmethods
 [820]: https://github.com/richardmiller/ExemplifyExtension
