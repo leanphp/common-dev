@@ -65,12 +65,12 @@ This is a list of PHP Libraries that this package installs:
       example in [PHPSpec][800] specs.
 - [behat](#Behat) **v3** - ScenarioBDD / BDD Testing framework for PHP, with
   extensions:
-    - [behat/mink-extension][950] - [mink][400] extension for [behat][900].
-    - [behat/mink-goutte-driver][960] - [Goutte][450] driver for [mink][400].
+    - [behat/mink-extension][950] - [Mink][400] extension for [behat][900].
+    - [behat/mink-goutte-driver][960] - [Goutte][450] driver for [Mink][400].
     - [behat/mink-browserkit-driver][970] - Symfony BrowserKit driver for
-      [mink][400].
+      [Mink][400].
     - [rmiller/behat-spec][980] - [behat][900] and [PHPSpec][800] integration.
-- [mink][400] - Browser Emulator / Abstraction framework for PHP.
+- [Mink](#Mink) - Browser Emulator / Abstraction framework for PHP.
 
 
 ### Development Tools
@@ -320,6 +320,18 @@ default. If you want integration with Symfony based project, switch to
 For more information check [Behat Quick Start][902] and consult [Behat
 Documentation page][901].
 
+### Mink
+
+[Mink][400] is a Browser Emulator / Abstraction framework for PHP. It allows
+you to simulate a browser in your tests. It's functionality is based on
+different drivers that it supports. It is able to integrate with
+[Selenium][460], [Goutte][450] and other browsers to run your tests with. While
+it can be used as a standalone tool, it is a core part of [Behat](#Behat) and
+it does not require any special configuration, besides what is covered in
+[Behat](#Behat) section.
+
+For more information check [Mink Homepage][400].
+
 ## Configuration
 
 You can find example configuration files for the tools and libraries in
@@ -376,6 +388,7 @@ Licensed under [MIT License](LICENSE).
 [300]: https://github.com/mikey179/vfsStream
 [400]: http://mink.behat.org
 [450]: https://github.com/FriendsOfPHP/Goutte
+[460]: http://docs.seleniumhq.org
 [800]: http://www.phpspec.net
 [801]: http://www.phpspec.net/en/stable/manual/introduction.html
 [805]: https://github.com/henrikbjorn/PhpSpecCodeCoverageExtension
