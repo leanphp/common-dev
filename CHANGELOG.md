@@ -6,13 +6,20 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 - Update php_codesniffer from `~2.4` to `~2.5`
 - Update behat-spec from `~0.1` to `~0.3`
+- Update README #Packages and #Usage sections to split the dependencies in 2 groups:
+    - Libraries - for general purpose PHP libraries, testing frameworks etc.
+    - Development Tools - for development tools and command line applications.
 - Update README with USAGE information for these packages:
-    - ApiGen
-    - symfony/var-dumper
-    - PHPMD
-    - PHP CodeSniffer
-    - phpcpd
-    - phploc
+    - Libraries:
+        - symfony/var-dumper
+        - Mockery
+        - Prophecy
+    - Development Tools:
+        - ApiGen
+        - PHPMD
+        - PHP CodeSniffer
+        - phpcpd
+        - phploc
 - Add example configuration in `config/` directory for:
     - ApiGen (`config/apigen.yml`)
     - PHP_CodeSniffer (`config/phpcs.xml`)
