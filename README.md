@@ -52,7 +52,7 @@ This is a list of PHP Libraries that this package installs:
   Symfony project (`dump()` instead of `var_dump()`).
 - [Mockery](#Mockery) **v0.9** - a simple yet flexible PHP mock object framework for
   use in unit testing.
-- [prophecy][220] - highly opinionated mocking framework for PHP.
+- [Prophecy](#Prophecy) - highly opinionated mocking framework for PHP.
 - [alice][240] - Expressive Fixtures generator based on [faker][250].
 - [faker][250] - PHP Library to generate fake data for you.
 - [vfsStream][300] - Virtual file system to mock the real file system in unit
@@ -125,9 +125,26 @@ browser to see the differences.
 
 #### Mockery
 
-[Mockery][210] is a simple yet flexible PHP mock object framework for use in unit testing with [PHPSpec](#PHPSpec) or [PHPUnit](#PHPUnit).
+[Mockery][210] is a simple yet flexible PHP mock object framework for use in
+unit testing with [PHPSpec](#PHPSpec) or [PHPUnit](#PHPUnit). It allows you to
+mock objects in tests, so the tests run faster and do not have to initialize
+the dependencies directly. For an alternative approach, make sure to check
+[Prophecy](#Prophecy).
+
+Mockery is integrated with [PHPUnit](#PHPUnit), but can be used with any
+testing framework.
 
 For more information check [Mockery Documentation page][211].
+
+#### Prophecy
+
+[Prophecy][220] is a highly opinionated mocking framework for PHP. It was
+initially created for [PHPSpec](#PHPSpec) needs but it is flexible to be used
+in any testing framework ([PHPUnit](#PHPUnit), [Behat](#Behat)). It approaches
+testing from a different angle than [Mockery](#Mockery) because it concentrates
+on describing the future behaviour of objects, instead of mocking them.
+
+For more information check [Prophecy Repository on Github][220].
 
 #### PHPUnit
 
