@@ -50,7 +50,7 @@ This is a list of PHP Libraries that this package installs:
 
 - [symfony/var-dumper](#var-dumper) **v3** - Advanced Variable Dumper by
   Symfony project (`dump()` instead of `var_dump()`).
-- [mockery][210] **v0.9** - a simple yet flexible PHP mock object framework for
+- [Mockery](#Mockery) **v0.9** - a simple yet flexible PHP mock object framework for
   use in unit testing.
 - [prophecy][220] - highly opinionated mocking framework for PHP.
 - [alice][240] - Expressive Fixtures generator based on [faker][250].
@@ -71,7 +71,6 @@ This is a list of PHP Libraries that this package installs:
       [Mink][400].
     - [rmiller/behat-spec][980] - [behat][900] and [PHPSpec][800] integration.
 - [Mink](#Mink) - Browser Emulator / Abstraction framework for PHP.
-
 
 ### Development Tools
 
@@ -101,103 +100,9 @@ requires `bin-dir` parameter set in `composer.json` of your project:
 
 If `bin-dir` is not set, use `./vendor/bin` prefix when running command line tools.
 
-### ApiGen
+### Libraries
 
-[ApiGen][100] is a PHP Source Code API generator, which generated class
-reference files in HTML format for your source code. The generated reference
-files are useful for developer to familiarize with API of your PHP classes.
-
-It is best to use example [apigen.yaml](config/apigen.yaml) configuration file.
-Copy it to the root of your project:
-
-    $ cp vendor/leanphp/common-dev/config/apigen.yml apigen.yml
-
-If your source code is NOT stored in `src/` directory, adjust the `source` parameter in `apigen.yml`.
-
-Generate the API:
-
-    $ bin/apigen generate
-
-The HTML files will be generated in `build/docs` directory, which is configured via `destination` parameter in `apigen.yml`.
-
-### PHPMD
-
-[PHPMD][120] (PHP Mess Detector) is a code optimizer, which scans your code for
-complexity, unused parameters, methods. It helps developers optimize their PHP
-code. It can also point out more problematic areas of your code, that need
-refactoring or are too complex. It's a great tool in any PHP developers
-toolbox.
-
-PHP Mess Detector is highly configurable and you can define different [rulese][121].
-It is best to use example [phpmd.xml](config/phpmd.xml) configuration file,
-which has all of them enabled and customize from there.
-
-Copy it to the root of your project:
-
-    $ cp vendor/leanphp/common-dev/config/phpmd.xml phpmd.xml
-
-PHPMD is run via console:
-
-    $ bin/phpmd <SOURCE_DIR> <FORMAT> <RULESET_FILENAME>
-
-You can generate a text formatted report for your source code in `src/`
-directory, but using `phpmd.xml` ruleset:
-
-    $ bin/phpmd src/ text phpmd.xml
-
-**Note!** Consult [PHPMD Documentation on Rules][121] when customizing
-`phpmd.xml` for your project!
-
-### PHP CodeSniffer
-
-[PHP_CodeSniffer][130](#PHP CodeSniffer) ensures that your code remains clean
-and consistent. It is a set of scripts to detect and automatically correct
-violations of a defined coding standard. It is extremely useful to keep the
-code consistent, especially when there are multiple developers working on one
-project. It is also helpful when working alone as it will make you write more
-consistent code.
-
-It is best to use example [phpcs.xml](config/phpcs.xml) configuration file as it has a Symfony based coding standard defined, which will give you a good start.
-
-Copy the example config to the root of your project:
-
-    $ cp vendor/leanphp/common-dev/config/phpcs.xml phpcs.xml
-
-If your source code is NOT stored in `src/` directory, adjust the `<file>` tag
-in `phpcs.xml`. Additionally, make sure that any test or build directories are
-excluded (via `<exclude-pattern>` tag).
-
-To get a list of coding standard violations, Run PHP CodeSniffer tool:
-
-    $ bin/phpcs
-
-PHP CodeSniffer also includes a tool which allows you to fix many of these
-violations automatically:
-
-    $ bin/phpcbf
-
-### phpcpd
-
-[phpcpd][150] is a Copy/Paste Detector (CPD) for PHP code. It allows you to
-scan your PHP files and detect duplicate code (likely a Copy/Paste). This is
-a code that likely needs refactoring. It's a great tool to improve the quality
-of your code.
-
-To scan `src/` directory and detect problematic areas in your code:
-
-    $ bin/phpcpd src/
-
-### phploc
-
-[phploc][160] is a tool that quickly measures the size of your PHP project. It
-scans the structure of your PHP Source Code and returns various statistics
-about it (such as number of Classes, Methods, Variables etc.).
-
-In order to scan source code directory `src/`:
-
-    $ bin/phploc src/
-
-### var-dumper
+#### var-dumper
 
 [symfony/var-dumper][110] is an Advanced Variable Dumper by  Symfony project.
 It provides developer with `dump()` function which is a better alternative to
@@ -218,7 +123,13 @@ anywhere in your code:
 **Note!** Try executing the example snippet above in the console AND then
 browser to see the differences.
 
-### PHPUnit
+#### Mockery
+
+[Mockery][210] is a simple yet flexible PHP mock object framework for use in unit testing with [PHPSpec](#PHPSpec) or [PHPUnit](#PHPUnit).
+
+For more information check [Mockery Documentation page][211].
+
+#### PHPUnit
 
 [PHPUnit][200] is The PHP Unit Testing framework. It's an industry proven and
 standard unit testing framework for PHP. If you prefer to do simple TDD instead
@@ -246,7 +157,7 @@ coverage generation).
 
 For more information check [PHPUnit Documentation][201].
 
-### PHPSpec
+#### PHPSpec
 
 [PHPSpec][800] is a SpecBDD ([BDD][4]) Testing framework for PHP. It is
 specification oriented testing framework. It allows you to define your tests,
@@ -293,7 +204,7 @@ PHPSpec will fail the test, but will ask you to generate the classes for you.
 
 For more information check [PHPSpec Documentation page][801].
 
-### Behat
+#### Behat
 
 [behat][900] is a ScenarioBDD / BDD Testing framework for PHP. It allows you to
 define your tests in human readable scenario format, based on gherkin language.
@@ -320,7 +231,7 @@ default. If you want integration with Symfony based project, switch to
 For more information check [Behat Quick Start][902] and consult [Behat
 Documentation page][901].
 
-### Mink
+#### Mink
 
 [Mink][400] is a Browser Emulator / Abstraction framework for PHP. It allows
 you to simulate a browser in your tests. It's functionality is based on
@@ -331,6 +242,104 @@ it does not require any special configuration, besides what is covered in
 [Behat](#Behat) section.
 
 For more information check [Mink Homepage][400].
+
+### Development Tools
+
+#### ApiGen
+
+[ApiGen][100] is a PHP Source Code API generator, which generated class
+reference files in HTML format for your source code. The generated reference
+files are useful for developer to familiarize with API of your PHP classes.
+
+It is best to use example [apigen.yaml](config/apigen.yaml) configuration file.
+Copy it to the root of your project:
+
+    $ cp vendor/leanphp/common-dev/config/apigen.yml apigen.yml
+
+If your source code is NOT stored in `src/` directory, adjust the `source` parameter in `apigen.yml`.
+
+Generate the API:
+
+    $ bin/apigen generate
+
+The HTML files will be generated in `build/docs` directory, which is configured via `destination` parameter in `apigen.yml`.
+
+#### PHPMD
+
+[PHPMD][120] (PHP Mess Detector) is a code optimizer, which scans your code for
+complexity, unused parameters, methods. It helps developers optimize their PHP
+code. It can also point out more problematic areas of your code, that need
+refactoring or are too complex. It's a great tool in any PHP developers
+toolbox.
+
+PHP Mess Detector is highly configurable and you can define different [rulese][121].
+It is best to use example [phpmd.xml](config/phpmd.xml) configuration file,
+which has all of them enabled and customize from there.
+
+Copy it to the root of your project:
+
+    $ cp vendor/leanphp/common-dev/config/phpmd.xml phpmd.xml
+
+PHPMD is run via console:
+
+    $ bin/phpmd <SOURCE_DIR> <FORMAT> <RULESET_FILENAME>
+
+You can generate a text formatted report for your source code in `src/`
+directory, but using `phpmd.xml` ruleset:
+
+    $ bin/phpmd src/ text phpmd.xml
+
+**Note!** Consult [PHPMD Documentation on Rules][121] when customizing
+`phpmd.xml` for your project!
+
+#### PHP CodeSniffer
+
+[PHP_CodeSniffer][130](#PHP CodeSniffer) ensures that your code remains clean
+and consistent. It is a set of scripts to detect and automatically correct
+violations of a defined coding standard. It is extremely useful to keep the
+code consistent, especially when there are multiple developers working on one
+project. It is also helpful when working alone as it will make you write more
+consistent code.
+
+It is best to use example [phpcs.xml](config/phpcs.xml) configuration file as it has a Symfony based coding standard defined, which will give you a good start.
+
+Copy the example config to the root of your project:
+
+    $ cp vendor/leanphp/common-dev/config/phpcs.xml phpcs.xml
+
+If your source code is NOT stored in `src/` directory, adjust the `<file>` tag
+in `phpcs.xml`. Additionally, make sure that any test or build directories are
+excluded (via `<exclude-pattern>` tag).
+
+To get a list of coding standard violations, Run PHP CodeSniffer tool:
+
+    $ bin/phpcs
+
+PHP CodeSniffer also includes a tool which allows you to fix many of these
+violations automatically:
+
+    $ bin/phpcbf
+
+#### phpcpd
+
+[phpcpd][150] is a Copy/Paste Detector (CPD) for PHP code. It allows you to
+scan your PHP files and detect duplicate code (likely a Copy/Paste). This is
+a code that likely needs refactoring. It's a great tool to improve the quality
+of your code.
+
+To scan `src/` directory and detect problematic areas in your code:
+
+    $ bin/phpcpd src/
+
+#### phploc
+
+[phploc][160] is a tool that quickly measures the size of your PHP project. It
+scans the structure of your PHP Source Code and returns various statistics
+about it (such as number of Classes, Methods, Variables etc.).
+
+In order to scan source code directory `src/`:
+
+    $ bin/phploc src/
 
 ## Configuration
 
@@ -382,6 +391,7 @@ Licensed under [MIT License](LICENSE).
 [200]: https://phpunit.de
 [201]: https://phpunit.de/documentation.html
 [210]: https://github.com/padraic/mockery
+[211]: http://docs.mockery.io/en/latest/index.html
 [220]: https://github.com/phpspec/prophecy
 [240]: https://github.com/nelmio/alice
 [250]: https://github.com/fzaninotto/Faker
