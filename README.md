@@ -22,23 +22,9 @@ directory).
 
 ## Install
 
-Install this package as a development requirement in your project. It's always
-best to let composer pick up the latest supported version, which will be based
-on your PHP version:
+Install this package as a development requirement in your project:
 
     $ composer require-dev leanphp/common-dev
-
-### PHP 5.5
-
-    $ composer require-dev leanphp/common-dev ~5.5
-
-### PHP 5.4
-
-    $ composer require-dev leanphp/common-dev ~5.4
-
-### PHP 5.3
-
-    $ composer require-dev leanphp/common-dev ~5.3
 
 ## Packages
 
@@ -53,8 +39,8 @@ This is a list of PHP Libraries that this package installs:
 - [Mockery](#Mockery) **v0.9** - a simple yet flexible PHP mock object framework for
   use in unit testing.
 - [Prophecy](#Prophecy) - highly opinionated mocking framework for PHP.
-- [alice][240] - Expressive Fixtures generator based on [faker][250].
-- [faker][250] - PHP Library to generate fake data for you.
+- [Alice](#Alice) - Expressive Fixtures generator based on [Faker](#Faker).
+- [Faker](#Faker) - PHP Library to generate fake data for you.
 - [vfsStream][300] - Virtual file system to mock the real file system in unit
   tests.
 - [PHPUnit](#PHPUnit) **v5** - The PHP Unit Testing framework.
@@ -145,6 +131,46 @@ testing from a different angle than [Mockery](#Mockery) because it concentrates
 on describing the future behaviour of objects, instead of mocking them.
 
 For more information check [Prophecy Repository on Github][220].
+
+#### Alice
+
+[Alice][240] is an Expressive Fixtures generator based on [Faker](#Faker). It
+allows you to quickly create fixtures (fake data) while developing or testing
+your PHP code. Alice is very useful while working with projects, based on
+Symfony, Doctrine, Zend or any other framework. For testing your packages, you
+can just use [Faker](#Faker) directly.
+
+For more information check [Alice repository on GitHub][240].
+
+#### Faker
+
+[Faker][250] is PHP Library to generate fake data for you. Whether you need to
+bootstrap your database, create good-looking XML documents or just need any
+fake data, Faker is for you. If you need a solution that integrated well with
+Symfony, Doctrine, Zend or any other frameworks, check [Alice](#Alice) (based
+on Faker).
+
+Basic fake usage:
+
+```php
+<?php
+
+require 'vendor/autoload.php';
+// use the factory to create a Faker\Generator instance
+$faker = Faker\Factory::create();
+
+// generate data by accessing properties
+echo $faker->name;
+// 'Lucy Cechtelar';
+echo $faker->address;
+// "426 Jordy Lodge
+// Cartwrightshire, SC 88120-6700"
+echo $faker->text;
+// Dolores sit sint laboriosam dolorem culpa et autem. Beatae nam sunt fugit
+// et sit et mollitia sed.
+```
+
+For more information check [Faker repository on GitHub][250].
 
 #### PHPUnit
 
