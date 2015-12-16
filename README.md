@@ -41,7 +41,7 @@ This is a list of PHP Libraries that this package installs:
 - [Prophecy](#Prophecy) - highly opinionated mocking framework for PHP.
 - [Alice](#Alice) - Expressive Fixtures generator based on [Faker](#Faker).
 - [Faker](#Faker) - PHP Library to generate fake data for you.
-- [vfsStream][300] - Virtual file system to mock the real file system in unit
+- [vfsStream](#vfsStream) - Virtual file system to mock the real file system in unit
   tests.
 - [PHPUnit](#PHPUnit) **v5** - The PHP Unit Testing framework.
 - [PHPSpec](#PHPSpec) **v2** - SpecBDD / BDD Testing framework for PHP with extensions:
@@ -171,6 +171,15 @@ echo $faker->text;
 ```
 
 For more information check [Faker repository on GitHub][250].
+
+#### vfsStream
+
+[vfsStream][300] is Virtual file system to mock the real file system in unit
+tests. It comes in handy when you need to perform file operations in your code
+and want them to be thoroughly tested. It's best to abstract such tests by
+using a virtual file system and vfsStream allows you to do that.
+
+For more information check [vfsStream Wiki on GitHub][301].
 
 #### PHPUnit
 
@@ -439,6 +448,7 @@ Licensed under [MIT License](LICENSE).
 [240]: https://github.com/nelmio/alice
 [250]: https://github.com/fzaninotto/Faker
 [300]: https://github.com/mikey179/vfsStream
+[301]: https://github.com/mikey179/vfsStream/wiki
 [400]: http://mink.behat.org
 [450]: https://github.com/FriendsOfPHP/Goutte
 [460]: http://docs.seleniumhq.org
