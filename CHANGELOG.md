@@ -2,7 +2,7 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
-## 5.6.x-dev / FUTURE
+## 5.6.6 / 2015-12-17
 
 - Update php_codesniffer from `~2.4` to `~2.5`
 - Update behat-spec from `~0.1` to `~0.3`
