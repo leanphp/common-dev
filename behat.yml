@@ -1,0 +1,22 @@
+# behat.yml
+# example behat config - leanphp/common-dev
+default:
+
+  # configure paths
+  paths:
+    features: features
+    bootstrap: %behat.paths.features%/bootstrap
+
+  # configure formatters
+  formatters:
+    pretty: true
+    extensions:
+      # rmiller/behat-spec extension
+      RMiller\ErrorExtension\ErrorExtension: ~
+      RMiller\BehatSpec\BehatExtension:
+        path: 'bin/phpspec'
+      # behat/mink-extension (via behat/mink-goutter-driver)
+      Behat\MinkExtension:
+        sessions:
+          default:
+            goutte: ~

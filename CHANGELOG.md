@@ -6,6 +6,39 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 - Update PHP from `~5.6` to `~5.6||~7.0`
 
+## 5.6.6 / 2015-12-17
+
+- Update php_codesniffer from `~2.4` to `~2.5`
+- Update behat-spec from `~0.1` to `~0.3`
+- Update phpunit from `~5.0` to `~5.1`
+- Update apigen from `~4.1` to `4.2.x-dev`
+- Update README #Packages and #Usage sections to split the dependencies in 2 groups:
+    - Libraries - for general purpose PHP libraries, testing frameworks etc.
+    - Development Tools - for development tools and command line applications.
+- Update README with USAGE information for these packages:
+    - Libraries:
+        - symfony/var-dumper
+        - Mockery
+        - Prophecy
+        - Alice
+        - Faker
+        - vfsStream
+    - Development Tools:
+        - ApiGen
+        - PHPMD
+        - PHP CodeSniffer
+        - phpcpd
+        - phploc
+- Add example configuration in `config/` directory for:
+    - ApiGen (`config/apigen.yml`)
+    - PHP_CodeSniffer (`config/phpcs.xml`)
+    - PHPMD (`config/phpmd.xml`)
+    - PHPUnit (`config/phpunit.xml`)
+    - phpspec (`config/phpspec.yml`)
+    - behat (`config/behat.yml`)
+- Remove:
+    - vipsoft/code-coverage-extension (behat) (OUTDATED)
+
 ## 5.6.5 / 2015-12-01
 
 - Update phpspec from `~2.3` to `~2.4`
