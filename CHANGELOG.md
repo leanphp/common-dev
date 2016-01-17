@@ -2,7 +2,7 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
-## 6.0.x-dev / FUTURE
+## 6.0.1 / 2016-01-17
 
 - Update phplock from `~2.1` to `~3.0`
 
