@@ -2,9 +2,17 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
+## 6.0.x-dev / FUTURE
+
+- Update phplock from `~2.1` to `~3.0`
+
 ## 6.0.0 PHP 7.0 / 2015-12-18
 
 - Update PHP from `~5.6` to `~5.6||~7.0`
+
+## 5.6.7 / 2016-01-16
+
+- Update phplock from `~2.1` to `~3.0`
 
 ## 5.6.6 / 2015-12-17
 
