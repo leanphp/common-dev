@@ -6,6 +6,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 
 - Update phpunit from `~5.1` to `~5.2`
 - Update prophecy from `~1.5` to `~1.6`
+- Update behat/mink-extension from `~2.1` to `~2.2`
 
 ## 5.6.7 / 2016-01-16
 

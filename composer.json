@@ -40,7 +40,7 @@
         "behat/behat": "~3.0",
         "vipsoft/code-coverage-extension": "3.0.x-dev",
         "behat/mink": "~1.7",
-        "behat/mink-extension": "~2.1",
+        "behat/mink-extension": "~2.2",
         "behat/mink-goutte-driver": "~1.2",
         "behat/mink-browserkit-driver": "~1.3"
     },
