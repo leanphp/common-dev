@@ -2,7 +2,7 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
-## 5.6.x-dev / FUTURE
+## 5.6.8 / 2016-02-19
 
 - Update phpunit from `~5.1` to `~5.2`
 - Update prophecy from `~1.5` to `~1.6`
