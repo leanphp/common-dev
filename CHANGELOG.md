@@ -2,6 +2,10 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
+## 5.6.x-dev / FUTURE
+
+- Update phpunit from `~5.1` to `~5.2`
+
 ## 5.6.7 / 2016-01-16
 
 - Update phplock from `~2.1` to `~3.0`
