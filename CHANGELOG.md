@@ -5,6 +5,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 ## 5.6.x-dev / FUTURE
 
 - Update phpunit from `~5.1` to `~5.2`
+- Update prophecy from `~1.5` to `~1.6`
 
 ## 5.6.7 / 2016-01-16
 
