@@ -1,8 +1,15 @@
 # CHANGELOG
 
-This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
+This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known
+as [ek9/common-dev][1].
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
+
+## 6.0.x-dev / FUTURE
+
+- Update phpunit from `~5.1` to `~5.2`
+- Update prophecy from `~1.5` to `~1.6`
+- Update behat/mink-extension from `~2.1` to `~2.2`
 
 ## 6.0.1 / 2016-01-17
 
@@ -11,6 +18,12 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 ## 6.0.0 PHP 5.6 + PHP 7 / 2015-12-18
 
 - Update PHP from `~5.6` to `~5.6||~7.0`
+
+## 5.6.8 / 2016-02-19
+
+- Update phpunit from `~5.1` to `~5.2`
+- Update prophecy from `~1.5` to `~1.6`
+- Update behat/mink-extension from `~2.1` to `~2.2`
 
 ## 5.6.7 / 2016-01-16
 
