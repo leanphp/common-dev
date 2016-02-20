@@ -5,7 +5,7 @@ as [ek9/common-dev][1].
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
-## 6.0.x-dev / FUTURE
+## 6.0.2 / 2016-02-20
 
 - Update phpunit from `~5.1` to `~5.2`
 - Update prophecy from `~1.5` to `~1.6`
