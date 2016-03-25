@@ -5,6 +5,7 @@ This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known a
 ## 5.6.x-dev / FUTURE
 
 - Update phpmd from `~2.3` to `~2.4`
+- Update phpspec from `~2.4` to `~2.5`
 
 ## 5.6.8 / 2016-02-19
 
