@@ -19,6 +19,11 @@ as [ek9/common-dev][1].
 
 - Update PHP from `~5.6` to `~5.6||~7.0`
 
+## 5.6.9 / 2016-03-26
+
+- Update phpmd from `~2.3` to `~2.4`
+- Update phpspec from `~2.4` to `~2.5`
+
 ## 5.6.8 / 2016-02-19
 
 - Update phpunit from `~5.1` to `~5.2`
