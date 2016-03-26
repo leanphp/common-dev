@@ -5,6 +5,11 @@ as [ek9/common-dev][1].
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
+## 6.0.3 / 2016-03-26
+
+- Update phpmd from `~2.3` to `~2.4`
+- Update phpspec from `~2.4` to `~2.5`
+
 ## 6.0.2 / 2016-02-20
 
 - Update phpunit from `~5.1` to `~5.2`
