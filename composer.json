@@ -50,8 +50,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "6.0.x-dev",
-            "dev-php56": "5.6.x-dev",
+            "dev-master": "6.1.x-dev",
             "dev-develop": "7.0.x-dev"
         }
     }
