@@ -5,7 +5,7 @@ common-dev
 [![Latest Unstable Version](https://poser.pugx.org/leanphp/common-dev/v/unstable)](https://packagist.org/packages/leanphp/common-dev)
 [![MIT License](https://poser.pugx.org/leanphp/common-dev/license)](https://packagist.org/packages/leanphp/common-dev)
 
-**Note!** For **PHP7** support check [latest package version][0].
+**Note!** For **PHP 7** and **PHP 5.6+**  support check [latest package version][0].
 
 [leanPHP/common-dev][0] is a set of modern PHP **5.6+** development tools and
 libraries, which help you write PHP packages and libraries that comply with
