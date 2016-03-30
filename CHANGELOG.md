@@ -5,6 +5,10 @@ as [ek9/common-dev][1].
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
+## 6.0.4 / 2016-03-31
+
+- Update behat from `~3.0` to `~3.1`
+
 ## 6.0.3 / 2016-03-26
 
 - Update phpmd from `~2.3` to `~2.4`
@@ -26,7 +30,8 @@ as [ek9/common-dev][1].
 
 ## 5.6.10 Final / 2016-03-30
 
-This is final **5.6** series release. For **PHP 7** and **PHP 5.6+** support, consider upgrading to **6.0** series.
+This is final **5.6** series release. For **PHP 7** and **PHP 5.6+** support,
+consider upgrading to **6.0** series.
 
 - Update behat from `~3.0` to `~3.1`
 
