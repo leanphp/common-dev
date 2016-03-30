@@ -24,6 +24,12 @@ as [ek9/common-dev][1].
 
 - Update PHP from `~5.6` to `~5.6||~7.0`
 
+## 5.6.10 Final / 2016-03-30
+
+This is final **5.6** series release. For **PHP 7** and **PHP 5.6+** support, consider upgrading to **6.0** series.
+
+- Update behat from `~3.0` to `~3.1`
+
 ## 5.6.9 / 2016-03-26
 
 - Update phpmd from `~2.3` to `~2.4`

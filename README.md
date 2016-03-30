@@ -5,7 +5,7 @@ common-dev
 [![Latest Unstable Version](https://poser.pugx.org/leanphp/common-dev/v/unstable)](https://packagist.org/packages/leanphp/common-dev)
 [![MIT License](https://poser.pugx.org/leanphp/common-dev/license)](https://packagist.org/packages/leanphp/common-dev)
 
-[leanPHP/common-dev][0] is a set of modern **PHP7** **(5.6+)** development tools and
+[leanPHP/common-dev][0] is a set of modern **PHP 7** (**5.6+**) development tools and
 libraries, which help you write PHP packages and libraries that comply with
 [PHP-FIG][1] standards and adhere to best PHP practices defined in [PHP - The
 Right Way][2] guidelines.
