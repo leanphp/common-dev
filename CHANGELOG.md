@@ -2,6 +2,10 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
+## 5.6.x-dev Final / FUTURE
+
+- Update behat from `~3.0` to `~3.1`
+
 ## 5.6.9 / 2016-03-26
 
 - Update phpmd from `~2.3` to `~2.4`
