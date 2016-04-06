@@ -5,7 +5,7 @@ as [ek9/common-dev][1].
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
-## 6.1.x-dev / FUTURE
+## 6.1.0 / 2016-04-27
 
 - Update PHP CodeSniffer from `~2.5` to `~2.6`
 - Add composer v1.0.0 as `bin/composer` and set it as bin in `composer.json`
