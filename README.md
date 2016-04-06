@@ -72,7 +72,8 @@ This is a list of PHP Development Tools that this package installs:
 - [phpcs-symfony2-standard][140] - Symfony2 Coding Standard configuration for
   [PHP_CodeSniffer][130].
 - [phpcpd](#phpcpd) - Copy/Paste Detector (CPD) for PHP code.
-- [phploc](#phploc)- a tool that quickly measures the size of your PHP project.
+- [phploc](#phploc) - a tool that quickly measures the size of your PHP project.
+- [composer][7] binary is also included in this package (`bin/composer`).
 
 ## Usage
 
