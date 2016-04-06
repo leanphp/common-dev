@@ -7,6 +7,8 @@ as [ek9/common-dev][1].
 
 ## 6.1.x-dev / FUTURE
 
+- Add composer v1.0.0 as `bin/composer` and set it as bin in `composer.json`
+
 ## 6.0.4 / 2016-03-31
 
 - Update behat from `~3.0` to `~3.1`
