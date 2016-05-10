@@ -3,7 +3,9 @@
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known
 as [ek9/common-dev][1].
 
-**6** version series are last series to support both PHP **5.6** and **PHP 7**.
+## 7.0.x-dev / FUTURE
+
+- Update PHP from `~5.6||~7.0` to `^7.0`
 
 ## 6.1.1 / 2016-05-11
 
