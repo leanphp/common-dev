@@ -5,7 +5,7 @@ as [ek9/common-dev][1].
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
-## 6.1.x-dev / FUTURE
+## 6.1.1 / 2016-05-11
 
 - Update faker from `~1.5` to `~1.6`
 - Update `bin/composer` from `1.0.0` to `1.1.0`
