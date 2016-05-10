@@ -8,6 +8,7 @@ as [ek9/common-dev][1].
 ## 6.1.x-dev / FUTURE
 
 - Update faker from `~1.5` to `~1.6`
+- Update `bin/composer` from `1.0.0` to `1.1.0`
 
 ## 6.1.0 / 2016-04-27
 
