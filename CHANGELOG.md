@@ -9,6 +9,7 @@ as [ek9/common-dev][1].
 
 - Update `bin/composer` to `1.2.0`
 - Update phpunit from `~5.2` to `~5.4`
+- Update alice from `~2.1` to `~2.2`
 
 ## 6.1.1 / 2016-05-11
 
