@@ -8,6 +8,7 @@ as [ek9/common-dev][1].
 ## 6.1.x-dev / FUTURE
 
 - Update `bin/composer` to `1.2.0`
+- Update phpunit from `~5.2` to `~5.4`
 
 ## 6.1.1 / 2016-05-11
 
