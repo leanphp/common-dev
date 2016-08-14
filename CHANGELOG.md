@@ -13,6 +13,12 @@ as [ek9/common-dev][1].
 - Remove phpspec exemplify-extension (OUTDATED)
 - Remove behat-spec extension (OUTDATED)
 
+## 6.1.2 / 2016-07-23
+
+- Update `bin/composer` to `1.2.0`
+- Update phpunit from `~5.2` to `~5.4`
+- Update alice from `~2.1` to `~2.2`
+
 ## 6.1.1 / 2016-05-11
 
 - Update faker from `~1.5` to `~1.6`
