@@ -7,6 +7,20 @@ as [ek9/common-dev][1].
 
 - Update PHP from `~5.6||~7.0` to `^7.0`
 
+## 6.2.x-dev / FUTURE
+
+- Update phpspec from `~2.5` to `~3.0`.
+- Update phpspec-typehintedmethods from `~1.1` to `~2.0`
+- Update phpspec-code-coverage from `~2.0` to `~3.0`
+- Remove phpspec exemplify-extension (OUTDATED)
+- Remove behat-spec extension (OUTDATED)
+
+## 6.1.2 / 2016-07-23
+
+- Update `bin/composer` to `1.2.0`
+- Update phpunit from `~5.2` to `~5.4`
+- Update alice from `~2.1` to `~2.2`
+
 ## 6.1.1 / 2016-05-11
 
 - Update faker from `~1.5` to `~1.6`

@@ -26,19 +26,16 @@
         "leaphub/phpcs-symfony2-standard": "~2.0",
         "sebastian/phpcpd": "~2.0",
         "phploc/phploc": "~3.0",
-        "phpunit/phpunit": "~5.2",
+        "phpunit/phpunit": "~5.4",
         "mikey179/vfsstream": "~1.6",
-        "nelmio/alice": "~2.1",
+        "nelmio/alice": "~2.2",
         "fzaninotto/faker": "~1.6",
-        "phpspec/phpspec": "~2.5",
+        "phpspec/phpspec": "~3.0",
         "phpspec/prophecy": "~1.6",
         "mockery/mockery": "~0.9",
-        "ciaranmcnulty/phpspec-typehintedmethods": "~1.1",
-        "henrikbjorn/phpspec-code-coverage": "~2.0",
-        "rmiller/exemplify-extension": "~0.2",
-        "rmiller/behat-spec": "~0.3",
+        "ciaranmcnulty/phpspec-typehintedmethods": "~2.0",
+        "henrikbjorn/phpspec-code-coverage": "~3.0",
         "behat/behat": "~3.1",
-        "vipsoft/code-coverage-extension": "3.0.x-dev",
         "behat/mink": "~1.7",
         "behat/mink-extension": "~2.2",
         "behat/mink-goutte-driver": "~1.2",
@@ -52,6 +49,7 @@
     "extra": {
         "branch-alias": {
             "dev-master": "6.1.x-dev",
+            "dev-phpspec3": "6.2.x-dev",
             "dev-develop": "7.0.x-dev"
         }
     }
