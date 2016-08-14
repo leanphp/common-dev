@@ -5,6 +5,14 @@ as [ek9/common-dev][1].
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
+## 6.2.x-dev / FUTURE
+
+- Update phpspec from `~2.5` to `~3.0`.
+- Update phpspec-typehintedmethods from `~1.1` to `~2.0`
+- Update phpspec-code-coverage from `~2.0` to `~3.0`
+- Remove phpspec exemplify-extension (OUTDATED)
+- Remove behat-spec extension (OUTDATED)
+
 ## 6.1.1 / 2016-05-11
 
 - Update faker from `~1.5` to `~1.6`
