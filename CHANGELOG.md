@@ -5,6 +5,10 @@ as [ek9/common-dev][1].
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
+## 6.1.x-dev / FUTURE
+
+- Update PHP CodeSniffer from `~2.6` to `~2.7`
+
 ## 6.1.2 / 2016-07-23
 
 - Update `bin/composer` to `1.2.0`
