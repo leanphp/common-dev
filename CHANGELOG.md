@@ -13,6 +13,10 @@ as [ek9/common-dev][1].
 - Remove phpspec exemplify-extension (OUTDATED)
 - Remove behat-spec extension (OUTDATED)
 
+## 6.1.3 / 2016-09-03
+
+- Update PHP CodeSniffer from `~2.6` to `~2.7`
+
 ## 6.1.2 / 2016-07-23
 
 - Update `bin/composer` to `1.2.0`
