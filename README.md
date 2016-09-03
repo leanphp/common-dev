@@ -48,15 +48,12 @@ This is a list of PHP Libraries that this package installs:
 - [PHPSpec](#PHPSpec) **v2** - SpecBDD / BDD Testing framework for PHP with extensions:
     - [phpspec-code-coverage][805] - Code Coverage for [PHPSpec][800].
     - [phpspec-typehintedmethods][810] - Generate Typehinted methods
-    - [phpspec-exemplify-extension][820] - Add exemplify command to generate
-      example in [PHPSpec][800] specs.
 - [behat](#Behat) **v3** - ScenarioBDD / BDD Testing framework for PHP, with
   extensions:
     - [behat/mink-extension][950] - [Mink][400] extension for [behat][900].
     - [behat/mink-goutte-driver][960] - [Goutte][450] driver for [Mink][400].
     - [behat/mink-browserkit-driver][970] - Symfony BrowserKit driver for
       [Mink][400].
-    - [rmiller/behat-spec][980] - [behat][900] and [PHPSpec][800] integration.
 - [Mink](#Mink) - Browser Emulator / Abstraction framework for PHP.
 
 ### Development Tools
@@ -458,11 +455,9 @@ Licensed under [MIT License](LICENSE).
 [801]: http://www.phpspec.net/en/stable/manual/introduction.html
 [805]: https://github.com/henrikbjorn/PhpSpecCodeCoverageExtension
 [810]: http://github.com/ciaranmcnulty/phpspec-typehintedmethods
-[820]: https://github.com/richardmiller/ExemplifyExtension
 [900]: http://behat.org
 [901]: http://behat.org/en/latest/guides.html
 [902]: http://behat.org/en/latest/quick_start.html
 [950]: http://extensions.behat.org/mink
 [960]: https://github.com/minkphp/MinkGoutteDriver
 [970]: https://github.com/minkphp/MinkBrowserKitDriver
-[980]: https://github.com/richardmiller/BehatSpec
