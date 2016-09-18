@@ -9,7 +9,7 @@ as [ek9/common-dev][1].
 
 ## 6.2.x-dev / FUTURE
 
-- Update phpspec from `~2.5` to `~3.0`.
+- Update phpspec from `~2.5` to `~3.1`.
 - Update phpspec-typehintedmethods from `~1.1` to `~2.0`
 - Update phpspec-code-coverage from `~2.0` to `~3.0`
 - Remove phpspec exemplify-extension (OUTDATED)
