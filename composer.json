@@ -37,7 +37,7 @@
         "henrikbjorn/phpspec-code-coverage": "~2.0",
         "rmiller/exemplify-extension": "~0.2",
         "rmiller/behat-spec": "~0.3",
-        "behat/behat": "~3.1",
+        "behat/behat": "~3.2",
         "behat/mink": "~1.7",
         "behat/mink-extension": "~2.2",
         "behat/mink-goutte-driver": "~1.2",

@@ -5,6 +5,10 @@ as [ek9/common-dev][1].
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
+## 6.1.x-dev / FUTURE
+
+- Update behat from `~3.1` to `~3.2`
+
 ## 6.1.3 / 2016-09-03
 
 - Update PHP CodeSniffer from `~2.6` to `~2.7`
