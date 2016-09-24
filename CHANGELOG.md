@@ -5,7 +5,7 @@ as [ek9/common-dev][1].
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
-## 6.1.x-dev / FUTURE
+## 6.1.4 / 2016-09-24
 
 - Update behat from `~3.1` to `~3.2`
 
