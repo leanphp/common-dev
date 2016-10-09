@@ -13,6 +13,10 @@ as [ek9/common-dev][1].
 - Remove phpspec exemplify-extension (OUTDATED)
 - Remove behat-spec extension (OUTDATED)
 
+## 6.1.5 / 2016-10-10
+
+- Update phpunit from `~5.4` to `~5.6`
+
 ## 6.1.4 / 2016-09-24
 
 - Update behat from `~3.1` to `~3.2`
