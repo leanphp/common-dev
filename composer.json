@@ -34,7 +34,7 @@
         "phpspec/prophecy": "~1.6",
         "mockery/mockery": "~0.9",
         "ciaranmcnulty/phpspec-typehintedmethods": "~1.1",
-        "henrikbjorn/phpspec-code-coverage": "~2.0",
+        "henrikbjorn/phpspec-code-coverage": "~3.0",
         "rmiller/exemplify-extension": "~0.2",
         "rmiller/behat-spec": "~0.3",
         "behat/behat": "~3.2",
