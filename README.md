@@ -13,8 +13,9 @@ libraries, which help you write PHP packages and libraries that comply with
 Right Way][2] guidelines.
 
 These tools help you write **well-tested** functional & **OOP** code ([TDD][3],
-[BDD][4], [SOLID][5]). It will allows you to **distribute** your code via
-[Packagist][6] by using [composer][7].
+[BDD][4], [SOLID][5]).
+
+**Distribute** your code via [Packagist][6] by using [composer][7]!
 
 See [Packages](#Packages) for a list of packages that this meta-package
 provides. [Usage](#Usage) section covers information regarding various tools
