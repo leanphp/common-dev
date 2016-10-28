@@ -9,9 +9,14 @@ as [ek9/common-dev][1].
 
 - Update phpspec from `~2.5` to `~3.1`.
 - Update phpspec-typehintedmethods from `~1.1` to `~2.0`
-- Update phpspec-code-coverage from `~2.0` to `~3.0`
 - Remove phpspec exemplify-extension (OUTDATED)
 - Remove behat-spec extension (OUTDATED)
+
+## 6.1.6 / 2016-10-26
+
+- Fix package install problem caused by 6.1.5 by PHPUnit Update
+- Update phpmd from `~2.4` to `~2.5`
+- Update phpspec-code-coverage from `~2.0` to `~3.0`
 
 ## 6.1.5 / 2016-10-10
 
