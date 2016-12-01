@@ -8,6 +8,7 @@ as [ek9/common-dev][1].
 ## 6.1.x-dev / FUTURE
 
 - Update symfony/var-dumper from `~2.8||~3.0` to `~2.8||^3.1`
+- Remove apigen (OUTDATED)
 
 ## 6.1.6 / 2016-10-26
 
