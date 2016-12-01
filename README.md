@@ -302,6 +302,12 @@ For more information check [Mink Homepage][400].
 
 #### ApiGen
 
+**Note!** ApiGen is temporarily not provided by the package as it conflicts
+with Symfony3 dependencies. We will continue to support ApiGen once it is
+compatible with Symfony3 components. If you would like to use apigen, you can
+add it to `require-dev` manually, by running `composer require-dev
+apigen/apigen 4.2.0.x-dev`
+
 [ApiGen][100] is a PHP Source Code API generator, which generated class
 reference files in HTML format for your source code. The generated reference
 files are useful for developer to familiarize with API of your PHP classes.
