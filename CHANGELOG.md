@@ -5,6 +5,10 @@ as [ek9/common-dev][1].
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
+## 6.1.x-dev / FUTURE
+
+- Update symfony/var-dumper from `~2.8||~3.0` to `~2.8||^3.1`
+
 ## 6.1.6 / 2016-10-26
 
 - Fix package install problem caused by 6.1.5 by PHPUnit Update
