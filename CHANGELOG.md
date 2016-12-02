@@ -5,7 +5,7 @@ as [ek9/common-dev][1].
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
-## 6.1.x-dev / FUTURE
+## 6.1.7 / 2016-12-02
 
 - Update symfony/var-dumper from `~2.8||~3.0` to `~2.8||^3.1`
 - Remove apigen (OUTDATED)
