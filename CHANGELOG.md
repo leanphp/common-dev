@@ -5,6 +5,13 @@ as [ek9/common-dev][1].
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
+## 6.2.x-dev / FUTURE
+
+- Update phpspec from `~2.5` to `~3.1`.
+- Update phpspec-typehintedmethods from `~1.1` to `~2.0`
+- Remove phpspec exemplify-extension (OUTDATED)
+- Remove behat-spec extension (OUTDATED)
+
 ## 6.1.7 / 2016-12-02
 
 - Update symfony/var-dumper from `~2.8||~3.0` to `~2.8||^3.1`
