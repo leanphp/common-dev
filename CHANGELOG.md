@@ -7,12 +7,17 @@ as [ek9/common-dev][1].
 
 - Update PHP from `~5.6||~7.0` to `^7.0`
 
-## 6.2.x-dev / FUTURE
+## 6.2.0 / 2016-12-03
 
 - Update phpspec from `~2.5` to `~3.1`.
 - Update phpspec-typehintedmethods from `~1.1` to `~2.0`
 - Remove phpspec exemplify-extension (OUTDATED)
 - Remove behat-spec extension (OUTDATED)
+
+## 6.1.7 / 2016-12-02
+
+- Update symfony/var-dumper from `~2.8||~3.0` to `~2.8||^3.1`
+- Remove apigen (OUTDATED)
 
 ## 6.1.6 / 2016-10-26
 

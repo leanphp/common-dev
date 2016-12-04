@@ -19,8 +19,7 @@
     },
     "require": {
         "php": "^7.0",
-        "symfony/var-dumper": "~2.8||~3.0",
-        "apigen/apigen": "4.2.0.x-dev",
+        "symfony/var-dumper": "~2.8||^3.1",
         "phpmd/phpmd": "~2.5",
         "squizlabs/php_codesniffer": "~2.7",
         "leaphub/phpcs-symfony2-standard": "~2.0",
@@ -48,8 +47,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "6.1.x-dev",
-            "dev-phpspec3": "6.2.x-dev",
+            "dev-master": "6.2.x-dev",
             "dev-develop": "7.0.x-dev"
         }
     }
