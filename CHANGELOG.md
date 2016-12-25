@@ -8,6 +8,7 @@ as [ek9/common-dev][1].
 ## 6.2.x-dev / FUTURE
 
 - Update behat from `~3.2` to `~3.3`
+- Update `bin/composer` to `1.3.0`
 
 ## 6.2.0 / 2016-12-03
 
