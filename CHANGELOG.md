@@ -5,7 +5,7 @@ as [ek9/common-dev][1].
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
-## 6.2.x-dev / FUTURE
+## 6.2.1 / 2016-12-27
 
 - Update behat from `~3.2` to `~3.3`
 - Update `bin/composer` to `1.3.0`
