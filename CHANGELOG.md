@@ -7,6 +7,11 @@ as [ek9/common-dev][1].
 
 - Update PHP from `~5.6||~7.0` to `^7.0`
 
+## 6.2.1 / 2016-12-27
+
+- Update behat from `~3.2` to `~3.3`
+- Update `bin/composer` to `1.3.0`
+
 ## 6.2.0 / 2016-12-03
 
 - Update phpspec from `~2.5` to `~3.1`.
