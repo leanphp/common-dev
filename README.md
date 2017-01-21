@@ -2,6 +2,7 @@ common-dev
 ==========
 
 [![Latest Stable Version](https://poser.pugx.org/leanphp/common-dev/version)](https://packagist.org/packages/leanphp/common-dev)
+[![Build Status][travis-image]][travis-url]
 [![Latest Unstable Version](https://poser.pugx.org/leanphp/common-dev/v/unstable)](https://packagist.org/packages/leanphp/common-dev)
 [![MIT License](https://poser.pugx.org/leanphp/common-dev/license)](https://packagist.org/packages/leanphp/common-dev)
 
@@ -25,7 +26,7 @@ directory).
 
 Install this package as a development requirement in your project:
 
-    $ composer require-dev leanphp/common-dev
+    $ composer require --dev leanphp/common-dev
 
 ## Packages
 
@@ -46,7 +47,7 @@ This is a list of PHP Libraries that this package installs:
 - [vfsStream](#vfsStream) - Virtual file system to mock the real file system in unit
   tests.
 - [PHPUnit](#PHPUnit) **v5** - The PHP Unit Testing framework.
-- [PHPSpec](#PHPSpec) **v2** - SpecBDD / BDD Testing framework for PHP with extensions:
+- [PHPSpec](#PHPSpec) **v3** - SpecBDD / BDD Testing framework for PHP with extensions:
     - [phpspec-code-coverage][805] - Code Coverage for [PHPSpec][800].
     - [phpspec-typehintedmethods][810] - Generate Typehinted methods
 - [behat](#Behat) **v3** - ScenarioBDD / BDD Testing framework for PHP, with
@@ -302,7 +303,7 @@ For more information check [Mink Homepage][400].
 **Note!** ApiGen is temporarily not provided by the package as it conflicts
 with Symfony3 dependencies. We will continue to support ApiGen once it is
 compatible with Symfony3 components. If you would like to use apigen, you can
-add it to `require-dev` manually, by running `composer require-dev
+add it to `require-dev` manually, by running `composer require --dev
 apigen/apigen 4.2.0.x-dev`
 
 [ApiGen][100] is a PHP Source Code API generator, which generated class
@@ -468,3 +469,7 @@ Licensed under [MIT License](LICENSE).
 [950]: http://extensions.behat.org/mink
 [960]: https://github.com/minkphp/MinkGoutteDriver
 [970]: https://github.com/minkphp/MinkBrowserKitDriver
+
+[travis-image]: https://travis-ci.org/leanphp/common-dev.svg
+[travis-url]: https://travis-ci.org/leanphp/common-dev
+
