@@ -1,4 +1,5 @@
 /composer.lock
 /bin/*
+/build/*
 !/bin/composer
 /vendor/

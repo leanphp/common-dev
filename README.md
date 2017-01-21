@@ -26,7 +26,7 @@ directory).
 
 Install this package as a development requirement in your project:
 
-    $ composer require-dev leanphp/common-dev
+    $ composer require --dev leanphp/common-dev
 
 ## Packages
 
@@ -303,7 +303,7 @@ For more information check [Mink Homepage][400].
 **Note!** ApiGen is temporarily not provided by the package as it conflicts
 with Symfony3 dependencies. We will continue to support ApiGen once it is
 compatible with Symfony3 components. If you would like to use apigen, you can
-add it to `require-dev` manually, by running `composer require-dev
+add it to `require-dev` manually, by running `composer require --dev
 apigen/apigen 4.2.0.x-dev`
 
 [ApiGen][100] is a PHP Source Code API generator, which generated class
