@@ -6,3 +6,4 @@ php:
 script:
   - composer validate
   - composer update
+
