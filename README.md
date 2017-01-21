@@ -472,4 +472,3 @@ Licensed under [MIT License](LICENSE).
 
 [travis-image]: https://travis-ci.org/leanphp/common-dev.svg
 [travis-url]: https://travis-ci.org/leanphp/common-dev
-
