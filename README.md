@@ -2,6 +2,7 @@ common-dev
 ==========
 
 [![Latest Stable Version](https://poser.pugx.org/leanphp/common-dev/version)](https://packagist.org/packages/leanphp/common-dev)
+[![Build Status][travis-image]][travis-url]
 [![Latest Unstable Version](https://poser.pugx.org/leanphp/common-dev/v/unstable)](https://packagist.org/packages/leanphp/common-dev)
 [![MIT License](https://poser.pugx.org/leanphp/common-dev/license)](https://packagist.org/packages/leanphp/common-dev)
 
@@ -468,3 +469,7 @@ Licensed under [MIT License](LICENSE).
 [950]: http://extensions.behat.org/mink
 [960]: https://github.com/minkphp/MinkGoutteDriver
 [970]: https://github.com/minkphp/MinkBrowserKitDriver
+
+[travis-image]: https://travis-ci.org/leanphp/common-dev.svg
+[travis-url]: https://travis-ci.org/leanphp/common-dev
+
