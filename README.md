@@ -47,7 +47,7 @@ This is a list of PHP Libraries that this package installs:
 - [vfsStream](#vfsStream) - Virtual file system to mock the real file system in unit
   tests.
 - [PHPUnit](#PHPUnit) **v5** - The PHP Unit Testing framework.
-- [PHPSpec](#PHPSpec) **v2** - SpecBDD / BDD Testing framework for PHP with extensions:
+- [PHPSpec](#PHPSpec) **v3** - SpecBDD / BDD Testing framework for PHP with extensions:
     - [phpspec-code-coverage][805] - Code Coverage for [PHPSpec][800].
     - [phpspec-typehintedmethods][810] - Generate Typehinted methods
 - [behat](#Behat) **v3** - ScenarioBDD / BDD Testing framework for PHP, with
