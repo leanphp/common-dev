@@ -1,9 +1,12 @@
 # CHANGELOG
 
-This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known
-as [ek9/common-dev][1].
+This is a CHANGELOG file for [leanphp/common-dev][0] package.
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
+
+## 6.2.2 / 2017-01-22
+
+- Update phpmd from `~2.5` to `~2.6`
 
 ## 6.2.1 / 2016-12-27
 
