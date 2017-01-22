@@ -1,11 +1,15 @@
 # CHANGELOG
 
-This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known
-as [ek9/common-dev][1].
+This is a CHANGELOG file for [leanphp/common-dev][0] package.
 
 ## 7.0.x-dev / FUTURE
 
 - Update PHP from `~5.6||~7.0` to `^7.0`
+
+## 6.2.2 / 2017-01-22
+
+- Update phpmd from `~2.5` to `~2.6`
+- Update phpunit from `~5.6` to `~5.7`
 
 ## 6.2.1 / 2016-12-27
 
