@@ -1,7 +1,6 @@
 common-dev
 ==========
-
-[![Latest Stable Version](https://poser.pugx.org/leanphp/common-dev/version)](https://packagist.org/packages/leanphp/common-dev)
+[![Latest Stable Version](https://poser.pugx.org/leanphp/common-dev/v/stable)](https://packagist.org/packages/leanphp/common-dev)
 [![Build Status][travis-image]][travis-url]
 [![Latest Unstable Version](https://poser.pugx.org/leanphp/common-dev/v/unstable)](https://packagist.org/packages/leanphp/common-dev)
 [![MIT License](https://poser.pugx.org/leanphp/common-dev/license)](https://packagist.org/packages/leanphp/common-dev)
