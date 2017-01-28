@@ -12,9 +12,9 @@ default:
     pretty: true
     extensions:
       # rmiller/behat-spec extension
-      #RMiller\ErrorExtension\ErrorExtension: ~
-      #RMiller\BehatSpec\BehatExtension:
-      #path: 'bin/phpspec'
+      RMiller\ErrorExtension\ErrorExtension: ~
+      RMiller\BehatSpec\BehatExtension:
+        path: 'bin/phpspec'
       # behat/mink-extension (via behat/mink-goutter-driver)
       Behat\MinkExtension:
         sessions:

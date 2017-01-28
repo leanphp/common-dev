@@ -9,8 +9,8 @@ suites:
 extensions:
   PhpSpec\Extension\CodeCoverageExtension: ~
   Cjm\PhpSpec\Extension\TypeHintedMethodsExtension: ~
-  #RMiller\BehatSpec\PhpSpecExtension: ~
-  #RMiller\ExemplifyExtension\ExemplifyExtension: ~
+  RMiller\BehatSpec\PhpSpecExtension: ~
+  RMiller\ExemplifyExtension\ExemplifyExtension: ~
 
 code_coverage:
   format:

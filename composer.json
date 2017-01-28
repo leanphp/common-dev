@@ -39,7 +39,7 @@
         "behat/mink-extension": "~2.2",
         "behat/mink-goutte-driver": "~1.2",
         "behat/mink-browserkit-driver": "~1.3",
-        "rmiller/behat-spec": "^0.5"
+        "rmiller/behat-spec": "0.5.*"
     },
     "bin": ["bin/composer"],
     "minimum-stability": "stable",
@@ -48,8 +48,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "6.2.x-dev",
-            "dev-develop": "7.0.x-dev"
+            "dev-master": "6.2.x-dev"
         }
     }
 }
