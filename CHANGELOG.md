@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
+## 6.2.x-dev / FUTURE
+
+- Update mockery from `~0.9` to `0.9.*`
+
 ## 6.2.2 - 2017-01-22
 
 - Update phpmd from `~2.5` to `~2.6`
