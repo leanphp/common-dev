@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## 6.2.x-dev / FUTURE
 
 - Update mockery from `~0.9` to `0.9.*`
+- Add BehatSpec `0.5.*` (Behat3 + PhpSpec3)
 
 ## 6.2.2 - 2017-01-22
 
