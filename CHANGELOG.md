@@ -2,9 +2,13 @@
 
 This is a CHANGELOG file for [leanphp/common-dev][0] package, previously known as [ek9/common-dev][1].
 
-## 5.6.10 Final / 2016-03-30
-
 This is final **5.6** series release. For **PHP 7** and **PHP 5.6+** support, consider upgrading to **6.0** series.
+
+## 5.6.11 Final / 2017-01-28
+
+Fix BehatSpec extension version to lock them to versions that support phpspec2.
+
+## 5.6.10 / 2016-03-30
 
 - Update behat from `~3.0` to `~3.1`
 
