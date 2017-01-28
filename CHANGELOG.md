@@ -87,10 +87,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - Update PHP from `~5.6` to `~5.6||~7.0`
 
-## 5.6.10 Final - 2016-03-30
+## 5.6.11 Final / 2017-01-28
 
 This is final **5.6** series release. For **PHP 7** and **PHP 5.6+** support,
 consider upgrading to **6.0** series.
+
+Fix BehatSpec extension version to lock them to versions that support phpspec2.
+
+## 5.6.10 / 2016-03-30
 
 - Update behat from `~3.0` to `~3.1`
 
