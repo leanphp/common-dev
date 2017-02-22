@@ -12,6 +12,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - Update mockery from `~0.9` to `0.9.*`
 - Add BehatSpec `0.3.*` (Behat3 + PhpSpec2)
+- Change `henrikbjorn/phpspec-code-coverage` to `leanphp/phpspec-code-coverage`
+  as the original will no longer be maintained.
 
 ## 6.2.2 - 2017-01-22
 
