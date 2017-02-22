@@ -462,7 +462,7 @@ Licensed under [MIT License](LICENSE).
 [460]: http://docs.seleniumhq.org
 [800]: http://www.phpspec.net
 [801]: http://www.phpspec.net/en/stable/manual/introduction.html
-[805]: https://github.com/henrikbjorn/PhpSpecCodeCoverageExtension
+[805]: https://github.com/leanphp/phpspec-code-coverage
 [810]: http://github.com/ciaranmcnulty/phpspec-typehintedmethods
 [900]: http://behat.org
 [901]: http://behat.org/en/latest/guides.html

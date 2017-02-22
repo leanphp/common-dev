@@ -7,7 +7,7 @@ suites:
         psr4_prefix: LeanPHP\Common
 
 extensions:
-  PhpSpec\Extension\CodeCoverageExtension: ~
+  LeanPHP\PhpSpec\CodeCoverage\CodeCoverageExtension: ~
   Cjm\PhpSpec\Extension\TypeHintedMethodsExtension: ~
   RMiller\BehatSpec\PhpSpecExtension: ~
   RMiller\ExemplifyExtension\ExemplifyExtension: ~
