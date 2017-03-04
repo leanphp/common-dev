@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## 7.0.x-dev / FUTURE
 
 - Update PHP from `~5.6||~7.0` to `^7.0`
+- Update BehatSpec from `0.3.*` to `dev-master`
 
 ## 6.3.x-dev / FUTURE
 
