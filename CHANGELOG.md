@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## 6.3.x-dev / FUTURE
 
 - Update mockery from `~0.9` to `0.9.*`
+- Update prophecy from `~1.6` to `~1.7`
 - Add BehatSpec `0.3.*` (Behat3 + PhpSpec2)
 - Change `henrikbjorn/phpspec-code-coverage` to `leanphp/phpspec-code-coverage`
   as the original will no longer be maintained.
