@@ -9,8 +9,7 @@ suites:
 extensions:
   LeanPHP\PhpSpec\CodeCoverage\CodeCoverageExtension: ~
   Cjm\PhpSpec\Extension\TypeHintedMethodsExtension: ~
-  RMiller\BehatSpec\PhpSpecExtension: ~
-  RMiller\ExemplifyExtension\ExemplifyExtension: ~
+  RMiller\BehatSpec\Extension\BehatSpecExtension\PhpSpecExtension: ~
 
 code_coverage:
   format:
