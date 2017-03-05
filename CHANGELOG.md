@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
-## 6.3.x-dev / FUTURE
+## 6.3.0 / 2017-03-05
 
 - Update mockery from `~0.9` to `0.9.*`
 - Update prophecy from `~1.6` to `~1.7`
