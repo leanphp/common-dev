@@ -11,9 +11,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Update PHP from `~5.6||~7.0` to `^7.0`
 - Update BehatSpec from `0.3.*` to `dev-master`
 
-## 6.3.x-dev / FUTURE
+## 6.3.0 / 2017-03-05
 
 - Update mockery from `~0.9` to `0.9.*`
+- Update prophecy from `~1.6` to `~1.7`
+- Update PHP CodeSniffer from `~2.7` to `~2.8`
+- Update alice from `~2.2` to `~2.3`
 - Add BehatSpec `0.3.*` (Behat3 + PhpSpec2)
 - Change `henrikbjorn/phpspec-code-coverage` to `leanphp/phpspec-code-coverage`
   as the original will no longer be maintained.
