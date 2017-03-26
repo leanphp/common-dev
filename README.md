@@ -64,6 +64,7 @@ This is a list of PHP Libraries that this package installs:
 This is a list of PHP Development Tools that this package installs:
 
 - [ApiGen](#ApiGen) **v4** - PHP Source Code API generator.
+- [PHPStan](#PHPStan) - PHP Static Analysis tool.
 - [PHPMD](#PHPMD) **v2** - PHP Mess Detector. Optimize your code, reduce
   complexity, cleanup unused parameters, methods, variables & more.
 - [PHP_CodeSniffer](#PHP CodeSniffer) **v2** - PHP Code Sniffer ensures that
@@ -324,6 +325,16 @@ Generate the API:
 
 The HTML files will be generated in `build/docs` directory, which is configured via `destination` parameter in `apigen.yml`.
 
+#### PHPStan
+
+[PHPStan][115] is a PHP Static Analysis Tool. It focuses on finding errors in
+your code without actually running it. It catches whole classes of bugs even
+before you write tests for the code.
+
+`PHPStan` is run via console:
+
+    $ bin/phpstan analyse src tests
+
 #### PHPMD
 
 [PHPMD][120] (PHP Mess Detector) is a code optimizer, which scans your code for
@@ -442,6 +453,7 @@ Licensed under [MIT License](LICENSE).
 
 [100]: http://apigen.org
 [110]: https://github.com/symfony/var-dumper
+[115]: https://github.com/phpstan/phpstan
 [120]: https://phpmd.org
 [121]: https://phpmd.org/rules/index.html
 [130]: https://pear.php.net/package/PHP_CodeSniffer
