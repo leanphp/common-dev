@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!-- leanphp/common-dev phpcs.xml example config -->
-<ruleset name="leanphp/common-dev coding standard">
-    <description>leanphp/common-dev Coding Standard</description>
+<ruleset name="LeanPHP Coding Standard">
+    <description>LeanPHP Coding Standard</description>
 
     <!-- directories and files to scan -->
     <file>src</file>
