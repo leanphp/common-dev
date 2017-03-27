@@ -275,6 +275,10 @@ Copy it to the root of your project:
 
     $ cp vendor/leanphp/common-dev/config/behat.yml behat.yml
 
+Initialize the project:
+
+    $ bin/behat --init
+
 The configuration file will enable all the Behat extensions that come
 installed with this package and will also integrate it with
 [PHPSpec](#PHPSpec).
