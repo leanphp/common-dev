@@ -7,14 +7,16 @@ suites:
         psr4_prefix: LeanPHP\Common
 
 extensions:
-  LeanPHP\PhpSpec\CodeCoverage\CodeCoverageExtension: ~
   Cjm\PhpSpec\Extension\TypeHintedMethodsExtension: ~
+  LeanPHP\PhpSpec\CodeCoverage\CodeCoverageExtension:
+    format:
+      - html
+      - clover
+    output:
+      html: build/phpspec-coverage
+      clover: build/phpspec-coverage.xml
   RMiller\BehatSpec\Extension\BehatSpecExtension\PhpSpecExtension: ~
-
-code_coverage:
-  format:
-    - html
-    - clover
-  output:
-    html: build/phpspec-coverage
-    clover: build/phpspec-coverage.xml
+  RMiller\BehatSpec\Extension\PhpSpecRunExtension\PhpSpecRunExtension:
+    path: bin/phpspec
+    commands: [describe, exemplify]
+    config: phpspec.yml
