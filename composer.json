@@ -45,10 +45,5 @@
     "minimum-stability": "stable",
     "config": {
         "bin-dir": "bin"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "6.3.x-dev"
-        }
     }
 }
