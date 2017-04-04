@@ -29,6 +29,10 @@ Install this package as a development requirement in your project:
 
     $ composer require --dev leanphp/common-dev
 
+To install a preview of `7.0.x-dev`:
+
+    $ composer require --dev rmiller/behat-spec:dev-master apigen/apigen:~4.2.0-rc1 leanphp/common-dev:7.0.x-dev
+
 ## Packages
 
 This package will trigger installation of various PHP [Libraries](#Libraries)
