@@ -8,7 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## 7.0.x-dev / FUTURE
 
-- Added phpstan `~0.6`
+- Added ApiGen `4.2.0-RC1`
+- Added phpstan `~0.6` (disabled for now)
 - Update PHP from `~5.6||~7.0` to `^7.0`
 - Update BehatSpec from `0.3.*` to `dev-master`
 

@@ -7,7 +7,7 @@ common-dev
 
 **Note!** This is early **7.0.x-dev** branch, only supporting **PHP 7+**!
 
-[leanPHP/common-dev][0] is a set of modern **PHP 7** (**5.6+**) development tools and
+[leanphp/common-dev][0] is a set of modern **PHP 7** (**5.6+**) development tools and
 libraries, which help you write PHP packages and libraries that comply with
 [PHP-FIG][1] standards and adhere to best PHP practices defined in [PHP - The
 Right Way][2] guidelines.
@@ -306,12 +306,6 @@ For more information check [Mink Homepage][400].
 
 #### ApiGen
 
-**Note!** ApiGen is temporarily not provided by the package as it conflicts
-with Symfony3 dependencies. We will continue to support ApiGen once it is
-compatible with Symfony3 components. If you would like to use apigen, you can
-add it to `require-dev` manually, by running `composer require --dev
-apigen/apigen 4.2.0.x-dev`
-
 [ApiGen][100] is a PHP Source Code API generator, which generated class
 reference files in HTML format for your source code. The generated reference
 files are useful for developer to familiarize with API of your PHP classes.
@@ -330,6 +324,10 @@ Generate the API:
 The HTML files will be generated in `build/docs` directory, which is configured via `destination` parameter in `apigen.yml`.
 
 #### PHPStan
+
+**Note!** PHPSten is temporarily not provided by the package as it conflicts
+with ApiGen. Additionally we believe we need to review the usability of some of
+the other tools if we also bring PHPStan.
 
 [PHPStan][115] is a PHP Static Analysis Tool. It focuses on finding errors in
 your code without actually running it. It catches whole classes of bugs even

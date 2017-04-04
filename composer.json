@@ -20,7 +20,7 @@
     "require": {
         "php": "^7.0",
         "symfony/var-dumper": "~2.8||^3.1",
-        "phpstan/phpstan": "~0.6",
+        "apigen/apigen": "~4.2.0-rc1",
         "phpmd/phpmd": "~2.6",
         "squizlabs/php_codesniffer": "~2.8",
         "leaphub/phpcs-symfony2-standard": "~2.0",
