@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 **6** version series are last series to support both PHP **5.6** and **PHP 7**.
 
+## 6.3.1 / 2017-04-04
+
+- Update phpspec from `~3.1` to `~3.2`
+
 ## 6.3.0 / 2017-03-05
 
 - Update mockery from `~0.9` to `0.9.*`
