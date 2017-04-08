@@ -1,9 +1,10 @@
 common-dev
 ==========
-[![Latest Stable Version](https://poser.pugx.org/leanphp/common-dev/v/stable)](https://packagist.org/packages/leanphp/common-dev)
-[![Build Status][travis-image]][travis-url]
-[![Latest Unstable Version](https://poser.pugx.org/leanphp/common-dev/v/unstable)](https://packagist.org/packages/leanphp/common-dev)
-[![MIT License](https://poser.pugx.org/leanphp/common-dev/license)](https://packagist.org/packages/leanphp/common-dev)
+[![License](https://img.shields.io/packagist/l/leanphp/common-dev.svg?style=flat-square)](#License)
+[![Latest Stable Version](https://img.shields.io/packagist/v/leanphp/common-dev.svg?style=flat-square)](https://packagist.org/packages/leanphp/common-dev)
+[![Total Downloads](https://img.shields.io/packagist/dt/leanphp/common-dev.svg?style=flat-square)](https://packagist.org/packages/leanphp/common-dev)
+[![Travis](https://img.shields.io/travis/leanphp/common-dev.svg?style=flat-square)](https://travis-ci.org/leanphp/common-dev)
+[![Pre Release](https://img.shields.io/packagist/vpre/leanphp/common-dev.svg?style=flat-square)](https://packagist.org/packages/leanphp/common-dev)
 
 [leanPHP/common-dev][0] is a set of modern **PHP 7** (**5.6+**) development tools and
 libraries, which help you write PHP packages and libraries that comply with
@@ -468,6 +469,3 @@ Licensed under [MIT License](LICENSE).
 [950]: http://extensions.behat.org/mink
 [960]: https://github.com/minkphp/MinkGoutteDriver
 [970]: https://github.com/minkphp/MinkBrowserKitDriver
-
-[travis-image]: https://travis-ci.org/leanphp/common-dev.svg
-[travis-url]: https://travis-ci.org/leanphp/common-dev
