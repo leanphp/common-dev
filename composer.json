@@ -20,7 +20,7 @@
     "require": {
         "php": "^7.0",
         "sami/sami": "~3.2||~4.0",
-        "symfony/var-dumper": "~2.8||^3.1",
+        "symfony/var-dumper": "~2.8||^3.2",
         "phpmd/phpmd": "~2.6",
         "squizlabs/php_codesniffer": "~2.8",
         "leaphub/phpcs-symfony2-standard": "~2.0",
@@ -34,7 +34,7 @@
         "phpspec/prophecy": "~1.7",
         "mockery/mockery": "0.9.*",
         "ciaranmcnulty/phpspec-typehintedmethods": "~2.0",
-        "leanphp/phpspec-code-coverage": "~3.0",
+        "leanphp/phpspec-code-coverage": "~3.1",
         "behat/behat": "~3.3",
         "behat/mink": "~1.7",
         "behat/mink-extension": "~2.2",

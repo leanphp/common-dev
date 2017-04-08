@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Added phpstan `~0.6`
 - Update PHP from `~5.6||~7.0` to `^7.0`
 - Update BehatSpec from `0.3.*` to `dev-master`
+- Update `leanphp\phpspec-code-coverage` from `~3.0` to `~3.1`
+- Update `symfony` from `~2.8||^3.1` to `~2.8||^3.2`.
 
 ## 6.4.0 / 2017-04-08
 
