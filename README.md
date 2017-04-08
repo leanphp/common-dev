@@ -6,9 +6,7 @@ common-dev
 [![Travis](https://img.shields.io/travis/leanphp/common-dev.svg?style=flat-square)](https://travis-ci.org/leanphp/common-dev)
 [![Pre Release](https://img.shields.io/packagist/vpre/leanphp/common-dev.svg?style=flat-square)](https://packagist.org/packages/leanphp/common-dev)
 
-**Note!** This is early **7.0.x-dev** branch, only supporting **PHP 7+**!
-
-[leanphp/common-dev][0] is a set of modern **PHP 7** (**5.6+**) development tools and
+[leanphp/common-dev][0] is a set of modern **PHP 7+** development tools and
 libraries, which help you write PHP packages and libraries that comply with
 [PHP-FIG][1] standards and adhere to best PHP practices defined in [PHP - The
 Right Way][2] guidelines.
@@ -29,10 +27,6 @@ directory).
 Install this package as a development requirement in your project:
 
     $ composer require --dev leanphp/common-dev
-
-To install a preview of `7.0.x-dev`:
-
-    $ composer require --dev leanphp/common-dev:7.0.x-dev
 
 ## Packages
 
