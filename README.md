@@ -62,7 +62,7 @@ This is a list of PHP Libraries that this package installs:
 
 This is a list of PHP Development Tools that this package installs:
 
-- [ApiGen](#ApiGen) **v4** - PHP Source Code API generator.
+- [Sami](#Sami) - An API Documentation generator.
 - [PHPMD](#PHPMD) **v2** - PHP Mess Detector. Optimize your code, reduce
   complexity, cleanup unused parameters, methods, variables & more.
 - [PHP_CodeSniffer](#PHP CodeSniffer) **v2** - PHP Code Sniffer ensures that
@@ -298,30 +298,26 @@ For more information check [Mink Homepage][400].
 
 ### Development Tools
 
-#### ApiGen
+#### Sami
 
-**Note!** ApiGen is temporarily not provided by the package as it conflicts
-with Symfony3 dependencies. We will continue to support ApiGen once it is
-compatible with Symfony3 components. If you would like to use apigen, you can
-add it to `require-dev` manually, by running `composer require --dev
-apigen/apigen 4.2.0.x-dev`
+[Sami][100] is an API documentation generator. It generates API documentation
+for your PHP source code (classes, interfaces, traits, methods etc.). Have
+a look at [Symfony API](http://api.symfony.com/) to see a working example of
+what Sami does.
 
-[ApiGen][100] is a PHP Source Code API generator, which generated class
-reference files in HTML format for your source code. The generated reference
-files are useful for developer to familiarize with API of your PHP classes.
-
-It is best to use example [apigen.yaml](config/apigen.yaml) configuration file.
+You can start with example [sami.php](config/sami.php) configuration file.
 Copy it to the root of your project:
 
-    $ cp vendor/leanphp/common-dev/config/apigen.yml apigen.yml
+    $ cp vendor/leanphp/common-dev/config/sami.php .sami.php
 
-If your source code is NOT stored in `src/` directory, adjust the `source` parameter in `apigen.yml`.
+Please check comments in `.sami.php` and customize it according to your needs.
 
 Generate the API:
 
-    $ bin/apigen generate
+    $ bin/sami update .sami.php
 
-The HTML files will be generated in `build/docs` directory, which is configured via `destination` parameter in `apigen.yml`.
+The API Documentation will be generated in `build/docs/<version>` directory,
+which is configured in `.sami.php`.
 
 #### PHPMD
 
@@ -439,7 +435,7 @@ Licensed under [MIT License](LICENSE).
 [6]: https://packagist.org
 [7]: https://getcomposer.org
 
-[100]: http://apigen.org
+[100]: https://github.com/FriendsOfPHP/Sami
 [110]: https://github.com/symfony/var-dumper
 [120]: https://phpmd.org
 [121]: https://phpmd.org/rules/index.html
