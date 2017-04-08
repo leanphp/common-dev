@@ -13,6 +13,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Update PHP from `~5.6||~7.0` to `^7.0`
 - Update BehatSpec from `0.3.*` to `dev-master`
 
+## 6.4.1 / 2017-04-08
+
+- Add `sami/sami:~3.2||~4.0` (ApiGen replacement)
+
 ## 6.3.1 / 2017-04-04
 
 - Update phpspec from `~3.1` to `~3.2`

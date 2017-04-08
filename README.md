@@ -1,9 +1,10 @@
 common-dev
 ==========
-[![Latest Stable Version](https://poser.pugx.org/leanphp/common-dev/v/stable)](https://packagist.org/packages/leanphp/common-dev)
-[![Build Status][travis-image]][travis-url]
-[![Latest Unstable Version](https://poser.pugx.org/leanphp/common-dev/v/unstable)](https://packagist.org/packages/leanphp/common-dev)
-[![MIT License](https://poser.pugx.org/leanphp/common-dev/license)](https://packagist.org/packages/leanphp/common-dev)
+[![License](https://img.shields.io/packagist/l/leanphp/common-dev.svg?style=flat-square)](#License)
+[![Latest Stable Version](https://img.shields.io/packagist/v/leanphp/common-dev.svg?style=flat-square)](https://packagist.org/packages/leanphp/common-dev)
+[![Total Downloads](https://img.shields.io/packagist/dt/leanphp/common-dev.svg?style=flat-square)](https://packagist.org/packages/leanphp/common-dev)
+[![Travis](https://img.shields.io/travis/leanphp/common-dev.svg?style=flat-square)](https://travis-ci.org/leanphp/common-dev)
+[![Pre Release](https://img.shields.io/packagist/vpre/leanphp/common-dev.svg?style=flat-square)](https://packagist.org/packages/leanphp/common-dev)
 
 **Note!** This is early **7.0.x-dev** branch, only supporting **PHP 7+**!
 
@@ -67,7 +68,7 @@ This is a list of PHP Libraries that this package installs:
 
 This is a list of PHP Development Tools that this package installs:
 
-- [ApiGen](#ApiGen) **v4** - PHP Source Code API generator.
+- [Sami](#Sami) - An API Documentation generator.
 - [PHPStan](#PHPStan) - PHP Static Analysis tool.
 - [PHPMD](#PHPMD) **v2** - PHP Mess Detector. Optimize your code, reduce
   complexity, cleanup unused parameters, methods, variables & more.
@@ -308,24 +309,27 @@ For more information check [Mink Homepage][400].
 
 ### Development Tools
 
-#### ApiGen
+#### Sami
 
-[ApiGen][100] is a PHP Source Code API generator, which generated class
-reference files in HTML format for your source code. The generated reference
-files are useful for developer to familiarize with API of your PHP classes.
+[Sami][100] is an API documentation generator. It generates API documentation
+for your PHP source code (classes, interfaces, traits, methods etc.). Have
+a look at [Symfony API](http://api.symfony.com/) to see a working example of
+what Sami does.
 
-It is best to use example [apigen.yaml](config/apigen.yaml) configuration file.
+You can start with example [sami.php](config/sami.php) configuration file.
+
 Copy it to the root of your project:
 
-    $ cp vendor/leanphp/common-dev/config/apigen.yml apigen.yml
+    $ cp vendor/leanphp/common-dev/config/sami.php .sami.php
 
-If your source code is NOT stored in `src/` directory, adjust the `source` parameter in `apigen.yml`.
+Please check comments in `.sami.php` and customize it according to your needs.
 
 Generate the API:
 
-    $ bin/apigen generate
+    $ bin/sami update .sami.php
 
-The HTML files will be generated in `build/docs` directory, which is configured via `destination` parameter in `apigen.yml`.
+The API Documentation will be generated in `build/docs/<version>` directory,
+which is configured in `.sami.php`.
 
 #### PHPStan
 
@@ -457,7 +461,7 @@ Licensed under [MIT License](LICENSE).
 [6]: https://packagist.org
 [7]: https://getcomposer.org
 
-[100]: http://apigen.org
+[100]: https://github.com/FriendsOfPHP/Sami
 [110]: https://github.com/symfony/var-dumper
 [115]: https://github.com/phpstan/phpstan
 [120]: https://phpmd.org
@@ -488,6 +492,3 @@ Licensed under [MIT License](LICENSE).
 [950]: http://extensions.behat.org/mink
 [960]: https://github.com/minkphp/MinkGoutteDriver
 [970]: https://github.com/minkphp/MinkBrowserKitDriver
-
-[travis-image]: https://travis-ci.org/leanphp/common-dev.svg
-[travis-url]: https://travis-ci.org/leanphp/common-dev
