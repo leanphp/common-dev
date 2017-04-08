@@ -47,5 +47,10 @@
     "minimum-stability": "stable",
     "config": {
         "bin-dir": "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "7.1.x-dev"
+        }
     }
 }

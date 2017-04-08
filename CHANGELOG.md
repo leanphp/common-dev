@@ -6,6 +6,8 @@ this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 7.1.x-dev / UNRELEASED
+
 ## 7.0.0 / 2017-04-08
 
 - Change `rmiller\behatspec` to `leanphp\behat-phpspec` (temporary tagged
