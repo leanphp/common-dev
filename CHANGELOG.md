@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## 7.0.x-dev / FUTURE
 
+- Change `rmiller\behatspec` to `leanphp\behat-phpspec` (temporary tagged
+  fork).
 - Added ApiGen `4.2.0-RC1`
 - Added phpstan `~0.6`
 - Update PHP from `~5.6||~7.0` to `^7.0`

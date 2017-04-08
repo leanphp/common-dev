@@ -32,7 +32,7 @@ Install this package as a development requirement in your project:
 
 To install a preview of `7.0.x-dev`:
 
-    $ composer require --dev rmiller/behat-spec:dev-master apigen/apigen:~4.2.0-rc1 leanphp/common-dev:7.0.x-dev
+    $ composer require --dev leanphp/common-dev:7.0.x-dev
 
 ## Packages
 
