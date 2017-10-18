@@ -11,10 +11,12 @@ libraries, which help you write PHP packages and libraries that comply with
 [PHP-FIG][1] standards and adhere to best PHP practices defined in [PHP - The
 Right Way][2] guidelines.
 
-These tools help you write **well-tested** functional & **OOP** code ([TDD][3],
-[BDD][4], [SOLID][5]).
-
-**Distribute** your code via [Packagist][6] by using [composer][7]!
+**Note!** These tools help you write **well-tested** functional & **OOP** code
+([TDD][3], [BDD][4], [SOLID][5]). This meta-package should serve more as an
+example set of development tools that one can use. This package helps when you
+want to hack something quick, however for serious projects you are advised to
+compile a custom list of development dependencies in `composer.json` of your
+project, instead of depending on this package directly.
 
 See [Packages](#Packages) for a list of packages that this meta-package
 provides. [Usage](#Usage) section covers information regarding various tools
@@ -39,15 +41,15 @@ This is a list of PHP Libraries that this package installs:
 
 - [symfony/var-dumper](#var-dumper) **v3** - Advanced Variable Dumper by
   Symfony project (`dump()` instead of `var_dump()`).
-- [Mockery](#Mockery) **v0.9** - a simple yet flexible PHP mock object framework for
+- [Mockery](#Mockery) **v1.0** - a simple yet flexible PHP mock object framework for
   use in unit testing.
 - [Prophecy](#Prophecy) - highly opinionated mocking framework for PHP.
 - [Alice](#Alice) - Expressive Fixtures generator based on [Faker](#Faker).
 - [Faker](#Faker) - PHP Library to generate fake data for you.
 - [vfsStream](#vfsStream) - Virtual file system to mock the real file system in unit
   tests.
-- [PHPUnit](#PHPUnit) **v5** - The PHP Unit Testing framework.
-- [PHPSpec](#PHPSpec) **v3** - SpecBDD / BDD Testing framework for PHP with extensions:
+- [PHPUnit](#PHPUnit) **v6** - The PHP Unit Testing framework.
+- [PHPSpec](#PHPSpec) **v4** - SpecBDD / BDD Testing framework for PHP with extensions:
     - [phpspec-code-coverage][805] - Code Coverage for [PHPSpec][800].
     - [phpspec-typehintedmethods][810] - Generate Typehinted methods
 - [behat](#Behat) **v3** - ScenarioBDD / BDD Testing framework for PHP, with
@@ -66,7 +68,7 @@ This is a list of PHP Development Tools that this package installs:
 - [PHPStan](#PHPStan) - PHP Static Analysis tool.
 - [PHPMD](#PHPMD) **v2** - PHP Mess Detector. Optimize your code, reduce
   complexity, cleanup unused parameters, methods, variables & more.
-- [PHP_CodeSniffer](#PHP CodeSniffer) **v2** - PHP Code Sniffer ensures that
+- [PHP_CodeSniffer](#PHP CodeSniffer) **v3** - PHP Code Sniffer ensures that
   your code remains clean and consistent. It is a set of scripts to detect and
   automatically correct violations of a defined coding standard.
 - [phpcs-symfony2-standard][140] - Symfony2 Coding Standard configuration for
