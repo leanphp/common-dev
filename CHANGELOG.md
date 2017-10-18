@@ -6,7 +6,21 @@ this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## 7.1.x-dev / UNRELEASED
+## 7.1.0 / 2017-10-18
+
+- Updated `PHP_CodeSniffer` from `~2.8` to `3.0`
+- Updated `phpcpd` from `~2.0` to `~3.0`
+- Updated `phploc` from `~3.0` to `~4.0`
+- Updated `phpunit` from `~5.0` to `~6.0`
+- Updated `alice` from `~2.3` to `~3.0`
+- Updated `faker` from `~1.6` to `~1.7`
+- Updated `mockery` from `~0.9` to `~1.0`
+- Updated `phpspec` from `~3.2` to `~4.0`
+- Updated `phpspec-typehintedmethods` from `~2.0` to `~3.0` (`phpspec 4`)
+- Updated `phpspec-code-coverage` from `~3.1` to `~4.0` (`phpspec 4`)
+- Added `behat-code-coverage` `~3.2`
+- Updated `behat` to `~3.4`
+- Updated `bin/composer` to `1.3.0`
 
 ## 7.0.0 / 2017-04-08
 
