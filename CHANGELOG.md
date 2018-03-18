@@ -6,6 +6,11 @@ this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 7.1.1 / 2017-03-18
+
+- `leanphp/phpspec-code-coverage` update from `~4.0` to `4.0.*` as we do not
+  support `4.1` yet.
+
 ## 7.1.0 / 2017-10-18
 
 - Updated `PHP_CodeSniffer` from `~2.8` to `3.0`

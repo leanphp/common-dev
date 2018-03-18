@@ -34,7 +34,7 @@
         "phpspec/prophecy": "~1.7",
         "mockery/mockery": "~1.0",
         "ciaranmcnulty/phpspec-typehintedmethods": "~3.0",
-        "leanphp/phpspec-code-coverage": "~4.0",
+        "leanphp/phpspec-code-coverage": "4.0.*",
         "leanphp/behat-code-coverage": "~3.2",
         "behat/behat": "~3.4",
         "behat/mink": "~1.7",
