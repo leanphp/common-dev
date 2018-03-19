@@ -51,7 +51,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-develop": "7.1.x-dev"
+            "dev-develop": "7.2.x-dev"
         }
     }
 }
