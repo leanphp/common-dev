@@ -6,16 +6,6 @@ this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## 7.x.x
-
-- PHP requirement has been updated from `^7.0` to `^7.1`
-- `sami/sami` package updated from `~3.2||~4.0` to `~4.0`
-- `symfony/var-dumper` package updated from `~2.8||^3.2` to `~4.0`
-- `sebastian/phpcpd` updated from `~3.0` to `~4.0`
-- `phpunit/phpunit` updated from `~6.0` to `~6.0||~7.0`
-- `nelmio/alice` updated from `~3.0` to `^3.2`
-- `behat/mink-extension` updated to `~2.3`
-
 ## 7.1.1 / 2017-03-18
 
 - `leanphp/phpspec-code-coverage` update from `~4.0` to `4.0.*` as we do not
